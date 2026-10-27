@@ -1,0 +1,128 @@
+[    0.13] [INFO ] [flight_controller] Bench flight controller ready (simulation only).
+[    0.53] [INFO ] [sim_camera] Synthetic camera 1280x720 @ 15 Hz -> /camera/image_raw
+[    0.53] [INFO ] [banner_detector] [VISION WARN] RapidOCR unavailable (No module named 'rapidocr'). Running shape-only classification.
+[    0.53] [INFO ] [banner_detector] Banner detector on /camera/image_raw; colour: idle
+[    0.53] [INFO ] [qr_detector] pyzbar not available: OpenCV QR detection only.
+[    0.53] [INFO ] [red_zone_detector] Ready. Listening on '/camera/image_raw', min_area 100 px2, 1 in 1 frame(s).
+[    0.54] [INFO ] [target_search] target_search ready (hfov 1.22 rad, camera latency 0.00 s, gimbal camera).
+[    0.65] [INFO ] [mission_tree] [REFERENCE FRAME] Pad NED z = +0.00 m
+[    0.65] [INFO ] [flight_controller] [BENCH] Takeoff to 5.0 m
+[    8.00] [INFO ] [flight_controller] [BENCH-SIM] Target altitude reached: 4.5 m
+[    8.14] [INFO ] [mission_tree] [REFERENCE FRAME] Takeoff origin N=+0.00 E=+0.00, heading +0.0 deg
+[   13.32] [INFO ] [qr_detector] Scanning reference QR from the camera (timeout 12.0 s)...
+[   13.61] [INFO ] [qr_detector] REFERENCE QR MEMORIZED FROM CAMERA! Payload: 'AEROTHON-7'
+[   16.70] [INFO ] [banner_detector] Detecting: GREEN
+[   31.02] [INFO ] [banner_search] [BANNER CLASSIFIED] GREEN via SHAPE at waypoint 1; estimate N=+4.31 E=-7.80
+[   32.30] [INFO ] [banner_detector] Detecting: GREEN
+[   35.49] [INFO ] [banner_align] [CENTERING] Iter 1/6: centroid (676.0, 353.0)px | Offset: 36.7px | FULL-VIEW
+[   35.49] [INFO ] [banner_align]   [HEADING ALIGN] corridor axis +0.0 deg (correction 0.0 deg <= 25)
+[   36.59] [INFO ] [banner_align] [CENTERING] Iter 2/6: centroid (672.0, 360.0)px | Offset: 32.0px | FULL-VIEW
+[   36.59] [INFO ] [banner_align]   [HEADING ALIGN] corridor axis +0.0 deg (correction 0.0 deg <= 25)
+[   37.47] [INFO ] [banner_align] [CENTERING] Iter 3/6: centroid (663.0, 361.0)px | Offset: 23.0px | FULL-VIEW
+[   37.47] [INFO ] [banner_align]   [HEADING ALIGN] corridor axis +0.0 deg (correction 0.0 deg <= 25)
+[   37.47] [INFO ] [banner_align] [CENTERING] Lock acquired: 23.0px <= 25.0px, full view.
+[   37.50] [INFO ] [mission_tree] [MEASUREMENT] Green banner N=+4.31 E=-7.54 | corridor heading +0.0 deg (measured) | sway x = 7.54 m | lock: True
+[   37.50] [INFO ] [corridor_navigator] [CORRIDOR] descending to 3.0 m (NED z -3.0)
+[   40.43] [INFO ] [corridor_navigator] [CORRIDOR] settling 1.0 s
+[   41.43] [INFO ] [corridor_navigator] [CORRIDOR] surging 10.0 m at 0.9 m/s -> N=+14.31 E=-7.54
+[   53.48] [INFO ] [corridor_navigator] [CORRIDOR EXIT] N=+14.07 E=-7.54
+[   53.50] [INFO ] [mission_tree] [STAGE 8] lateral shift left by (19.0 - x) = 11.46 m -> N=+15.07 E=-19.00
+[   64.50] [INFO ] [target_search] Searching the zone of 4 geofence corners from /home/claude/banner_corridor_ws/src/bc_bringup/config/delivery_zone.sim.txt (local origin 13.0827000, 80.2707000).
+[   64.50] [INFO ] [target_search] delivery zone 22.0 x 20.0 m centred N=24.0 E=-11.0, long side bearing 0 deg; flight area 20.0 x 18.0 m
+[   64.50] [INFO ] [target_search] search heading 90 deg: the camera sees 3.5 m ahead along the rows (red margin 2.0 m)
+[   64.50] [INFO ] [target_search] 6 rows along the long side, 3.1 m apart; frames cover 3.9 m across the rows
+[   65.71] [INFO ] [target_search] waypoint 1/12 reached: world (-10.0, 7.9)
+[   75.66] [INFO ] [red_zone_detector] RED: 1 patch(es), largest 4478 px2 at (88, 13) (47 ms)
+[   75.67] [INFO ] [target_search] red map (zone frame): [x 3.0..4.3, y 5.8..6.3]
+[   75.73] [INFO ] [target_search]   steering: detour at N=24.8 E=-18.9 (waypoint 2/12)
+[   75.87] [INFO ] [red_zone_detector] RED: 1 patch(es), largest 4478 px2 at (88, 13) (44 ms)
+[   75.87] [INFO ] [target_search] red map (zone frame): [x 3.0..4.5, y 5.8..6.3]
+[   76.06] [INFO ] [red_zone_detector] RED: 1 patch(es), largest 4478 px2 at (88, 13) (43 ms)
+[   76.06] [INFO ] [target_search] red map (zone frame): [x 3.0..4.8, y 5.8..6.3]
+[   76.44] [INFO ] [red_zone_detector] RED: 1 patch(es), largest 7034 px2 at (152, 12) (35 ms)
+[   76.45] [INFO ] [target_search] red map (zone frame): [x 3.0..5.0, y 5.8..6.3]
+[   76.61] [INFO ] [red_zone_detector] RED: 1 patch(es), largest 7034 px2 at (152, 12) (42 ms)
+[   76.89] [INFO ] [red_zone_detector] RED: 1 patch(es), largest 7034 px2 at (152, 12) (62 ms)
+[   83.02] [INFO ] [target_search]   steering: direct at N=30.0 E=-19.5 (waypoint 2/12)
+[   86.12] [INFO ] [target_search] waypoint 2/12 reached: world (10.0, 7.9)
+[   86.39] [INFO ] [red_zone_detector] RED: 1 patch(es), largest 1596 px2 at (1182, 4) (38 ms)
+[   86.39] [INFO ] [target_search] red map (zone frame): [x 3.0..7.3, y 5.8..6.3]
+[   86.67] [INFO ] [red_zone_detector] RED: 1 patch(es), largest 1596 px2 at (1182, 4) (85 ms)
+[   86.99] [INFO ] [red_zone_detector] RED: 1 patch(es), largest 1596 px2 at (1182, 4) (69 ms)
+[   86.99] [INFO ] [target_search] red map (zone frame): [x 3.0..7.5, y 5.5..6.3]
+[   87.44] [INFO ] [red_zone_detector] RED: 1 patch(es), largest 10905 px2 at (1220, 46) (37 ms)
+[   87.44] [INFO ] [target_search] red map (zone frame): [x 3.0..7.5, y 5.3..6.3]
+[   87.61] [INFO ] [target_search] red map (zone frame): [x 3.0..7.5, y 5.0..6.3]
+[   87.83] [INFO ] [red_zone_detector] RED: 1 patch(es), largest 16304 px2 at (1225, 75) (51 ms)
+[   87.84] [INFO ] [target_search] red map (zone frame): [x 3.0..7.5, y 4.8..6.3]
+[   87.98] [INFO ] [red_zone_detector] RED: 1 patch(es), largest 16304 px2 at (1225, 75) (50 ms)
+[   88.22] [INFO ] [red_zone_detector] RED: 1 patch(es), largest 16304 px2 at (1225, 75) (69 ms)
+[   88.22] [INFO ] [target_search] red map (zone frame): [x 3.0..7.5, y 4.5..6.3]
+[   88.47] [INFO ] [red_zone_detector] RED: 1 patch(es), largest 26660 px2 at (1231, 138) (40 ms)
+[   88.47] [INFO ] [target_search] red map (zone frame): [x 3.0..7.5, y 4.3..6.3]
+[   88.67] [INFO ] [target_search] red map (zone frame): [x 3.0..7.5, y 4.0..6.3]
+[   88.68] [INFO ] [red_zone_detector] RED: 1 patch(es), largest 26660 px2 at (1231, 138) (49 ms)
+[   88.78] [INFO ] [target_search] red map (zone frame): [x 3.0..7.5, y 3.8..6.3]
+[   88.80] [INFO ] [red_zone_detector] RED: 1 patch(es), largest 26660 px2 at (1231, 138) (32 ms)
+[   89.01] [INFO ] [red_zone_detector] RED: 1 patch(es), largest 35308 px2 at (1233, 192) (37 ms)
+[   89.02] [INFO ] [target_search] red map (zone frame): [x 3.0..7.5, y 3.5..6.3]
+[   89.28] [INFO ] [target_search] red map (zone frame): [x 3.0..7.5, y 3.3..6.3]
+[   89.28] [INFO ] [red_zone_detector] RED: 1 patch(es), largest 35308 px2 at (1233, 192) (57 ms)
+[   89.35] [INFO ] [target_search] waypoint 3/12 reached: world (10.0, 4.7)
+[   89.35] [INFO ] [target_search]   steering: detour at N=34.0 E=-16.3 (waypoint 4/12)
+[   89.51] [INFO ] [red_zone_detector] RED: 1 patch(es), largest 35308 px2 at (1233, 192) (67 ms)
+[   89.52] [INFO ] [target_search] red map (zone frame): [x 3.0..7.5, y 3.3..6.3]
+[   89.81] [INFO ] [red_zone_detector] RED: 1 patch(es), largest 45450 px2 at (1234, 255) (42 ms)
+[   89.81] [INFO ] [target_search] red map (zone frame): [x 3.0..7.5, y 3.0..6.3]
+[   90.01] [INFO ] [red_zone_detector] RED: 1 patch(es), largest 48572 px2 at (1235, 273) (70 ms)
+[   90.01] [INFO ] [target_search] red map (zone frame): [x 3.0..7.5, y 2.8..6.3]
+[   90.12] [INFO ] [red_zone_detector] RED: 1 patch(es), largest 48572 px2 at (1235, 273) (28 ms)
+[   90.31] [INFO ] [red_zone_detector] RED: 1 patch(es), largest 48572 px2 at (1235, 273) (16 ms)
+[   90.31] [INFO ] [target_search] red map (zone frame): [x 3.0..7.5, y 2.5..6.3]
+[   90.48] [INFO ] [red_zone_detector] RED: 1 patch(es), largest 48572 px2 at (1235, 273) (33 ms)
+[   90.48] [INFO ] [target_search] red map (zone frame): [x 3.0..7.5, y 2.3..6.3]
+[   90.67] [INFO ] [red_zone_detector] RED: 1 patch(es), largest 59403 px2 at (1234, 330) (68 ms)
+[   90.83] [INFO ] [target_search] red map (zone frame): [x 3.0..7.5, y 2.0..6.3]
+[   90.83] [INFO ] [red_zone_detector] RED: 1 patch(es), largest 59403 px2 at (1234, 330) (67 ms)
+[   90.97] [INFO ] [red_zone_detector] RED: 1 patch(es), largest 59403 px2 at (1234, 330) (47 ms)
+[   90.98] [INFO ] [target_search] red map (zone frame): [x 3.0..7.5, y 1.8..6.3]
+[   91.18] [INFO ] [target_search] red map (zone frame): [x 3.0..7.5, y 1.5..6.3]
+[   91.18] [INFO ] [red_zone_detector] RED: 1 patch(es), largest 65458 px2 at (1233, 360) (33 ms)
+[   91.31] [INFO ] [red_zone_detector] RED: 1 patch(es), largest 65458 px2 at (1233, 360) (13 ms)
+[   91.53] [INFO ] [red_zone_detector] RED: 1 patch(es), largest 59644 px2 at (1233, 397) (40 ms)
+[   91.69] [INFO ] [red_zone_detector] RED: 1 patch(es), largest 55734 px2 at (1232, 420) (25 ms)
+[   91.90] [INFO ] [red_zone_detector] RED: 1 patch(es), largest 55734 px2 at (1232, 420) (52 ms)
+[   92.16] [INFO ] [target_search] red map (zone frame): [x 3.0..7.5, y 1.0..6.3]
+[   92.16] [INFO ] [red_zone_detector] RED: 1 patch(es), largest 55734 px2 at (1232, 420) (7 ms)
+[   92.33] [INFO ] [red_zone_detector] RED: 1 patch(es), largest 43253 px2 at (1231, 493) (46 ms)
+[   92.44] [INFO ] [red_zone_detector] RED: 1 patch(es), largest 43253 px2 at (1231, 493) (71 ms)
+[   92.59] [INFO ] [red_zone_detector] RED: 1 patch(es), largest 43253 px2 at (1231, 493) (35 ms)
+[   92.76] [INFO ] [red_zone_detector] RED: 1 patch(es), largest 36154 px2 at (1231, 533) (34 ms)
+[   92.85] [INFO ] [red_zone_detector] RED: 1 patch(es), largest 36154 px2 at (1231, 533) (14 ms)
+[   92.91] [INFO ] [red_zone_detector] RED: 1 patch(es), largest 30694 px2 at (1230, 562) (17 ms)
+[   93.04] [INFO ] [red_zone_detector] RED: 1 patch(es), largest 30694 px2 at (1230, 562) (45 ms)
+[   93.20] [INFO ] [red_zone_detector] RED: 1 patch(es), largest 26849 px2 at (1230, 582) (61 ms)
+[   93.41] [INFO ] [red_zone_detector] RED: 1 patch(es), largest 24708 px2 at (1230, 594) (21 ms)
+[   93.59] [INFO ] [red_zone_detector] RED: 1 patch(es), largest 24708 px2 at (1230, 594) (18 ms)
+[   93.93] [INFO ] [red_zone_detector] RED: 1 patch(es), largest 14892 px2 at (1229, 645) (24 ms)
+[   94.10] [INFO ] [red_zone_detector] RED: 1 patch(es), largest 14892 px2 at (1229, 645) (13 ms)
+[   94.34] [INFO ] [red_zone_detector] RED: 1 patch(es), largest 14892 px2 at (1229, 645) (4 ms)
+[  102.73] [INFO ] [target_search] QR match (score 1.00, 'AEROTHON-7') at N=23.4 E=-11.3
+[  103.11] [INFO ] [target_search] flying to the matched QR at N=23.7 E=-11.3 round the red
+[  106.88] [INFO ] [target_search] waypoint 1/1 reached: world (-0.3, 0.3)
+[  106.88] [INFO ] [target_search] SearchTarget done: matched QR found (red zones 1, coverage 37 %)
+[  106.90] [INFO ] [mission_tree] [STAGE 9] MATCHED QR 'AEROTHON-7' score 1.00 at N=+23.67 E=-11.30 | red zones mapped: 1 | coverage 37 %
+[  108.70] [INFO ] [qr_centering] [QR CENTERING] Iter 1/6: offset 99.3px -> N=+23.43 E=-11.52
+[  110.69] [INFO ] [qr_centering] [QR CENTERING] Iter 2/6: offset 67.7px -> N=+23.72 E=-11.50
+[  112.72] [INFO ] [qr_centering] [QR CENTERING] Iter 3/6: offset 103.1px -> N=+24.06 E=-11.37
+[  115.00] [INFO ] [qr_centering] [QR CENTERING] Iter 4/6: offset 72.4px -> N=+24.26 E=-11.25
+[  116.69] [INFO ] [qr_centering] [QR CENTERING] Lock acquired! (Offset 21.3px <= tol 25.0px)
+[  131.70] [INFO ] [mission_tree] [ALIGN HOVER] 15-second hold complete!
+[  131.70] [INFO ] [mission_tree] [RETURN PREDICTION] Blue entrance N=+11.31 E=-3.54 | return heading -180.0 deg
+[  149.50] [INFO ] [banner_detector] Detecting: BLUE
+[  189.82] [WARN ] [banner_search] BLUE banner not classified along the search path
+[  189.90] [WARN ] [mission_tree] 'STAGE 11: SEARCHING BLUE BANNER' failed: BLUE banner not classified along the search path
+[  189.90] [WARN ] [mission_tree] [MISSION ABORT] BLUE BANNER NOT FOUND - RETURNING HOME
+[  201.30] [INFO ] [flight_controller] [BENCH] Landing...
+[  209.87] [INFO ] [flight_controller] [COMPLETE] Landed and disarmed.
+[  209.90] [WARN ] [mission_tree] MISSION ABORTED (BLUE BANNER NOT FOUND - RETURNING HOME): returned to the pad and landed.

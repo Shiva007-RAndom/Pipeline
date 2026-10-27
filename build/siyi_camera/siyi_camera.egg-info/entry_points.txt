@@ -1,0 +1,2 @@
+[console_scripts]
+rtsp_camera_node = siyi_camera.rtsp_camera_node:main

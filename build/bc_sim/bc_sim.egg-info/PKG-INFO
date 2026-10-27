@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: bc-sim
+Version: 0.1.0
+Summary: Gazebo + ArduCopter SITL simulation environment for the banner-corridor mission
+Maintainer: AeroTHON team
+Maintainer-email: harrydybalaforever123@gmail.com
+License: Apache-2.0

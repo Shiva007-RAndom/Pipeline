@@ -1,0 +1,2 @@
+[console_scripts]
+banner_align_node = banner_align.banner_align_node:main

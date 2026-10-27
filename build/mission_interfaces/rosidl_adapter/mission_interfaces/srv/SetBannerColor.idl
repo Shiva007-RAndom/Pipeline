@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from mission_interfaces/srv/SetBannerColor.srv
+// generated code does not contain a copyright notice
+
+
+module mission_interfaces {
+  module srv {
+    @verbatim (language="comment", text=
+      "banner_detector: choose which banner colour to classify. \"\" stops processing.")
+    struct SetBannerColor_Request {
+      @verbatim (language="comment", text=
+        "\"green\" | \"blue\" | \"\"")
+      string color;
+    };
+    struct SetBannerColor_Response {
+      boolean success;
+
+      string message;
+    };
+  };
+};

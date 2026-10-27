@@ -1,0 +1,368 @@
+[0.089s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install', '--packages-select', 'target_search']
+[0.089s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['target_search'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x764a9f2af140>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x764a9f2af050>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x764a9f2af050>>)
+[0.120s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.120s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.120s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.120s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.120s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.120s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.120s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/banner_align) by extensions ['ignore', 'ignore_ament_install']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/banner_align) by extension 'ignore'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/banner_align) by extension 'ignore_ament_install'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/banner_align) by extensions ['colcon_pkg']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/banner_align) by extension 'colcon_pkg'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/banner_align) by extensions ['colcon_meta']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/banner_align) by extension 'colcon_meta'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/banner_align) by extensions ['ros']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/banner_align) by extension 'ros'
+[0.144s] DEBUG:colcon.colcon_core.package_identification:Package 'src/banner_align' with type 'ros.ament_python' and name 'banner_align'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/banner_detector) by extensions ['ignore', 'ignore_ament_install']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/banner_detector) by extension 'ignore'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/banner_detector) by extension 'ignore_ament_install'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/banner_detector) by extensions ['colcon_pkg']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/banner_detector) by extension 'colcon_pkg'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/banner_detector) by extensions ['colcon_meta']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/banner_detector) by extension 'colcon_meta'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/banner_detector) by extensions ['ros']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/banner_detector) by extension 'ros'
+[0.144s] DEBUG:colcon.colcon_core.package_identification:Package 'src/banner_detector' with type 'ros.ament_python' and name 'banner_detector'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/banner_search) by extensions ['ignore', 'ignore_ament_install']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/banner_search) by extension 'ignore'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/banner_search) by extension 'ignore_ament_install'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/banner_search) by extensions ['colcon_pkg']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/banner_search) by extension 'colcon_pkg'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/banner_search) by extensions ['colcon_meta']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/banner_search) by extension 'colcon_meta'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/banner_search) by extensions ['ros']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/banner_search) by extension 'ros'
+[0.145s] DEBUG:colcon.colcon_core.package_identification:Package 'src/banner_search' with type 'ros.ament_python' and name 'banner_search'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/bc_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/bc_bringup) by extension 'ignore'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/bc_bringup) by extension 'ignore_ament_install'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/bc_bringup) by extensions ['colcon_pkg']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/bc_bringup) by extension 'colcon_pkg'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/bc_bringup) by extensions ['colcon_meta']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/bc_bringup) by extension 'colcon_meta'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/bc_bringup) by extensions ['ros']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/bc_bringup) by extension 'ros'
+[0.146s] DEBUG:colcon.colcon_core.package_identification:Package 'src/bc_bringup' with type 'ros.ament_python' and name 'bc_bringup'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/bc_common) by extensions ['ignore', 'ignore_ament_install']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/bc_common) by extension 'ignore'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/bc_common) by extension 'ignore_ament_install'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/bc_common) by extensions ['colcon_pkg']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/bc_common) by extension 'colcon_pkg'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/bc_common) by extensions ['colcon_meta']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/bc_common) by extension 'colcon_meta'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/bc_common) by extensions ['ros']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/bc_common) by extension 'ros'
+[0.147s] DEBUG:colcon.colcon_core.package_identification:Package 'src/bc_common' with type 'ros.ament_python' and name 'bc_common'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/bc_sim) by extensions ['ignore', 'ignore_ament_install']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/bc_sim) by extension 'ignore'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/bc_sim) by extension 'ignore_ament_install'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/bc_sim) by extensions ['colcon_pkg']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/bc_sim) by extension 'colcon_pkg'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/bc_sim) by extensions ['colcon_meta']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/bc_sim) by extension 'colcon_meta'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/bc_sim) by extensions ['ros']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/bc_sim) by extension 'ros'
+[0.147s] DEBUG:colcon.colcon_core.package_identification:Package 'src/bc_sim' with type 'ros.ament_python' and name 'bc_sim'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/bench_flight_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/bench_flight_controller) by extension 'ignore'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/bench_flight_controller) by extension 'ignore_ament_install'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/bench_flight_controller) by extensions ['colcon_pkg']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/bench_flight_controller) by extension 'colcon_pkg'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/bench_flight_controller) by extensions ['colcon_meta']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/bench_flight_controller) by extension 'colcon_meta'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/bench_flight_controller) by extensions ['ros']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/bench_flight_controller) by extension 'ros'
+[0.148s] DEBUG:colcon.colcon_core.package_identification:Package 'src/bench_flight_controller' with type 'ros.ament_python' and name 'bench_flight_controller'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/corridor_navigator) by extensions ['ignore', 'ignore_ament_install']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/corridor_navigator) by extension 'ignore'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/corridor_navigator) by extension 'ignore_ament_install'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/corridor_navigator) by extensions ['colcon_pkg']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/corridor_navigator) by extension 'colcon_pkg'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/corridor_navigator) by extensions ['colcon_meta']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/corridor_navigator) by extension 'colcon_meta'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/corridor_navigator) by extensions ['ros']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/corridor_navigator) by extension 'ros'
+[0.149s] DEBUG:colcon.colcon_core.package_identification:Package 'src/corridor_navigator' with type 'ros.ament_python' and name 'corridor_navigator'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/flight_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/flight_controller) by extension 'ignore'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/flight_controller) by extension 'ignore_ament_install'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/flight_controller) by extensions ['colcon_pkg']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/flight_controller) by extension 'colcon_pkg'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/flight_controller) by extensions ['colcon_meta']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/flight_controller) by extension 'colcon_meta'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/flight_controller) by extensions ['ros']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/flight_controller) by extension 'ros'
+[0.150s] DEBUG:colcon.colcon_core.package_identification:Package 'src/flight_controller' with type 'ros.ament_python' and name 'flight_controller'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/mission_hud) by extensions ['ignore', 'ignore_ament_install']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/mission_hud) by extension 'ignore'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/mission_hud) by extension 'ignore_ament_install'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/mission_hud) by extensions ['colcon_pkg']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/mission_hud) by extension 'colcon_pkg'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/mission_hud) by extensions ['colcon_meta']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/mission_hud) by extension 'colcon_meta'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/mission_hud) by extensions ['ros']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/mission_hud) by extension 'ros'
+[0.150s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mission_hud' with type 'ros.ament_python' and name 'mission_hud'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/mission_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/mission_interfaces) by extension 'ignore'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/mission_interfaces) by extension 'ignore_ament_install'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/mission_interfaces) by extensions ['colcon_pkg']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/mission_interfaces) by extension 'colcon_pkg'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/mission_interfaces) by extensions ['colcon_meta']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/mission_interfaces) by extension 'colcon_meta'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/mission_interfaces) by extensions ['ros']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/mission_interfaces) by extension 'ros'
+[0.151s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mission_interfaces' with type 'ros.ament_cmake' and name 'mission_interfaces'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/mission_management) by extensions ['ignore', 'ignore_ament_install']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/mission_management) by extension 'ignore'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/mission_management) by extension 'ignore_ament_install'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/mission_management) by extensions ['colcon_pkg']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/mission_management) by extension 'colcon_pkg'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/mission_management) by extensions ['colcon_meta']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/mission_management) by extension 'colcon_meta'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/mission_management) by extensions ['ros']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/mission_management) by extension 'ros'
+[0.152s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mission_management' with type 'ros.ament_python' and name 'mission_management'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/payload_drop) by extensions ['ignore', 'ignore_ament_install']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/payload_drop) by extension 'ignore'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/payload_drop) by extension 'ignore_ament_install'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/payload_drop) by extensions ['colcon_pkg']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/payload_drop) by extension 'colcon_pkg'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/payload_drop) by extensions ['colcon_meta']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/payload_drop) by extension 'colcon_meta'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/payload_drop) by extensions ['ros']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/payload_drop) by extension 'ros'
+[0.152s] DEBUG:colcon.colcon_core.package_identification:Package 'src/payload_drop' with type 'ros.ament_python' and name 'payload_drop'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/qr_centering) by extensions ['ignore', 'ignore_ament_install']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/qr_centering) by extension 'ignore'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/qr_centering) by extension 'ignore_ament_install'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/qr_centering) by extensions ['colcon_pkg']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/qr_centering) by extension 'colcon_pkg'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/qr_centering) by extensions ['colcon_meta']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/qr_centering) by extension 'colcon_meta'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/qr_centering) by extensions ['ros']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/qr_centering) by extension 'ros'
+[0.153s] DEBUG:colcon.colcon_core.package_identification:Package 'src/qr_centering' with type 'ros.ament_python' and name 'qr_centering'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/qr_detector) by extensions ['ignore', 'ignore_ament_install']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/qr_detector) by extension 'ignore'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/qr_detector) by extension 'ignore_ament_install'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/qr_detector) by extensions ['colcon_pkg']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/qr_detector) by extension 'colcon_pkg'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/qr_detector) by extensions ['colcon_meta']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/qr_detector) by extension 'colcon_meta'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/qr_detector) by extensions ['ros']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/qr_detector) by extension 'ros'
+[0.154s] DEBUG:colcon.colcon_core.package_identification:Package 'src/qr_detector' with type 'ros.ament_python' and name 'qr_detector'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/red_avoidance) by extensions ['ignore', 'ignore_ament_install']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/red_avoidance) by extension 'ignore'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/red_avoidance) by extension 'ignore_ament_install'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/red_avoidance) by extensions ['colcon_pkg']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/red_avoidance) by extension 'colcon_pkg'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/red_avoidance) by extensions ['colcon_meta']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/red_avoidance) by extension 'colcon_meta'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/red_avoidance) by extensions ['ros']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/red_avoidance) by extension 'ros'
+[0.154s] DEBUG:colcon.colcon_core.package_identification:Package 'src/red_avoidance' with type 'ros.ament_python' and name 'red_avoidance'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/red_zone_detector) by extensions ['ignore', 'ignore_ament_install']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/red_zone_detector) by extension 'ignore'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/red_zone_detector) by extension 'ignore_ament_install'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/red_zone_detector) by extensions ['colcon_pkg']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/red_zone_detector) by extension 'colcon_pkg'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/red_zone_detector) by extensions ['colcon_meta']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/red_zone_detector) by extension 'colcon_meta'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/red_zone_detector) by extensions ['ros']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/red_zone_detector) by extension 'ros'
+[0.155s] DEBUG:colcon.colcon_core.package_identification:Package 'src/red_zone_detector' with type 'ros.ament_python' and name 'red_zone_detector'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/siyi_camera) by extensions ['ignore', 'ignore_ament_install']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/siyi_camera) by extension 'ignore'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/siyi_camera) by extension 'ignore_ament_install'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/siyi_camera) by extensions ['colcon_pkg']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/siyi_camera) by extension 'colcon_pkg'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/siyi_camera) by extensions ['colcon_meta']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/siyi_camera) by extension 'colcon_meta'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/siyi_camera) by extensions ['ros']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/siyi_camera) by extension 'ros'
+[0.156s] DEBUG:colcon.colcon_core.package_identification:Package 'src/siyi_camera' with type 'ros.ament_python' and name 'siyi_camera'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/target_navigator) by extensions ['ignore', 'ignore_ament_install']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/target_navigator) by extension 'ignore'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/target_navigator) by extension 'ignore_ament_install'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/target_navigator) by extensions ['colcon_pkg']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/target_navigator) by extension 'colcon_pkg'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/target_navigator) by extensions ['colcon_meta']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/target_navigator) by extension 'colcon_meta'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/target_navigator) by extensions ['ros']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/target_navigator) by extension 'ros'
+[0.157s] DEBUG:colcon.colcon_core.package_identification:Package 'src/target_navigator' with type 'ros.ament_python' and name 'target_navigator'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/target_search) by extensions ['ignore', 'ignore_ament_install']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/target_search) by extension 'ignore'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/target_search) by extension 'ignore_ament_install'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/target_search) by extensions ['colcon_pkg']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/target_search) by extension 'colcon_pkg'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/target_search) by extensions ['colcon_meta']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/target_search) by extension 'colcon_meta'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/target_search) by extensions ['ros']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/target_search) by extension 'ros'
+[0.157s] DEBUG:colcon.colcon_core.package_identification:Package 'src/target_search' with type 'ros.ament_python' and name 'target_search'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(tools) by extensions ['ignore', 'ignore_ament_install']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(tools) by extension 'ignore'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(tools) ignored
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(verification) by extensions ['ignore', 'ignore_ament_install']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(verification) by extension 'ignore'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(verification) by extension 'ignore_ament_install'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(verification) by extensions ['colcon_pkg']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(verification) by extension 'colcon_pkg'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(verification) by extensions ['colcon_meta']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(verification) by extension 'colcon_meta'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(verification) by extensions ['ros']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(verification) by extension 'ros'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(verification) by extensions ['cmake', 'python']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(verification) by extension 'cmake'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(verification) by extension 'python'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(verification) by extensions ['python_setup_py']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(verification) by extension 'python_setup_py'
+[0.158s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.158s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.158s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.158s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.158s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.178s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mission_interfaces' in 'src/mission_interfaces'
+[0.178s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'red_avoidance' in 'src/red_avoidance'
+[0.178s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'bc_common' in 'src/bc_common'
+[0.178s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'flight_controller' in 'src/flight_controller'
+[0.178s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'banner_align' in 'src/banner_align'
+[0.178s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'banner_detector' in 'src/banner_detector'
+[0.178s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'banner_search' in 'src/banner_search'
+[0.178s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'bc_sim' in 'src/bc_sim'
+[0.178s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'bench_flight_controller' in 'src/bench_flight_controller'
+[0.178s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'corridor_navigator' in 'src/corridor_navigator'
+[0.178s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mission_hud' in 'src/mission_hud'
+[0.178s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mission_management' in 'src/mission_management'
+[0.178s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'payload_drop' in 'src/payload_drop'
+[0.178s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'qr_centering' in 'src/qr_centering'
+[0.178s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'qr_detector' in 'src/qr_detector'
+[0.178s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'red_zone_detector' in 'src/red_zone_detector'
+[0.178s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'siyi_camera' in 'src/siyi_camera'
+[0.178s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'bc_bringup' in 'src/bc_bringup'
+[0.178s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'target_navigator' in 'src/target_navigator'
+[0.178s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.178s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.181s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 20 installed packages in /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install
+[0.182s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 323 installed packages in /opt/ros/jazzy
+[0.183s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.218s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'target_search' is in: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/target_search
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding target_search
+
+This may be promoted to an error in a future release of colcon-override-check.
+[0.219s] Level 5:colcon.colcon_core.verb:set package 'target_search' build argument 'cmake_args' from command line to 'None'
+[0.219s] Level 5:colcon.colcon_core.verb:set package 'target_search' build argument 'cmake_target' from command line to 'None'
+[0.219s] Level 5:colcon.colcon_core.verb:set package 'target_search' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.219s] Level 5:colcon.colcon_core.verb:set package 'target_search' build argument 'cmake_clean_cache' from command line to 'False'
+[0.219s] Level 5:colcon.colcon_core.verb:set package 'target_search' build argument 'cmake_clean_first' from command line to 'False'
+[0.219s] Level 5:colcon.colcon_core.verb:set package 'target_search' build argument 'cmake_force_configure' from command line to 'False'
+[0.219s] Level 5:colcon.colcon_core.verb:set package 'target_search' build argument 'ament_cmake_args' from command line to 'None'
+[0.219s] Level 5:colcon.colcon_core.verb:set package 'target_search' build argument 'catkin_cmake_args' from command line to 'None'
+[0.219s] Level 5:colcon.colcon_core.verb:set package 'target_search' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.219s] DEBUG:colcon.colcon_core.verb:Building package 'target_search' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/target_search', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/target_search', 'merge_install': False, 'path': '/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/src/target_search', 'symlink_install': True, 'test_result_base': None}
+[0.219s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.220s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.220s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/src/target_search' with build type 'ament_python'
+[0.220s] Level 1:colcon.colcon_core.shell:create_environment_hook('target_search', 'ament_prefix_path')
+[0.222s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.222s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/target_search/share/target_search/hook/ament_prefix_path.ps1'
+[0.223s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/target_search/share/target_search/hook/ament_prefix_path.dsv'
+[0.223s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/target_search/share/target_search/hook/ament_prefix_path.sh'
+[0.224s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.224s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.428s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/src/target_search'
+[0.428s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.428s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.958s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: install, bdist_wheel, alias, init_catalog, develop, build_clib, check, bdist_rpm, compile_catalog, egg_info, setopt, install_egg_info, build_scripts, build_py, editable_wheel, test, install_headers, install_lib, install_data, bdist, build, bdist_dumb, easy_install, update_catalog, symlink_data, extract_messages, upload, register, saveopts, build_ext, upload_docs, clean, bdist_egg, install_scripts, rotate, dist_info, sdist
+[1.257s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools 'develop' options: --no-user-cfg, --user, --multi-version, --site-dirs, --force-installation-into-system-dir, --index-url, --editable, --egg-path, --always-copy, --version, --uninstall, --find-links, --quiet, --exclude-scripts, --no-deps, --install-dir, --build-directory, --dry-run, --help, --always-unzip, --prefix, --script-dir, --no-find-links, --record, --install-layout, --zip-ok, --optimize, --local-snapshots-ok, --verbose, --allow-hosts, --upgrade
+[1.260s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/target_search': AMENT_PREFIX_PATH=/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/bc_common:/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/red_avoidance:/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces:/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/bc_bringup:/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/target_search:/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/target_navigator:/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/siyi_camera:/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/red_zone_detector:/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/qr_centering:/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/qr_detector:/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/payload_drop:/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_management:/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_hud:/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/flight_controller:/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/corridor_navigator:/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/bench_flight_controller:/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/bc_sim:/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/banner_search:/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/banner_detector:/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/banner_align:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/target_search/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/target_search/lib/python3.12/site-packages:/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/bc_common:/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/bc_common/lib/python3.12/site-packages:/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/red_avoidance:/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/red_avoidance/lib/python3.12/site-packages:/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/lib/python3.12/site-packages:/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/bc_bringup:/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/target_search:/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/target_navigator:/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/siyi_camera:/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/red_zone_detector:/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/qr_centering:/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/qr_detector:/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/payload_drop:/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/mission_management:/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/mission_hud:/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/flight_controller:/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/corridor_navigator:/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/bench_flight_controller:/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/bc_sim:/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/banner_search:/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/banner_detector:/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/banner_align:/home/suasrasp/final_change/banner_corridor_ws/build/bc_bringup:/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/bc_bringup/lib/python3.12/site-packages:/home/suasrasp/final_change/banner_corridor_ws/build/target_search:/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/target_search/lib/python3.12/site-packages:/home/suasrasp/final_change/banner_corridor_ws/build/target_navigator:/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/target_navigator/lib/python3.12/site-packages:/home/suasrasp/final_change/banner_corridor_ws/build/siyi_camera:/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/siyi_camera/lib/python3.12/site-packages:/home/suasrasp/final_change/banner_corridor_ws/build/red_zone_detector:/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/red_zone_detector/lib/python3.12/site-packages:/home/suasrasp/final_change/banner_corridor_ws/build/qr_centering:/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/qr_centering/lib/python3.12/site-packages:/home/suasrasp/final_change/banner_corridor_ws/build/red_avoidance:/home/suasrasp/final_change/banner_corridor_ws/build/qr_detector:/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/qr_detector/lib/python3.12/site-packages:/home/suasrasp/final_change/banner_corridor_ws/build/payload_drop:/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/payload_drop/lib/python3.12/site-packages:/home/suasrasp/final_change/banner_corridor_ws/build/mission_management:/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_management/lib/python3.12/site-packages:/home/suasrasp/final_change/banner_corridor_ws/build/mission_hud:/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_hud/lib/python3.12/site-packages:/home/suasrasp/final_change/banner_corridor_ws/build/flight_controller:/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/flight_controller/lib/python3.12/site-packages:/home/suasrasp/final_change/banner_corridor_ws/build/corridor_navigator:/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/corridor_navigator/lib/python3.12/site-packages:/home/suasrasp/final_change/banner_corridor_ws/build/bench_flight_controller:/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/bench_flight_controller/lib/python3.12/site-packages:/home/suasrasp/final_change/banner_corridor_ws/build/bc_sim:/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/bc_sim/lib/python3.12/site-packages:/home/suasrasp/final_change/banner_corridor_ws/build/banner_search:/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/banner_search/lib/python3.12/site-packages:/home/suasrasp/final_change/banner_corridor_ws/build/banner_detector:/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/banner_detector/lib/python3.12/site-packages:/home/suasrasp/final_change/banner_corridor_ws/build/banner_align:/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/banner_align/lib/python3.12/site-packages:/home/suasrasp/final_change/banner_corridor_ws/build/bc_common:/opt/ros/jazzy/opt/gz_sim_vendor/lib/python:/opt/ros/jazzy/opt/sdformat_vendor/lib/python:/opt/ros/jazzy/opt/gz_transport_vendor/lib/python:/opt/ros/jazzy/opt/gz_msgs_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/target_search/build --no-deps symlink_data
+[1.841s] Level 1:colcon.colcon_core.shell:create_environment_hook('target_search', 'pythonpath_develop')
+[1.841s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/target_search/share/target_search/hook/pythonpath_develop.ps1'
+[1.842s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/target_search' returned '0': AMENT_PREFIX_PATH=/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/bc_common:/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/red_avoidance:/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces:/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/bc_bringup:/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/target_search:/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/target_navigator:/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/siyi_camera:/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/red_zone_detector:/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/qr_centering:/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/qr_detector:/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/payload_drop:/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_management:/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_hud:/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/flight_controller:/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/corridor_navigator:/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/bench_flight_controller:/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/bc_sim:/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/banner_search:/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/banner_detector:/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/banner_align:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/target_search/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/target_search/lib/python3.12/site-packages:/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/bc_common:/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/bc_common/lib/python3.12/site-packages:/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/red_avoidance:/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/red_avoidance/lib/python3.12/site-packages:/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/lib/python3.12/site-packages:/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/bc_bringup:/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/target_search:/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/target_navigator:/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/siyi_camera:/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/red_zone_detector:/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/qr_centering:/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/qr_detector:/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/payload_drop:/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/mission_management:/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/mission_hud:/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/flight_controller:/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/corridor_navigator:/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/bench_flight_controller:/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/bc_sim:/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/banner_search:/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/banner_detector:/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/banner_align:/home/suasrasp/final_change/banner_corridor_ws/build/bc_bringup:/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/bc_bringup/lib/python3.12/site-packages:/home/suasrasp/final_change/banner_corridor_ws/build/target_search:/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/target_search/lib/python3.12/site-packages:/home/suasrasp/final_change/banner_corridor_ws/build/target_navigator:/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/target_navigator/lib/python3.12/site-packages:/home/suasrasp/final_change/banner_corridor_ws/build/siyi_camera:/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/siyi_camera/lib/python3.12/site-packages:/home/suasrasp/final_change/banner_corridor_ws/build/red_zone_detector:/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/red_zone_detector/lib/python3.12/site-packages:/home/suasrasp/final_change/banner_corridor_ws/build/qr_centering:/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/qr_centering/lib/python3.12/site-packages:/home/suasrasp/final_change/banner_corridor_ws/build/red_avoidance:/home/suasrasp/final_change/banner_corridor_ws/build/qr_detector:/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/qr_detector/lib/python3.12/site-packages:/home/suasrasp/final_change/banner_corridor_ws/build/payload_drop:/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/payload_drop/lib/python3.12/site-packages:/home/suasrasp/final_change/banner_corridor_ws/build/mission_management:/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_management/lib/python3.12/site-packages:/home/suasrasp/final_change/banner_corridor_ws/build/mission_hud:/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_hud/lib/python3.12/site-packages:/home/suasrasp/final_change/banner_corridor_ws/build/flight_controller:/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/flight_controller/lib/python3.12/site-packages:/home/suasrasp/final_change/banner_corridor_ws/build/corridor_navigator:/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/corridor_navigator/lib/python3.12/site-packages:/home/suasrasp/final_change/banner_corridor_ws/build/bench_flight_controller:/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/bench_flight_controller/lib/python3.12/site-packages:/home/suasrasp/final_change/banner_corridor_ws/build/bc_sim:/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/bc_sim/lib/python3.12/site-packages:/home/suasrasp/final_change/banner_corridor_ws/build/banner_search:/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/banner_search/lib/python3.12/site-packages:/home/suasrasp/final_change/banner_corridor_ws/build/banner_detector:/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/banner_detector/lib/python3.12/site-packages:/home/suasrasp/final_change/banner_corridor_ws/build/banner_align:/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/banner_align/lib/python3.12/site-packages:/home/suasrasp/final_change/banner_corridor_ws/build/bc_common:/opt/ros/jazzy/opt/gz_sim_vendor/lib/python:/opt/ros/jazzy/opt/sdformat_vendor/lib/python:/opt/ros/jazzy/opt/gz_transport_vendor/lib/python:/opt/ros/jazzy/opt/gz_msgs_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/target_search/build --no-deps symlink_data
+[1.842s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/target_search/share/target_search/hook/pythonpath_develop.dsv'
+[1.843s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/target_search/share/target_search/hook/pythonpath_develop.sh'
+[1.845s] Level 1:colcon.colcon_core.environment:checking '/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/target_search' for CMake module files
+[1.845s] Level 1:colcon.colcon_core.environment:checking '/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/target_search' for CMake config files
+[1.846s] Level 1:colcon.colcon_core.environment:checking '/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/target_search/lib'
+[1.846s] Level 1:colcon.colcon_core.environment:checking '/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/target_search/bin'
+[1.846s] Level 1:colcon.colcon_core.environment:checking '/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/target_search/lib/pkgconfig/target_search.pc'
+[1.846s] Level 1:colcon.colcon_core.environment:checking '/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/target_search/lib/python3.12/site-packages'
+[1.846s] Level 1:colcon.colcon_core.shell:create_environment_hook('target_search', 'pythonpath')
+[1.846s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/target_search/share/target_search/hook/pythonpath.ps1'
+[1.847s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/target_search/share/target_search/hook/pythonpath.dsv'
+[1.847s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/target_search/share/target_search/hook/pythonpath.sh'
+[1.847s] Level 1:colcon.colcon_core.environment:checking '/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/target_search/bin'
+[1.847s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(target_search)
+[1.848s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/target_search/share/target_search/package.ps1'
+[1.848s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/target_search/share/target_search/package.dsv'
+[1.849s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/target_search/share/target_search/package.sh'
+[1.849s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/target_search/share/target_search/package.bash'
+[1.850s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/target_search/share/target_search/package.zsh'
+[1.850s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/target_search/share/colcon-core/packages/target_search)
+[1.850s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.850s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.850s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.850s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.856s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.856s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.856s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.865s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.865s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/local_setup.ps1'
+[1.866s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/_local_setup_util_ps1.py'
+[1.867s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/setup.ps1'
+[1.868s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/local_setup.sh'
+[1.868s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/_local_setup_util_sh.py'
+[1.869s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/setup.sh'
+[1.870s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/local_setup.bash'
+[1.870s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/setup.bash'
+[1.871s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/local_setup.zsh'
+[1.872s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/setup.zsh'

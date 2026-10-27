@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "mission_interfaces/action/Land_Goal",
+      "fields": [
+        {
+          "name": "structure_needs_at_least_one_member",
+          "type": {
+            "type_id": 3,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "mission_interfaces/action/Land_Goal",
+      "hash_string": "RIHS01_2ef00c838135ced3b7f74bf8bdf924ec767b49bb9c325917924288a3bccc4cd6"
+    }
+  ]
+}

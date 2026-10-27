@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: qr-centering
+Version: 0.1.0
+Summary: Precision visual-servo centring over a QR code
+Maintainer: AeroTHON team
+Maintainer-email: harrydybalaforever123@gmail.com
+License: Apache-2.0

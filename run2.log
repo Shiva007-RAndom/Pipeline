@@ -1,0 +1,113 @@
+[INFO] [launch]: All log files can be found below /home/shiva/.ros/log/2026-10-28-02-25-36-310434-shiva-14962
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [bench_controller_node-1]: process started with pid [14969]
+[INFO] [sim_camera_node-2]: process started with pid [14970]
+[INFO] [banner_detector_node-3]: process started with pid [14971]
+[INFO] [qr_detector_node-4]: process started with pid [14972]
+[INFO] [banner_search_node-5]: process started with pid [14973]
+[INFO] [banner_align_node-6]: process started with pid [14974]
+[INFO] [corridor_navigator_node-7]: process started with pid [14975]
+[INFO] [red_zone_detector_node-8]: process started with pid [14976]
+[INFO] [target_search_node-9]: process started with pid [14977]
+[INFO] [lawnmower_search_node-10]: process started with pid [14978]
+[INFO] [target_navigator_node-11]: process started with pid [14979]
+[INFO] [payload_drop_node-12]: process started with pid [14980]
+[INFO] [survey_capture_node-13]: process started with pid [14981]
+[INFO] [qr_centering_node-14]: process started with pid [14982]
+[INFO] [mission_tree-15]: process started with pid [14983]
+[bench_controller_node-1] [INFO] [1793134537.271812912] [flight_controller]: Bench flight controller ready (simulation only).
+[red_zone_detector_node-8] [INFO] [1793134537.422112541] [red_zone_detector]: Ready. Listening on '/camera/image_raw', min_area 100 px2, 1 in 1 frame(s); idle until ~/set_active.
+[target_search_node-9] [INFO] [1793134537.503187639] [target_search]: target_search ready (hfov 1.22 rad, camera latency 0.25 s, gimbal camera).
+[sim_camera_node-2] [INFO] [1793134537.556449572] [sim_camera]: Synthetic camera 960x540 @ 5 Hz -> /camera/image_raw | FieldParams(green_sway=7.5, green_forward=4.3, corridor_length=10.0, corridor_width=3.5052000000000003, corridor_gap=1.0, wall_height=3.8, arch_height=4.0, board_offset=0.4, field_yaw_deg=0.0)
+[survey_capture_node-13] [INFO] [1793134537.579640464] [survey_capture]: Survey capture ready: every 3.0 m while active, into /home/shiva/bc_geotag
+[payload_drop_node-12] [INFO] [1793134537.642652392] [payload_drop]: Payload drop ready: SERVO9 1900 -> 2.0 s -> 1100 us (SIMULATED: no autopilot commands)
+[banner_detector_node-3] [INFO] [1793134538.132628016] [banner_detector]: [VISION] RapidOCR background engine initialized.
+[banner_detector_node-3] [INFO] [1793134538.182398553] [banner_detector]: Banner detector on /camera/image_raw; colour: idle
+[mission_tree-15] [INFO] [1793134541.093303150] [mission_tree]: [REFERENCE FRAME] Pad NED z = +0.00 m (every height is measured from here)
+[bench_controller_node-1] [INFO] [1793134541.096504500] [flight_controller]: [BENCH] Takeoff to 5.0 m
+[bench_controller_node-1] [INFO] [1793134547.007134468] [flight_controller]: [BENCH-SIM] Target altitude reached: 4.5 m
+[mission_tree-15] [INFO] [1793134547.061785431] [mission_tree]: [REFERENCE FRAME] Takeoff origin N=+0.00 E=+0.00, heading +0.0 deg, height 4.53 m
+[mission_tree-15] [INFO] [1793134552.062189550] [mission_tree]: [STAGE 2] Scanning for the reference QR (no timeout): hovering 10 s, then squares up to 3.0 m round it
+[qr_detector_node-4] [INFO] [1793134552.089540344] [qr_detector]: Scanning reference QR from the camera (no timeout: until a QR is seen)...
+[qr_detector_node-4] [INFO] [1793134552.690288036] [qr_detector]: REFERENCE QR MEMORIZED FROM CAMERA! Payload: 'AEROTHON-7'
+[qr_detector_node-4] [INFO] [1793134552.758176783] [qr_detector]: Reference QR captured after 0.6 s.
+[mission_tree-15] [INFO] [1793134552.761438907] [mission_tree]: [STAGE 2] Reference QR captured after 0.7 s
+[banner_detector_node-3] [INFO] [1793134556.354129177] [banner_detector]: Detecting: GREEN
+[banner_search_node-5] [INFO] [1793134569.014684589] [banner_search]: [BANNER CLASSIFIED] GREEN via OCR at waypoint 1; estimate N=+4.31 E=-7.81
+[banner_detector_node-3] [INFO] [1793134570.405376272] [banner_detector]: Detecting: GREEN
+[banner_align_node-6] [INFO] [1793134575.598676867] [banner_align]: [CENTERING] Iter 1/6: centroid (504.8, 267.8)px | Offset: 24.9px | FULL-VIEW
+[banner_align_node-6] [INFO] [1793134575.599366975] [banner_align]:   [HEADING ALIGN] corridor axis +0.0 deg (correction 0.0 deg <= 25)
+[banner_align_node-6] [INFO] [1793134575.599938760] [banner_align]: [CENTERING] Lock acquired: 24.9px <= 25.0px, full view.
+[mission_tree-15] [INFO] [1793134575.661604089] [mission_tree]: [MEASUREMENT] Green banner N=+4.31 E=-7.81 | corridor heading +0.0 deg (measured) | sway x = 7.81 m | lock: True
+[corridor_navigator_node-7] [INFO] [1793134576.378908662] [corridor_navigator]: [CORRIDOR] descending to NED z -3.00 over the entrance
+[corridor_navigator_node-7] [INFO] [1793134579.908655606] [corridor_navigator]: [CORRIDOR] settling 1.0 s
+[corridor_navigator_node-7] [INFO] [1793134581.027411628] [corridor_navigator]: [CORRIDOR] surging 10.0 m at 0.9 m/s (heading +0.0 deg) -> N=+14.31 E=-7.81
+[corridor_navigator_node-7] [INFO] [1793134595.462564636] [corridor_navigator]: [CORRIDOR EXIT] Exited corridor at N=+14.29 E=-7.81
+[corridor_navigator_node-7] [INFO] [1793134595.464689542] [corridor_navigator]: [CORRIDOR] climbing vertically at the exit to NED z -5.00
+[mission_tree-15] [INFO] [1793134599.861395396] [mission_tree]: [STAGE 8] lateral shift left by (19.0 - x) = 11.19 m -> N=+15.31 E=-19.00 (1 m from the 20 m wall)
+[red_zone_detector_node-8] [INFO] [1793134610.541739157] [red_zone_detector]: Red-zone detection ON (delivery zone)
+[qr_detector_node-4] [INFO] [1793134610.565064347] [qr_detector]: QR search ON
+[survey_capture_node-13] [INFO] [1793134610.575708331] [survey_capture]: Survey capture STARTED -> /home/shiva/bc_geotag/20261028_022650
+[target_search_node-9] [INFO] [1793134610.585083640] [target_search]: Searching the zone of 4 geofence corners from /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/bc_bringup/share/bc_bringup/config/delivery_zone.sim.txt (local origin 13.0827000, 80.2707000).
+[target_search_node-9] [INFO] [1793134610.585712483] [target_search]: delivery zone 22.0 x 20.0 m centred N=24.0 E=-11.0, long side bearing 0 deg; flight area 20.0 x 18.0 m
+[target_search_node-9] [INFO] [1793134610.586130248] [target_search]: search heading 90 deg: the camera sees 3.5 m ahead along the rows (red margin 2.0 m)
+[target_search_node-9] [INFO] [1793134610.586520372] [target_search]: 6 rows along the long side, 3.1 m apart; frames cover 3.9 m across the rows
+[survey_capture_node-13] [INFO] [1793134610.939984454] [survey_capture]: Captured and geotagged frame000000.jpg: 13.0828374, 80.2705263, alt 5.0 m, yaw 13.5 deg (local)
+[target_search_node-9] [INFO] [1793134612.330085177] [target_search]: waypoint 1/12 reached: world (-10.0, 7.9)
+[survey_capture_node-13] [INFO] [1793134617.575599761] [survey_capture]: Captured and geotagged frame000001.jpg: 13.0828647, 80.2705261, alt 5.0 m, yaw 90.0 deg (local)
+[survey_capture_node-13] [INFO] [1793134620.525412802] [survey_capture]: Captured and geotagged frame000002.jpg: 13.0828920, 80.2705260, alt 5.0 m, yaw 90.0 deg (local)
+[survey_capture_node-13] [WARN] [1793134623.835760424] [survey_capture]: No camera frame available; skipping capture.
+[survey_capture_node-13] [INFO] [1793134624.601800592] [survey_capture]: Captured and geotagged frame000003.jpg: 13.0829312, 80.2705260, alt 5.0 m, yaw 90.0 deg (local)
+[survey_capture_node-13] [INFO] [1793134626.966816534] [survey_capture]: Captured and geotagged frame000004.jpg: 13.0829591, 80.2705260, alt 5.0 m, yaw 90.0 deg (local)
+[survey_capture_node-13] [INFO] [1793134630.163133208] [survey_capture]: Captured and geotagged frame000005.jpg: 13.0829890, 80.2705260, alt 5.0 m, yaw 90.0 deg (local)
+[target_search_node-9] [INFO] [1793134631.342811293] [target_search]: waypoint 2/12 reached: world (10.0, 7.9)
+[target_search_node-9] [INFO] [1793134635.108917379] [target_search]: waypoint 3/12 reached: world (10.0, 4.7)
+[survey_capture_node-13] [INFO] [1793134635.402743871] [survey_capture]: Captured and geotagged frame000006.jpg: 13.0830053, 80.2705483, alt 5.0 m, yaw 90.0 deg (local)
+[survey_capture_node-13] [INFO] [1793134639.421166278] [survey_capture]: Captured and geotagged frame000007.jpg: 13.0829788, 80.2705549, alt 5.0 m, yaw 90.0 deg (local)
+[survey_capture_node-13] [INFO] [1793134643.034897090] [survey_capture]: Captured and geotagged frame000008.jpg: 13.0829502, 80.2705550, alt 5.0 m, yaw 90.0 deg (local)
+[survey_capture_node-13] [INFO] [1793134645.947997602] [survey_capture]: Captured and geotagged frame000009.jpg: 13.0829230, 80.2705550, alt 5.0 m, yaw 90.0 deg (local)
+[survey_capture_node-13] [INFO] [1793134647.965708639] [survey_capture]: Captured and geotagged frame000010.jpg: 13.0828950, 80.2705550, alt 5.0 m, yaw 90.0 deg (local)
+[survey_capture_node-13] [INFO] [1793134650.774866166] [survey_capture]: Captured and geotagged frame000011.jpg: 13.0828676, 80.2705550, alt 5.0 m, yaw 90.0 deg (local)
+[survey_capture_node-13] [INFO] [1793134654.025056328] [survey_capture]: Captured and geotagged frame000012.jpg: 13.0828397, 80.2705550, alt 5.0 m, yaw 90.0 deg (local)
+[target_search_node-9] [INFO] [1793134654.613450108] [target_search]: waypoint 4/12 reached: world (-10.0, 4.7)
+[target_search_node-9] [INFO] [1793134657.909968930] [target_search]: waypoint 5/12 reached: world (-10.0, 1.6)
+[survey_capture_node-13] [INFO] [1793134658.611645304] [survey_capture]: Captured and geotagged frame000013.jpg: 13.0828259, 80.2705793, alt 5.0 m, yaw 90.0 deg (local)
+[survey_capture_node-13] [INFO] [1793134662.100764307] [survey_capture]: Captured and geotagged frame000014.jpg: 13.0828537, 80.2705839, alt 5.0 m, yaw 90.0 deg (local)
+[survey_capture_node-13] [INFO] [1793134664.897215427] [survey_capture]: Captured and geotagged frame000015.jpg: 13.0828852, 80.2705840, alt 5.0 m, yaw 90.0 deg (local)
+[target_search_node-9] [INFO] [1793134665.438133678] [target_search]: QR match (score 1.00, 'AEROTHON-7') at N=23.9 E=-11.3
+[target_search_node-9] [INFO] [1793134665.944417797] [target_search]: matched QR at N=24.1 E=-11.3: handing over to target_navigator
+[qr_detector_node-4] [INFO] [1793134665.953892722] [qr_detector]: QR search OFF
+[survey_capture_node-13] [INFO] [1793134666.065425489] [survey_capture]: Survey capture stopped: 16 geotagged frames in /home/shiva/bc_geotag/20261028_022650
+[target_search_node-9] [INFO] [1793134666.094323534] [target_search]: SearchTarget done: matched QR found (red zones 0, coverage 42 %)
+[mission_tree-15] [INFO] [1793134666.162042802] [mission_tree]: [STAGE 9] MATCHED QR 'AEROTHON-7' score 1.00 at N=+24.13 E=-11.30 (13.0829167, 80.2705958) | red zones mapped: 0 | coverage 42 %
+[target_navigator_node-11] [INFO] [1793134666.332240161] [target_navigator]: [NAVIGATOR] waypoint 13.0829167, 80.2705958 -> N=+24.13 E=-11.30 z=-5.00 (2.4 m away, red-aware SafeGoto)
+[target_navigator_node-11] [INFO] [1793134669.924357080] [target_navigator]: [NAVIGATOR] at the target QR (0.20 m)
+[qr_detector_node-4] [INFO] [1793134669.965416821] [qr_detector]: QR search ON
+[qr_centering_node-14] [INFO] [1793134670.812477729] [qr_centering]: [QR CENTERING] Lock acquired! (Offset 14.5px <= tol 25.0px)
+[qr_centering_node-14] [INFO] [1793134670.813192103] [qr_centering]: [ALIGN] Hover hold for 15.0 s over the QR...
+[qr_centering_node-14] [INFO] [1793134685.814849819] [qr_centering]: [ALIGN HOVER] 15-second hold complete!
+[qr_detector_node-4] [INFO] [1793134685.903529854] [qr_detector]: QR search OFF
+[payload_drop_node-12] [INFO] [1793134686.464685818] [payload_drop]: [PAYLOAD] SERVO9 -> 1900 us (release)
+[payload_drop_node-12] [INFO] [1793134686.465412324] [payload_drop]: [PAYLOAD][SIM] SERVO9 = 1900 us
+[payload_drop_node-12] [INFO] [1793134688.466393845] [payload_drop]: [PAYLOAD] SERVO9 -> 1100 us (close) after 2.0 s
+[payload_drop_node-12] [INFO] [1793134688.467146710] [payload_drop]: [PAYLOAD][SIM] SERVO9 = 1100 us
+[payload_drop_node-12] [INFO] [1793134688.467885470] [payload_drop]: Payload drop complete (1 delivered).
+[mission_tree-15] [INFO] [1793134688.561674680] [mission_tree]: [STAGE 10] PAYLOAD DROPPED (1 delivered)
+[red_zone_detector_node-8] [INFO] [1793134688.669042730] [red_zone_detector]: Red-zone detection OFF (left the delivery zone)
+[mission_tree-15] [INFO] [1793134688.762047546] [mission_tree]: [RETURN] Blue search start 11.0 m from the green banner along the corridor: N=+15.31 E=-7.81 | return heading -180.0 deg, sway LEFT up to 20.0 m
+[banner_detector_node-3] [INFO] [1793134702.001012719] [banner_detector]: Detecting: BLUE
+[banner_search_node-5] [INFO] [1793134707.465899377] [banner_search]: [BANNER CLASSIFIED] BLUE via OCR at waypoint 1; estimate N=+15.10 E=-2.77
+[banner_detector_node-3] [INFO] [1793134709.325892458] [banner_detector]: Detecting: BLUE
+[banner_align_node-6] [INFO] [1793134714.537632234] [banner_align]: [CENTERING] Iter 1/6: centroid (498.0, 269.2)px | Offset: 18.0px | FULL-VIEW
+[banner_align_node-6] [INFO] [1793134714.542651761] [banner_align]:   [HEADING ALIGN] corridor axis +180.0 deg (correction 0.0 deg <= 25)
+[banner_align_node-6] [INFO] [1793134714.544065048] [banner_align]: [CENTERING] Lock acquired: 18.0px <= 25.0px, full view.
+[mission_tree-15] [INFO] [1793134714.562172492] [mission_tree]: [MEASUREMENT] Blue banner N=+15.10 E=-2.77 | return corridor heading +180.0 deg (measured) | lock: True
+[corridor_navigator_node-7] [INFO] [1793134714.565306996] [corridor_navigator]: [CORRIDOR] descending to NED z -3.00 over the entrance
+[corridor_navigator_node-7] [INFO] [1793134717.490680073] [corridor_navigator]: [CORRIDOR] settling 1.0 s
+[corridor_navigator_node-7] [INFO] [1793134718.563150126] [corridor_navigator]: [CORRIDOR] surging 10.0 m at 0.9 m/s (heading +180.0 deg) -> N=+5.10 E=-2.77
+[corridor_navigator_node-7] [INFO] [1793134732.559251452] [corridor_navigator]: [CORRIDOR EXIT] Exited corridor at N=+5.12 E=-2.77
+[corridor_navigator_node-7] [INFO] [1793134732.559958431] [corridor_navigator]: [CORRIDOR] climbing vertically at the exit to NED z -5.00
+[mission_tree-15] [INFO] [1793134746.562085150] [mission_tree]: MISSION OBJECTIVES ACHIEVED! COMMANDING LAND...
+[bench_controller_node-1] [INFO] [1793134746.566844548] [flight_controller]: [BENCH] Landing...
+[bench_controller_node-1] [INFO] [1793134750.295749537] [flight_controller]: [COMPLETE] Landed and disarmed.
+[mission_tree-15] [INFO] [1793134750.362385195] [mission_tree]: MISSION COMPLETED SUCCESSFULLY!

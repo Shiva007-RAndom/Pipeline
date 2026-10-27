@@ -1,0 +1,63 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from mission_interfaces/action/SearchBanner.action
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+
+module mission_interfaces {
+  module action {
+    @verbatim (language="comment", text=
+      "banner_search: fly through `waypoints` and stop as soon as a banner of `color` is classified." "\n"
+      "  Sway search (stage 4):        one waypoint at the end of the sway, detect_while_moving = true," "\n"
+      "                                dwell =." "\n"
+      "  Blue entrance search (st. 11): predicted entrance + local pattern, detect_while_moving = false," "\n"
+      "                                dwell = seconds to look at each waypoint.")
+    struct SearchBanner_Goal {
+      @verbatim (language="comment", text=
+        "\"green\" | \"blue\"")
+      string color;
+
+      @verbatim (language="comment", text=
+        "local NED")
+      sequence<geometry_msgs::msg::Point> waypoints;
+
+      @verbatim (language="comment", text=
+        "heading held during the search (rad, 0 = north, clockwise)")
+      float yaw;
+
+      @verbatim (language="comment", text=
+        "m/s; <= 0 uses the flight controller default")
+      float speed;
+
+      @verbatim (language="comment", text=
+        "s to hover and look at waypoint i (missing entries = 0)")
+      sequence<float> dwell;
+
+      boolean detect_while_moving;
+    };
+    struct SearchBanner_Result {
+      @verbatim (language="comment", text=
+        "true = banner classified")
+      boolean success;
+
+      string message;
+
+      @verbatim (language="comment", text=
+        "local NED of the banner centre at detection time")
+      geometry_msgs::msg::Point banner_estimate;
+
+      @verbatim (language="comment", text=
+        "drone position when it was classified")
+      geometry_msgs::msg::Point drone_position;
+
+      uint32 waypoint_index;
+
+      string source;
+    };
+    struct SearchBanner_Feedback {
+      string state;
+
+      uint32 waypoint;
+    };
+  };
+};

@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+bc_common/__init__.py
+bc_common/geometry.py
+bc_common/image.py
+bc_common/ros_utils.py
+bc_common/stream.py
+bc_common/terminal.py
+bc_common.egg-info/PKG-INFO
+bc_common.egg-info/SOURCES.txt
+bc_common.egg-info/dependency_links.txt
+bc_common.egg-info/requires.txt
+bc_common.egg-info/top_level.txt
+bc_common.egg-info/zip-safe
+resource/bc_common

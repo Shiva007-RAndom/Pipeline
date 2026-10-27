@@ -1,0 +1,68 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from mission_interfaces/action/CenterOnQr.action
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+
+module mission_interfaces {
+  module action {
+    @verbatim (language="comment", text=
+      "qr_centering (stage 10): fly to `target`, visual-servo over the MATCHED QR (any QR if any_qr) until within tol_px, then hover" "\n"
+      "`hold_time` s over it, nudging back over the QR with vision once a second. Corrections that would end within centre_clearance of mapped red are shrunk or skipped.")
+    struct CenterOnQr_Goal {
+      @verbatim (language="comment", text=
+        "local NED")
+      geometry_msgs::msg::Point target;
+
+      float yaw;
+
+      uint8 max_iters;
+
+      float tol_px;
+
+      @verbatim (language="comment", text=
+        "fraction of the measured offset applied per centring iteration")
+      float gain;
+
+      @verbatim (language="comment", text=
+        "m for the first GoTo")
+      float approach_tolerance;
+
+      @verbatim (language="comment", text=
+        "s hover hold after centring; 0 = no hold")
+      float hold_time;
+
+      @verbatim (language="comment", text=
+        "fraction of the measured offset applied per hold nudge")
+      float hold_gain;
+
+      @verbatim (language="comment", text=
+        "true = centre on any QR in view (target_search's best candidate, no match)")
+      boolean any_qr;
+    };
+    struct CenterOnQr_Result {
+      @verbatim (language="comment", text=
+        "true = the hold was completed (centred or not)")
+      boolean success;
+
+      string message;
+
+      @verbatim (language="comment", text=
+        "centred within tol_px")
+      boolean locked;
+
+      @verbatim (language="comment", text=
+        "final setpoint")
+      geometry_msgs::msg::Point position;
+    };
+    struct CenterOnQr_Feedback {
+      uint8 iteration;
+
+      float error_px;
+
+      @verbatim (language="comment", text=
+        "s left in the hold (0 while centring)")
+      float hold_remaining;
+    };
+  };
+};

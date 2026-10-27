@@ -1,0 +1,32 @@
+scenario: no_twin
+outcome: COMPLETED
+duration: 310.3 s
+callback exceptions: 0
+final pose: N=+0.01 E=-0.00 alt=-0.00 heading=+0.0 armed=False
+max altitude: 5.00 m
+closest approach to red: 2.23 m (at N=+25.83 E=-18.90, alt 5.0 m)
+
+stage timeline (s):
+      0.8  STAGE 1: TAKEOFF
+      8.1  STAGE 1: stabilise over the pad
+      8.8  STAGE 1: hover
+     10.5  STAGE 2: SURGE 1
+     13.3  STAGE 2: SCANNING REFERENCE QR
+     13.9  STAGE 3: SURGE 2
+     16.8  STAGE 4: SWAY LEFT (SEARCH GREEN BANNER)
+     32.6  STAGE 5: GREEN BANNER ALIGNMENT
+     38.8  STAGES 6-7: DESCEND + SURGE CORRIDOR
+     54.9  STAGE 8: MOVE LEFT + CLIMB TO TRANSIT
+     65.9  STAGE 9: TARGET SEARCH (RED-ZONE AWARE)
+    223.4  STAGE 10: QR CENTERING
+    226.3  STAGE 10: HOVER HOLD
+    241.4  STAGE 11: TRANSITION TO RETURN CORRIDOR
+    259.1  STAGE 11: TURNING TO RETURN HEADING
+    259.3  STAGE 11: turn settle
+    262.4  STAGE 11: SEARCHING BLUE BANNER
+    276.1  STAGE 11: BLUE BANNER CENTERING
+    277.8  STAGE 11: SURGE RETURN CORRIDOR
+    293.9  STAGE 12: climb to transit altitude
+    296.8  STAGE 12: RETURNING TO TAKEOFF PAD
+    300.0  STAGE 12: low hover over the pad
+    304.2  STAGE 12: LANDING

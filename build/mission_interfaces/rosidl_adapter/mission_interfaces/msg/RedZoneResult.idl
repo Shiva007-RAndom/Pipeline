@@ -1,0 +1,37 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from mission_interfaces/msg/RedZoneResult.msg
+// generated code does not contain a copyright notice
+
+#include "mission_interfaces/msg/RedPatch.idl"
+#include "std_msgs/msg/Header.idl"
+
+module mission_interfaces {
+  module msg {
+    @verbatim (language="comment", text=
+      "Result of red-patch detection on one image (red_zone_detector, /perception/red_zone)." "\n"
+      "Ported from qr_match_interfaces/RedZoneResult (Shiva007-RAndom/Qr-and-red-zone-detection)." "\n"
+      "Published for EVERY processed frame (detected = false too): target_search uses the frames without" "\n"
+      "red to know which ground the camera has looked at.")
+    struct RedZoneResult {
+      @verbatim (language="comment", text=
+        "copied from the image (camera time)")
+      std_msgs::msg::Header header;
+
+      uint32 image_width;
+
+      uint32 image_height;
+
+      boolean detected;
+
+      uint16 num_patches;
+
+      float total_area_fraction;
+
+      @verbatim (language="comment", text=
+        "by descending area")
+      sequence<mission_interfaces::msg::RedPatch> patches;
+
+      float processing_time_ms;
+    };
+  };
+};

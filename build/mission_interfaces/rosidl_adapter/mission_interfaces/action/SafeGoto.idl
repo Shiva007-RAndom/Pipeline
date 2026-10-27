@@ -1,0 +1,37 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from mission_interfaces/action/SafeGoto.action
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+
+module mission_interfaces {
+  module action {
+    @verbatim (language="comment", text=
+      "target_search: fly to a local-NED point keeping clear of the red mapped during the search." "\n"
+      "Straight (a flight_controller GoTo) when the line is clear of red + margin; otherwise the red-zone" "\n"
+      "navigator's detour, then a final GoTo onto the point.")
+    struct SafeGoto_Goal {
+      @verbatim (language="comment", text=
+        "local NED")
+      geometry_msgs::msg::Point target;
+
+      @verbatim (language="comment", text=
+        "rad; NaN = keep")
+      float yaw;
+
+      @verbatim (language="comment", text=
+        "m/s; <= 0 = default")
+      float speed;
+    };
+    struct SafeGoto_Result {
+      boolean success;
+
+      string message;
+
+      boolean detoured;
+    };
+    struct SafeGoto_Feedback {
+      string steering;
+    };
+  };
+};

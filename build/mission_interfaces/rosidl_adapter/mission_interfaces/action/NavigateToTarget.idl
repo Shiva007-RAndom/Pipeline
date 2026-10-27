@@ -1,0 +1,56 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from mission_interfaces/action/NavigateToTarget.action
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+
+module mission_interfaces {
+  module action {
+    @verbatim (language="comment", text=
+      "target_navigator: fly to a geographic waypoint (the target QR found by target_search) at the given height," "\n"
+      "keeping clear of the red mapped during the search (target_search's /safe_goto), heading held.")
+    struct NavigateToTarget_Goal {
+      double latitude;
+
+      double longitude;
+
+      @verbatim (language="comment", text=
+        "local NED z to fly at (the search altitude)")
+      float z;
+
+      @verbatim (language="comment", text=
+        "rad; NaN = keep")
+      float yaw;
+
+      @verbatim (language="comment", text=
+        "m/s; <= 0 = default")
+      float speed;
+
+      @verbatim (language="comment", text=
+        "m, arrival check; <= 0 = node parameter (1.0)")
+      float tolerance;
+    };
+    struct NavigateToTarget_Result {
+      boolean success;
+
+      string message;
+
+      @verbatim (language="comment", text=
+        "the waypoint in local NED")
+      geometry_msgs::msg::Point target;
+
+      @verbatim (language="comment", text=
+        "vehicle position on arrival")
+      geometry_msgs::msg::Point position;
+
+      boolean detoured;
+    };
+    struct NavigateToTarget_Feedback {
+      string state;
+
+      @verbatim (language="comment", text=
+        "m to the waypoint")
+      float distance;
+    };
+  };
+};

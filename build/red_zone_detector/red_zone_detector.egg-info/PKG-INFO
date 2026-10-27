@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: red-zone-detector
+Version: 0.1.0
+Summary: HSV red / restricted-zone detector (red_zone_node from Shiva007-RAndom/Qr-and-red-zone-detection)
+Maintainer: AeroTHON team
+Maintainer-email: harrydybalaforever123@gmail.com
+License: Apache-2.0

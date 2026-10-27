@@ -1,0 +1,852 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+-- Found std_msgs: 5.3.8 (/opt/ros/jazzy/share/std_msgs/cmake)
+-- Found geometry_msgs: 5.3.8 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+-- Found ament_cmake_ros: 0.12.1 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+-- Found PythonExtra: /usr/bin/python3  
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Configuring done (3.4s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/mission_interfaces
+[  0%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[  0%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[  0%] Built target ament_cmake_python_symlink_mission_interfaces
+running egg_info
+creating mission_interfaces.egg-info
+writing mission_interfaces.egg-info/PKG-INFO
+writing dependency_links to mission_interfaces.egg-info/dependency_links.txt
+writing top-level names to mission_interfaces.egg-info/top_level.txt
+writing manifest file 'mission_interfaces.egg-info/SOURCES.txt'
+reading manifest file 'mission_interfaces.egg-info/SOURCES.txt'
+writing manifest file 'mission_interfaces.egg-info/SOURCES.txt'
+[  0%] Built target ament_cmake_python_build_mission_interfaces_egg
+[  0%] Built target mission_interfaces__rosidl_generator_type_description
+[  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[  1%] Built target mission_interfaces__rs
+[  1%] Built target mission_interfaces__cpp
+[  3%] [32mBuilding C object CMakeFiles/mission_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mission_interfaces/action/detail/takeoff__functions.c.o[0m
+[  3%] [32mBuilding C object CMakeFiles/mission_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mission_interfaces/action/detail/go_to__type_support.c.o[0m
+[  3%] [32mBuilding C object CMakeFiles/mission_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mission_interfaces/action/detail/takeoff__type_support.c.o[0m
+[  3%] [32mBuilding C object CMakeFiles/mission_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mission_interfaces/action/detail/land__description.c.o[0m
+[  4%] [32mBuilding C object CMakeFiles/mission_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mission_interfaces/action/detail/land__functions.c.o[0m
+[  3%] [32mBuilding C object CMakeFiles/mission_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mission_interfaces/action/detail/go_to__functions.c.o[0m
+[  3%] [32mBuilding C object CMakeFiles/mission_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mission_interfaces/action/detail/takeoff__description.c.o[0m
+[  5%] [32mBuilding C object CMakeFiles/mission_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mission_interfaces/msg/detail/vehicle_state__description.c.o[0m
+[  5%] [32mBuilding C object CMakeFiles/mission_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mission_interfaces/action/detail/land__type_support.c.o[0m
+[  5%] [32mBuilding C object CMakeFiles/mission_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mission_interfaces/msg/detail/vehicle_state__functions.c.o[0m
+[  5%] [32mBuilding C object CMakeFiles/mission_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mission_interfaces/msg/detail/motor_status__functions.c.o[0m
+[  5%] [32mBuilding C object CMakeFiles/mission_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mission_interfaces/msg/detail/vehicle_state__type_support.c.o[0m
+[  5%] [32mBuilding C object CMakeFiles/mission_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mission_interfaces/action/detail/go_to__description.c.o[0m
+[  6%] [32mBuilding C object CMakeFiles/mission_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mission_interfaces/msg/detail/motor_status__description.c.o[0m
+[  7%] [32mBuilding C object CMakeFiles/mission_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mission_interfaces/msg/detail/motor_status__type_support.c.o[0m
+[  7%] [32mBuilding C object CMakeFiles/mission_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mission_interfaces/msg/detail/position_setpoint__description.c.o[0m
+[  7%] [32mBuilding C object CMakeFiles/mission_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mission_interfaces/msg/detail/position_setpoint__functions.c.o[0m
+[  8%] [32mBuilding C object CMakeFiles/mission_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mission_interfaces/msg/detail/position_setpoint__type_support.c.o[0m
+[ 10%] [32mBuilding C object CMakeFiles/mission_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mission_interfaces/msg/detail/banner_detection__functions.c.o[0m
+[ 10%] [32mBuilding C object CMakeFiles/mission_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mission_interfaces/msg/detail/qr_detection__description.c.o[0m
+[ 10%] [32mBuilding C object CMakeFiles/mission_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mission_interfaces/msg/detail/banner_detection__description.c.o[0m
+[ 10%] [32mBuilding C object CMakeFiles/mission_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mission_interfaces/msg/detail/qr_detection__functions.c.o[0m
+[ 10%] [32mBuilding C object CMakeFiles/mission_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mission_interfaces/msg/detail/banner_detection__type_support.c.o[0m
+[ 10%] [32mBuilding C object CMakeFiles/mission_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mission_interfaces/msg/detail/qr_detection__type_support.c.o[0m
+[ 11%] [32mBuilding C object CMakeFiles/mission_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mission_interfaces/srv/detail/set_banner_color__description.c.o[0m
+[ 11%] [32mBuilding C object CMakeFiles/mission_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mission_interfaces/srv/detail/set_banner_color__functions.c.o[0m
+[ 11%] [32mBuilding C object CMakeFiles/mission_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mission_interfaces/srv/detail/set_banner_color__type_support.c.o[0m
+[ 13%] [32mBuilding C object CMakeFiles/mission_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mission_interfaces/msg/detail/red_patch__description.c.o[0m
+[ 13%] [32mBuilding C object CMakeFiles/mission_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mission_interfaces/msg/detail/red_patch__type_support.c.o[0m
+[ 13%] [32mBuilding C object CMakeFiles/mission_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mission_interfaces/msg/detail/red_patch__functions.c.o[0m
+[ 13%] [32mBuilding C object CMakeFiles/mission_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mission_interfaces/msg/detail/red_zone_result__description.c.o[0m
+[ 13%] [32mBuilding C object CMakeFiles/mission_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mission_interfaces/msg/detail/red_zone_result__functions.c.o[0m
+[ 14%] [32mBuilding C object CMakeFiles/mission_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mission_interfaces/msg/detail/red_zone_result__type_support.c.o[0m
+[ 14%] [32mBuilding C object CMakeFiles/mission_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mission_interfaces/msg/detail/red_map__description.c.o[0m
+[ 14%] [32mBuilding C object CMakeFiles/mission_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mission_interfaces/msg/detail/red_map__functions.c.o[0m
+[ 15%] [32mBuilding C object CMakeFiles/mission_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mission_interfaces/msg/detail/red_map__type_support.c.o[0m
+[ 15%] [32mBuilding C object CMakeFiles/mission_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mission_interfaces/action/detail/capture_reference__description.c.o[0m
+[ 16%] [32mBuilding C object CMakeFiles/mission_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mission_interfaces/action/detail/capture_reference__functions.c.o[0m
+[ 16%] [32mBuilding C object CMakeFiles/mission_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mission_interfaces/action/detail/search_banner__description.c.o[0m
+[ 16%] [32mBuilding C object CMakeFiles/mission_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mission_interfaces/action/detail/capture_reference__type_support.c.o[0m
+[ 17%] [32mBuilding C object CMakeFiles/mission_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mission_interfaces/action/detail/search_banner__functions.c.o[0m
+[ 18%] [32mBuilding C object CMakeFiles/mission_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mission_interfaces/action/detail/search_banner__type_support.c.o[0m
+[ 18%] [32mBuilding C object CMakeFiles/mission_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mission_interfaces/action/detail/align_banner__description.c.o[0m
+[ 18%] [32mBuilding C object CMakeFiles/mission_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mission_interfaces/action/detail/align_banner__functions.c.o[0m
+[ 18%] [32mBuilding C object CMakeFiles/mission_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mission_interfaces/action/detail/align_banner__type_support.c.o[0m
+[ 19%] [32mBuilding C object CMakeFiles/mission_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mission_interfaces/action/detail/traverse_corridor__description.c.o[0m
+[ 19%] [32mBuilding C object CMakeFiles/mission_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mission_interfaces/action/detail/traverse_corridor__functions.c.o[0m
+[ 20%] [32mBuilding C object CMakeFiles/mission_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mission_interfaces/action/detail/traverse_corridor__type_support.c.o[0m
+[ 20%] [32mBuilding C object CMakeFiles/mission_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mission_interfaces/action/detail/search_target__description.c.o[0m
+[ 20%] [32mBuilding C object CMakeFiles/mission_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mission_interfaces/action/detail/search_target__functions.c.o[0m
+[ 20%] [32mBuilding C object CMakeFiles/mission_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mission_interfaces/action/detail/safe_goto__description.c.o[0m
+[ 21%] [32mBuilding C object CMakeFiles/mission_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mission_interfaces/action/detail/search_target__type_support.c.o[0m
+[ 21%] [32mBuilding C object CMakeFiles/mission_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mission_interfaces/action/detail/safe_goto__functions.c.o[0m
+[ 22%] [32mBuilding C object CMakeFiles/mission_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mission_interfaces/action/detail/safe_goto__type_support.c.o[0m
+[ 22%] [32mBuilding C object CMakeFiles/mission_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mission_interfaces/action/detail/lawnmower_search__description.c.o[0m
+[ 23%] [32mBuilding C object CMakeFiles/mission_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mission_interfaces/action/detail/lawnmower_search__functions.c.o[0m
+[ 23%] [32mBuilding C object CMakeFiles/mission_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mission_interfaces/action/detail/lawnmower_search__type_support.c.o[0m
+[ 23%] [32mBuilding C object CMakeFiles/mission_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mission_interfaces/action/detail/center_on_qr__description.c.o[0m
+[ 24%] [32mBuilding C object CMakeFiles/mission_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mission_interfaces/action/detail/center_on_qr__functions.c.o[0m
+[ 24%] [32mBuilding C object CMakeFiles/mission_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mission_interfaces/action/detail/center_on_qr__type_support.c.o[0m
+[ 25%] [32mBuilding C object CMakeFiles/mission_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mission_interfaces/action/detail/navigate_to_target__description.c.o[0m
+[ 25%] [32mBuilding C object CMakeFiles/mission_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mission_interfaces/action/detail/navigate_to_target__functions.c.o[0m
+[ 25%] [32mBuilding C object CMakeFiles/mission_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mission_interfaces/action/detail/navigate_to_target__type_support.c.o[0m
+[ 26%] [32mBuilding C object CMakeFiles/mission_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mission_interfaces/action/detail/payload_drop__description.c.o[0m
+[ 26%] [32mBuilding C object CMakeFiles/mission_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mission_interfaces/action/detail/payload_drop__functions.c.o[0m
+[ 27%] [32mBuilding C object CMakeFiles/mission_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mission_interfaces/action/detail/payload_drop__type_support.c.o[0m
+[ 27%] [32mBuilding C object CMakeFiles/mission_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mission_interfaces/msg/detail/mission_status__description.c.o[0m
+[ 27%] [32mBuilding C object CMakeFiles/mission_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mission_interfaces/msg/detail/mission_status__functions.c.o[0m
+[ 28%] [32mBuilding C object CMakeFiles/mission_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mission_interfaces/msg/detail/mission_status__type_support.c.o[0m
+[ 28%] [32m[1mLinking C shared library libmission_interfaces__rosidl_generator_c.so[0m
+[ 28%] Built target mission_interfaces__rosidl_generator_c
+[ 30%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 30%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 30%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 30%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 30%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 30%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/mission_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/mission_interfaces/msg/vehicle_state__type_support.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/mission_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/mission_interfaces/action/land__type_support.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/mission_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/mission_interfaces/action/go_to__type_support.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/mission_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/mission_interfaces/action/takeoff__type_support.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/mission_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/mission_interfaces/msg/banner_detection__type_support.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/mission_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/mission_interfaces/msg/position_setpoint__type_support.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/mission_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/mission_interfaces/msg/motor_status__type_support.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/mission_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/mission_interfaces/msg/red_patch__type_support.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/mission_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/mission_interfaces/msg/qr_detection__type_support.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/mission_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/mission_interfaces/srv/set_banner_color__type_support.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/mission_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/mission_interfaces/msg/red_zone_result__type_support.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/mission_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/mission_interfaces/msg/red_map__type_support.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/mission_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/mission_interfaces/action/capture_reference__type_support.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/mission_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/mission_interfaces/action/search_banner__type_support.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/mission_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/mission_interfaces/action/align_banner__type_support.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/mission_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/mission_interfaces/action/traverse_corridor__type_support.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/mission_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/mission_interfaces/action/search_target__type_support.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/mission_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/mission_interfaces/action/safe_goto__type_support.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/mission_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/mission_interfaces/action/lawnmower_search__type_support.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/mission_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/mission_interfaces/action/center_on_qr__type_support.cpp.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/mission_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/mission_interfaces/action/navigate_to_target__type_support.cpp.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/mission_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/mission_interfaces/action/payload_drop__type_support.cpp.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/mission_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/mission_interfaces/msg/mission_status__type_support.cpp.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/mission_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mission_interfaces/action/go_to__type_support.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/mission_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mission_interfaces/action/land__type_support.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/mission_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mission_interfaces/action/takeoff__type_support.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/mission_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mission_interfaces/msg/motor_status__type_support.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/mission_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mission_interfaces/msg/qr_detection__type_support.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/mission_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mission_interfaces/msg/position_setpoint__type_support.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/mission_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mission_interfaces/msg/banner_detection__type_support.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/mission_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mission_interfaces/srv/set_banner_color__type_support.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/mission_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mission_interfaces/msg/vehicle_state__type_support.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/mission_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mission_interfaces/msg/red_patch__type_support.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/mission_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mission_interfaces/msg/red_zone_result__type_support.cpp.o[0m
+[ 44%] [32m[1mLinking CXX shared library libmission_interfaces__rosidl_typesupport_c.so[0m
+[ 44%] Built target mission_interfaces__rosidl_typesupport_c
+[ 45%] [32mBuilding CXX object CMakeFiles/mission_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mission_interfaces/msg/red_map__type_support.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/mission_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mission_interfaces/action/capture_reference__type_support.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/mission_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mission_interfaces/action/search_banner__type_support.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/mission_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mission_interfaces/action/align_banner__type_support.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/mission_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mission_interfaces/action/traverse_corridor__type_support.cpp.o[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/mission_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mission_interfaces/action/search_target__type_support.cpp.o[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/mission_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mission_interfaces/action/safe_goto__type_support.cpp.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/mission_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mission_interfaces/action/lawnmower_search__type_support.cpp.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/mission_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mission_interfaces/action/center_on_qr__type_support.cpp.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/mission_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mission_interfaces/action/navigate_to_target__type_support.cpp.o[0m
+[ 49%] [32mBuilding CXX object CMakeFiles/mission_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mission_interfaces/action/payload_drop__type_support.cpp.o[0m
+[ 49%] [32mBuilding CXX object CMakeFiles/mission_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mission_interfaces/msg/mission_status__type_support.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/mission_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mission_interfaces/action/detail/go_to__type_support.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/mission_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mission_interfaces/action/detail/takeoff__type_support.cpp.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/mission_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mission_interfaces/msg/detail/vehicle_state__type_support.cpp.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/mission_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mission_interfaces/action/detail/land__type_support.cpp.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/mission_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mission_interfaces/msg/detail/motor_status__type_support.cpp.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/mission_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mission_interfaces/msg/detail/position_setpoint__type_support.cpp.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/mission_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mission_interfaces/msg/detail/banner_detection__type_support.cpp.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/mission_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mission_interfaces/msg/detail/qr_detection__type_support.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/mission_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mission_interfaces/srv/detail/set_banner_color__type_support.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/mission_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mission_interfaces/msg/detail/red_patch__type_support.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/mission_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mission_interfaces/msg/detail/red_zone_result__type_support.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/mission_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mission_interfaces/msg/detail/red_map__type_support.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/mission_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mission_interfaces/action/detail/capture_reference__type_support.cpp.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/mission_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mission_interfaces/action/detail/search_banner__type_support.cpp.o[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/mission_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mission_interfaces/action/detail/align_banner__type_support.cpp.o[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/mission_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mission_interfaces/action/detail/traverse_corridor__type_support.cpp.o[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/mission_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mission_interfaces/action/detail/search_target__type_support.cpp.o[0m
+[ 57%] [32m[1mLinking CXX shared library libmission_interfaces__rosidl_typesupport_cpp.so[0m
+[ 57%] [32mBuilding C object CMakeFiles/mission_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mission_interfaces/action/detail/takeoff__type_support.c.o[0m
+[ 57%] [32mBuilding C object CMakeFiles/mission_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mission_interfaces/action/detail/go_to__type_support.c.o[0m
+[ 58%] [32mBuilding C object CMakeFiles/mission_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mission_interfaces/action/detail/land__type_support.c.o[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/mission_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mission_interfaces/action/detail/safe_goto__type_support.cpp.o[0m
+[ 59%] [32mBuilding C object CMakeFiles/mission_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mission_interfaces/msg/detail/vehicle_state__type_support.c.o[0m
+[ 59%] [32mBuilding C object CMakeFiles/mission_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mission_interfaces/msg/detail/motor_status__type_support.c.o[0m
+[ 59%] [32mBuilding C object CMakeFiles/mission_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mission_interfaces/msg/detail/position_setpoint__type_support.c.o[0m
+[ 59%] Built target mission_interfaces__rosidl_typesupport_cpp
+[ 59%] [32mBuilding C object CMakeFiles/mission_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mission_interfaces/msg/detail/banner_detection__type_support.c.o[0m
+[ 60%] [32mBuilding C object CMakeFiles/mission_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mission_interfaces/msg/detail/qr_detection__type_support.c.o[0m
+[ 60%] [32mBuilding C object CMakeFiles/mission_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mission_interfaces/srv/detail/set_banner_color__type_support.c.o[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/mission_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mission_interfaces/action/detail/lawnmower_search__type_support.cpp.o[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/mission_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mission_interfaces/action/detail/center_on_qr__type_support.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/mission_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mission_interfaces/action/detail/navigate_to_target__type_support.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/mission_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mission_interfaces/action/detail/payload_drop__type_support.cpp.o[0m
+[ 62%] [32mBuilding C object CMakeFiles/mission_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mission_interfaces/msg/detail/red_patch__type_support.c.o[0m
+[ 63%] [32mBuilding C object CMakeFiles/mission_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mission_interfaces/msg/detail/red_zone_result__type_support.c.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/mission_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mission_interfaces/msg/detail/mission_status__type_support.cpp.o[0m
+[ 63%] [32mBuilding C object CMakeFiles/mission_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mission_interfaces/msg/detail/red_map__type_support.c.o[0m
+[ 64%] [32mBuilding C object CMakeFiles/mission_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mission_interfaces/action/detail/capture_reference__type_support.c.o[0m
+[ 64%] [32mBuilding C object CMakeFiles/mission_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mission_interfaces/action/detail/search_banner__type_support.c.o[0m
+[ 64%] [32mBuilding C object CMakeFiles/mission_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mission_interfaces/action/detail/align_banner__type_support.c.o[0m
+[ 65%] [32mBuilding C object CMakeFiles/mission_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mission_interfaces/action/detail/traverse_corridor__type_support.c.o[0m
+[ 65%] [32mBuilding C object CMakeFiles/mission_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mission_interfaces/action/detail/search_target__type_support.c.o[0m
+[ 66%] [32mBuilding C object CMakeFiles/mission_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mission_interfaces/action/detail/safe_goto__type_support.c.o[0m
+[ 66%] [32mBuilding C object CMakeFiles/mission_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mission_interfaces/action/detail/lawnmower_search__type_support.c.o[0m
+[ 66%] [32mBuilding C object CMakeFiles/mission_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mission_interfaces/action/detail/center_on_qr__type_support.c.o[0m
+[ 67%] [32mBuilding C object CMakeFiles/mission_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mission_interfaces/action/detail/navigate_to_target__type_support.c.o[0m
+[ 67%] [32mBuilding C object CMakeFiles/mission_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mission_interfaces/action/detail/payload_drop__type_support.c.o[0m
+[ 68%] [32mBuilding C object CMakeFiles/mission_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mission_interfaces/msg/detail/mission_status__type_support.c.o[0m
+[ 68%] [32m[1mLinking C shared library libmission_interfaces__rosidl_typesupport_introspection_c.so[0m
+[ 68%] Built target mission_interfaces__rosidl_typesupport_introspection_c
+[ 69%] [32m[1mLinking CXX shared library libmission_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[ 69%] Built target mission_interfaces__rosidl_typesupport_introspection_cpp
+[ 71%] [32mBuilding CXX object CMakeFiles/mission_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mission_interfaces/msg/detail/dds_fastrtps/vehicle_state__type_support.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/mission_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mission_interfaces/action/detail/dds_fastrtps/land__type_support.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/mission_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mission_interfaces/msg/detail/dds_fastrtps/position_setpoint__type_support.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/mission_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mission_interfaces/action/detail/dds_fastrtps/takeoff__type_support.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/mission_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mission_interfaces/action/detail/dds_fastrtps/go_to__type_support.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/mission_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mission_interfaces/msg/detail/dds_fastrtps/qr_detection__type_support.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/mission_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mission_interfaces/srv/detail/dds_fastrtps/set_banner_color__type_support.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/mission_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mission_interfaces/msg/detail/dds_fastrtps/banner_detection__type_support.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/mission_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mission_interfaces/msg/detail/dds_fastrtps/red_patch__type_support.cpp.o[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/mission_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mission_interfaces/msg/detail/dds_fastrtps/motor_status__type_support.cpp.o[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/mission_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mission_interfaces/msg/detail/dds_fastrtps/red_zone_result__type_support.cpp.o[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/mission_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mission_interfaces/action/detail/dds_fastrtps/search_banner__type_support.cpp.o[0m
+[ 74%] [32mBuilding CXX object CMakeFiles/mission_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mission_interfaces/action/detail/dds_fastrtps/capture_reference__type_support.cpp.o[0m
+[ 74%] [32mBuilding CXX object CMakeFiles/mission_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mission_interfaces/msg/detail/dds_fastrtps/red_map__type_support.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/mission_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mission_interfaces/action/detail/dds_fastrtps/align_banner__type_support.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/mission_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mission_interfaces/action/detail/dds_fastrtps/traverse_corridor__type_support.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/mission_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mission_interfaces/action/detail/dds_fastrtps/search_target__type_support.cpp.o[0m
+[ 76%] [32mBuilding CXX object CMakeFiles/mission_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mission_interfaces/action/detail/dds_fastrtps/safe_goto__type_support.cpp.o[0m
+[ 76%] [32mBuilding CXX object CMakeFiles/mission_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mission_interfaces/action/detail/dds_fastrtps/lawnmower_search__type_support.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/mission_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mission_interfaces/action/detail/dds_fastrtps/navigate_to_target__type_support.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/mission_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mission_interfaces/action/detail/dds_fastrtps/center_on_qr__type_support.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/mission_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mission_interfaces/action/detail/dds_fastrtps/payload_drop__type_support.cpp.o[0m
+[ 78%] [32mBuilding CXX object CMakeFiles/mission_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mission_interfaces/msg/detail/dds_fastrtps/mission_status__type_support.cpp.o[0m
+[ 78%] [32mBuilding CXX object CMakeFiles/mission_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mission_interfaces/action/detail/takeoff__type_support_c.cpp.o[0m
+[ 79%] [32mBuilding CXX object CMakeFiles/mission_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mission_interfaces/action/detail/go_to__type_support_c.cpp.o[0m
+[ 79%] [32mBuilding CXX object CMakeFiles/mission_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mission_interfaces/action/detail/land__type_support_c.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/mission_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mission_interfaces/msg/detail/vehicle_state__type_support_c.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/mission_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mission_interfaces/msg/detail/motor_status__type_support_c.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/mission_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mission_interfaces/msg/detail/position_setpoint__type_support_c.cpp.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/mission_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mission_interfaces/msg/detail/banner_detection__type_support_c.cpp.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/mission_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mission_interfaces/msg/detail/qr_detection__type_support_c.cpp.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/mission_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mission_interfaces/srv/detail/set_banner_color__type_support_c.cpp.o[0m
+[ 82%] [32mBuilding CXX object CMakeFiles/mission_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mission_interfaces/msg/detail/red_patch__type_support_c.cpp.o[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/mission_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mission_interfaces/msg/detail/red_zone_result__type_support_c.cpp.o[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/mission_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mission_interfaces/msg/detail/red_map__type_support_c.cpp.o[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/mission_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mission_interfaces/action/detail/capture_reference__type_support_c.cpp.o[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/mission_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mission_interfaces/action/detail/search_banner__type_support_c.cpp.o[0m
+[ 84%] [32mBuilding CXX object CMakeFiles/mission_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mission_interfaces/action/detail/align_banner__type_support_c.cpp.o[0m
+[ 84%] [32mBuilding CXX object CMakeFiles/mission_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mission_interfaces/action/detail/traverse_corridor__type_support_c.cpp.o[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/mission_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mission_interfaces/action/detail/search_target__type_support_c.cpp.o[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/mission_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mission_interfaces/action/detail/safe_goto__type_support_c.cpp.o[0m
+[ 86%] [32mBuilding CXX object CMakeFiles/mission_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mission_interfaces/action/detail/center_on_qr__type_support_c.cpp.o[0m
+[ 86%] [32mBuilding CXX object CMakeFiles/mission_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mission_interfaces/action/detail/lawnmower_search__type_support_c.cpp.o[0m
+[ 86%] [32mBuilding CXX object CMakeFiles/mission_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mission_interfaces/action/detail/navigate_to_target__type_support_c.cpp.o[0m
+[ 87%] [32mBuilding CXX object CMakeFiles/mission_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mission_interfaces/action/detail/payload_drop__type_support_c.cpp.o[0m
+[ 87%] [32m[1mLinking CXX shared library libmission_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 87%] [32mBuilding CXX object CMakeFiles/mission_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mission_interfaces/msg/detail/mission_status__type_support_c.cpp.o[0m
+[ 87%] Built target mission_interfaces__rosidl_typesupport_fastrtps_cpp
+[ 87%] [32m[1mLinking CXX shared library libmission_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[ 87%] Built target mission_interfaces__rosidl_typesupport_fastrtps_c
+[ 87%] Built target mission_interfaces
+[ 87%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 87%] Built target mission_interfaces__py
+[ 90%] [32mBuilding C object CMakeFiles/mission_interfaces__rosidl_generator_py.dir/rosidl_generator_py/mission_interfaces/action/_go_to_s.c.o[0m
+[ 90%] [32mBuilding C object CMakeFiles/mission_interfaces__rosidl_generator_py.dir/rosidl_generator_py/mission_interfaces/action/_land_s.c.o[0m
+[ 90%] [32mBuilding C object CMakeFiles/mission_interfaces__rosidl_generator_py.dir/rosidl_generator_py/mission_interfaces/msg/_position_setpoint_s.c.o[0m
+[ 90%] [32mBuilding C object CMakeFiles/mission_interfaces__rosidl_generator_py.dir/rosidl_generator_py/mission_interfaces/msg/_qr_detection_s.c.o[0m
+[ 90%] [32mBuilding C object CMakeFiles/mission_interfaces__rosidl_generator_py.dir/rosidl_generator_py/mission_interfaces/msg/_banner_detection_s.c.o[0m
+[ 90%] [32mBuilding C object CMakeFiles/mission_interfaces__rosidl_generator_py.dir/rosidl_generator_py/mission_interfaces/msg/_motor_status_s.c.o[0m
+[ 90%] [32mBuilding C object CMakeFiles/mission_interfaces__rosidl_generator_py.dir/rosidl_generator_py/mission_interfaces/action/_takeoff_s.c.o[0m
+[ 90%] [32mBuilding C object CMakeFiles/mission_interfaces__rosidl_generator_py.dir/rosidl_generator_py/mission_interfaces/msg/_vehicle_state_s.c.o[0m
+[ 91%] [32mBuilding C object CMakeFiles/mission_interfaces__rosidl_generator_py.dir/rosidl_generator_py/mission_interfaces/srv/_set_banner_color_s.c.o[0m
+[ 91%] [32mBuilding C object CMakeFiles/mission_interfaces__rosidl_generator_py.dir/rosidl_generator_py/mission_interfaces/msg/_red_patch_s.c.o[0m
+[ 91%] [32mBuilding C object CMakeFiles/mission_interfaces__rosidl_generator_py.dir/rosidl_generator_py/mission_interfaces/msg/_red_zone_result_s.c.o[0m
+[ 92%] [32mBuilding C object CMakeFiles/mission_interfaces__rosidl_generator_py.dir/rosidl_generator_py/mission_interfaces/msg/_red_map_s.c.o[0m
+[ 92%] [32mBuilding C object CMakeFiles/mission_interfaces__rosidl_generator_py.dir/rosidl_generator_py/mission_interfaces/action/_capture_reference_s.c.o[0m
+[ 93%] [32mBuilding C object CMakeFiles/mission_interfaces__rosidl_generator_py.dir/rosidl_generator_py/mission_interfaces/action/_search_banner_s.c.o[0m
+[ 93%] [32mBuilding C object CMakeFiles/mission_interfaces__rosidl_generator_py.dir/rosidl_generator_py/mission_interfaces/action/_align_banner_s.c.o[0m
+[ 93%] [32mBuilding C object CMakeFiles/mission_interfaces__rosidl_generator_py.dir/rosidl_generator_py/mission_interfaces/action/_traverse_corridor_s.c.o[0m
+[ 94%] [32mBuilding C object CMakeFiles/mission_interfaces__rosidl_generator_py.dir/rosidl_generator_py/mission_interfaces/action/_search_target_s.c.o[0m
+[ 94%] [32mBuilding C object CMakeFiles/mission_interfaces__rosidl_generator_py.dir/rosidl_generator_py/mission_interfaces/action/_safe_goto_s.c.o[0m
+[ 95%] [32mBuilding C object CMakeFiles/mission_interfaces__rosidl_generator_py.dir/rosidl_generator_py/mission_interfaces/action/_lawnmower_search_s.c.o[0m
+[ 95%] [32mBuilding C object CMakeFiles/mission_interfaces__rosidl_generator_py.dir/rosidl_generator_py/mission_interfaces/action/_center_on_qr_s.c.o[0m
+[ 95%] [32mBuilding C object CMakeFiles/mission_interfaces__rosidl_generator_py.dir/rosidl_generator_py/mission_interfaces/action/_navigate_to_target_s.c.o[0m
+[ 96%] [32mBuilding C object CMakeFiles/mission_interfaces__rosidl_generator_py.dir/rosidl_generator_py/mission_interfaces/msg/_mission_status_s.c.o[0m
+[ 96%] [32mBuilding C object CMakeFiles/mission_interfaces__rosidl_generator_py.dir/rosidl_generator_py/mission_interfaces/action/_payload_drop_s.c.o[0m
+[ 97%] [32m[1mLinking C shared library libmission_interfaces__rosidl_generator_py.so[0m
+[ 97%] Built target mission_interfaces__rosidl_generator_py
+[ 97%] [32mBuilding C object CMakeFiles/mission_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/mission_interfaces/_mission_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 98%] [32mBuilding C object CMakeFiles/mission_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/mission_interfaces/_mission_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[ 98%] [32mBuilding C object CMakeFiles/mission_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/mission_interfaces/_mission_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[100%] [32m[1mLinking C shared module rosidl_generator_py/mission_interfaces/mission_interfaces_s__rosidl_typesupport_introspection_c.so[0m
+[100%] [32m[1mLinking C shared module rosidl_generator_py/mission_interfaces/mission_interfaces_s__rosidl_typesupport_fastrtps_c.so[0m
+[100%] [32m[1mLinking C shared module rosidl_generator_py/mission_interfaces/mission_interfaces_s__rosidl_typesupport_c.so[0m
+[100%] Built target mission_interfaces_s__rosidl_typesupport_introspection_c
+[100%] Built target mission_interfaces_s__rosidl_typesupport_fastrtps_c
+[100%] Built target mission_interfaces_s__rosidl_typesupport_c
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/ament_index/resource_index/rosidl_interfaces/mission_interfaces
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/mission_interfaces/action/Takeoff.json
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/mission_interfaces/action/GoTo.json
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/mission_interfaces/action/Land.json
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/mission_interfaces/msg/VehicleState.json
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/mission_interfaces/msg/MotorStatus.json
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/mission_interfaces/msg/PositionSetpoint.json
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/mission_interfaces/msg/BannerDetection.json
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/mission_interfaces/msg/QrDetection.json
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/mission_interfaces/srv/SetBannerColor.json
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/mission_interfaces/msg/RedPatch.json
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/mission_interfaces/msg/RedZoneResult.json
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/mission_interfaces/msg/RedMap.json
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/mission_interfaces/action/CaptureReference.json
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/mission_interfaces/action/SearchBanner.json
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/mission_interfaces/action/AlignBanner.json
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/mission_interfaces/action/TraverseCorridor.json
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/mission_interfaces/action/SearchTarget.json
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/mission_interfaces/action/SafeGoto.json
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/mission_interfaces/action/LawnmowerSearch.json
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/mission_interfaces/action/CenterOnQr.json
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/mission_interfaces/action/NavigateToTarget.json
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/mission_interfaces/action/PayloadDrop.json
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/mission_interfaces/msg/MissionStatus.json
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/align_banner.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/capture_reference.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/center_on_qr.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/align_banner__functions.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/align_banner__struct.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/align_banner__type_support.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/capture_reference__functions.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/capture_reference__struct.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/capture_reference__type_support.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/center_on_qr__functions.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/center_on_qr__struct.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/center_on_qr__type_support.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/go_to__functions.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/go_to__struct.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/go_to__type_support.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/land__functions.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/land__struct.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/land__type_support.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/lawnmower_search__functions.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/lawnmower_search__struct.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/lawnmower_search__type_support.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/navigate_to_target__functions.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/navigate_to_target__struct.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/navigate_to_target__type_support.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/payload_drop__functions.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/payload_drop__struct.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/payload_drop__type_support.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/safe_goto__functions.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/safe_goto__struct.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/safe_goto__type_support.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/search_banner__functions.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/search_banner__struct.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/search_banner__type_support.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/search_target__functions.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/search_target__struct.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/search_target__type_support.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/takeoff__functions.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/takeoff__struct.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/takeoff__type_support.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/traverse_corridor__functions.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/traverse_corridor__struct.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/traverse_corridor__type_support.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/go_to.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/land.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/lawnmower_search.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/navigate_to_target.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/payload_drop.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/safe_goto.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/search_banner.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/search_target.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/takeoff.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/traverse_corridor.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/banner_detection.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/detail/banner_detection__functions.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/detail/banner_detection__struct.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/detail/banner_detection__type_support.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/detail/mission_status__functions.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/detail/mission_status__struct.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/detail/mission_status__type_support.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/detail/motor_status__functions.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/detail/motor_status__struct.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/detail/motor_status__type_support.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/detail/position_setpoint__functions.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/detail/position_setpoint__struct.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/detail/position_setpoint__type_support.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/detail/qr_detection__functions.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/detail/qr_detection__struct.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/detail/qr_detection__type_support.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/detail/red_map__functions.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/detail/red_map__struct.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/detail/red_map__type_support.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/detail/red_patch__functions.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/detail/red_patch__struct.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/detail/red_patch__type_support.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/detail/red_zone_result__functions.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/detail/red_zone_result__struct.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/detail/red_zone_result__type_support.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/detail/vehicle_state__functions.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/detail/vehicle_state__struct.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/detail/vehicle_state__type_support.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/mission_status.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/motor_status.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/position_setpoint.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/qr_detection.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/red_map.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/red_patch.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/red_zone_result.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/rosidl_generator_c__visibility_control.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/vehicle_state.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/srv/detail/set_banner_color__functions.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/srv/detail/set_banner_color__struct.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/srv/detail/set_banner_color__type_support.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/srv/set_banner_color.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/mission_interfaces/environment/library_path.sh
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/mission_interfaces/environment/library_path.dsv
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/align_banner__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/capture_reference__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/center_on_qr__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/go_to__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/land__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/lawnmower_search__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/navigate_to_target__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/payload_drop__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/safe_goto__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/search_banner__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/search_target__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/takeoff__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/traverse_corridor__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/detail/banner_detection__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/detail/mission_status__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/detail/motor_status__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/detail/position_setpoint__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/detail/qr_detection__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/detail/red_map__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/detail/red_patch__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/detail/red_zone_result__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/detail/vehicle_state__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/srv/detail/set_banner_color__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/align_banner__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/capture_reference__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/center_on_qr__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/go_to__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/land__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/lawnmower_search__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/navigate_to_target__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/payload_drop__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/safe_goto__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/search_banner__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/search_target__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/takeoff__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/traverse_corridor__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/detail/banner_detection__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/detail/mission_status__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/detail/motor_status__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/detail/position_setpoint__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/detail/qr_detection__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/detail/red_map__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/detail/red_patch__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/detail/red_zone_result__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/detail/vehicle_state__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/srv/detail/set_banner_color__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/align_banner.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/capture_reference.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/center_on_qr.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/align_banner__builder.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/align_banner__struct.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/align_banner__traits.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/align_banner__type_support.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/capture_reference__builder.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/capture_reference__struct.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/capture_reference__traits.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/capture_reference__type_support.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/center_on_qr__builder.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/center_on_qr__struct.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/center_on_qr__traits.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/center_on_qr__type_support.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/go_to__builder.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/go_to__struct.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/go_to__traits.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/go_to__type_support.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/land__builder.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/land__struct.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/land__traits.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/land__type_support.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/lawnmower_search__builder.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/lawnmower_search__struct.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/lawnmower_search__traits.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/lawnmower_search__type_support.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/navigate_to_target__builder.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/navigate_to_target__struct.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/navigate_to_target__traits.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/navigate_to_target__type_support.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/payload_drop__builder.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/payload_drop__struct.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/payload_drop__traits.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/payload_drop__type_support.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/safe_goto__builder.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/safe_goto__struct.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/safe_goto__traits.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/safe_goto__type_support.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/search_banner__builder.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/search_banner__struct.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/search_banner__traits.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/search_banner__type_support.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/search_target__builder.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/search_target__struct.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/search_target__traits.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/search_target__type_support.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/takeoff__builder.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/takeoff__struct.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/takeoff__traits.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/takeoff__type_support.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/traverse_corridor__builder.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/traverse_corridor__struct.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/traverse_corridor__traits.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/traverse_corridor__type_support.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/go_to.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/land.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/lawnmower_search.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/navigate_to_target.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/payload_drop.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/safe_goto.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/search_banner.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/search_target.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/takeoff.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/traverse_corridor.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/banner_detection.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/detail/banner_detection__builder.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/detail/banner_detection__struct.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/detail/banner_detection__traits.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/detail/banner_detection__type_support.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/detail/mission_status__builder.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/detail/mission_status__struct.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/detail/mission_status__traits.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/detail/mission_status__type_support.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/detail/motor_status__builder.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/detail/motor_status__struct.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/detail/motor_status__traits.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/detail/motor_status__type_support.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/detail/position_setpoint__builder.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/detail/position_setpoint__struct.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/detail/position_setpoint__traits.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/detail/position_setpoint__type_support.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/detail/qr_detection__builder.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/detail/qr_detection__struct.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/detail/qr_detection__traits.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/detail/qr_detection__type_support.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/detail/red_map__builder.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/detail/red_map__struct.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/detail/red_map__traits.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/detail/red_map__type_support.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/detail/red_patch__builder.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/detail/red_patch__struct.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/detail/red_patch__traits.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/detail/red_patch__type_support.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/detail/red_zone_result__builder.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/detail/red_zone_result__struct.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/detail/red_zone_result__traits.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/detail/red_zone_result__type_support.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/detail/vehicle_state__builder.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/detail/vehicle_state__struct.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/detail/vehicle_state__traits.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/detail/vehicle_state__type_support.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/mission_status.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/motor_status.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/position_setpoint.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/qr_detection.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/red_map.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/red_patch.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/red_zone_result.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/vehicle_state.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/srv/detail/set_banner_color__builder.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/srv/detail/set_banner_color__struct.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/srv/detail/set_banner_color__traits.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/srv/detail/set_banner_color__type_support.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/srv/set_banner_color.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/align_banner__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/capture_reference__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/center_on_qr__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/go_to__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/land__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/lawnmower_search__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/navigate_to_target__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/payload_drop__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/safe_goto__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/search_banner__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/search_target__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/takeoff__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/traverse_corridor__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/detail/banner_detection__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/detail/mission_status__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/detail/motor_status__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/detail/position_setpoint__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/detail/qr_detection__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/detail/red_map__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/detail/red_patch__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/detail/red_zone_result__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/detail/vehicle_state__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/srv/detail/set_banner_color__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/align_banner__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/capture_reference__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/center_on_qr__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/go_to__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/land__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/lawnmower_search__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/navigate_to_target__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/payload_drop__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/safe_goto__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/search_banner__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/search_target__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/takeoff__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/action/detail/traverse_corridor__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/detail/banner_detection__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/detail/mission_status__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/detail/motor_status__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/detail/position_setpoint__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/detail/qr_detection__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/detail/red_map__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/detail/red_patch__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/detail/red_zone_result__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/msg/detail/vehicle_state__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/include/mission_interfaces/mission_interfaces/srv/detail/set_banner_color__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/mission_interfaces/environment/pythonpath.sh
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/mission_interfaces/environment/pythonpath.dsv
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/lib/python3.12/site-packages/mission_interfaces-0.1.0-py3.12.egg-info/PKG-INFO
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/lib/python3.12/site-packages/mission_interfaces-0.1.0-py3.12.egg-info/SOURCES.txt
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/lib/python3.12/site-packages/mission_interfaces-0.1.0-py3.12.egg-info/dependency_links.txt
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/lib/python3.12/site-packages/mission_interfaces-0.1.0-py3.12.egg-info/top_level.txt
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/lib/python3.12/site-packages/mission_interfaces/__init__.py
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/lib/python3.12/site-packages/mission_interfaces/_mission_interfaces_s.ep.rosidl_typesupport_c.c
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/lib/python3.12/site-packages/mission_interfaces/_mission_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/lib/python3.12/site-packages/mission_interfaces/_mission_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/lib/python3.12/site-packages/mission_interfaces/action/__init__.py
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/lib/python3.12/site-packages/mission_interfaces/action/_align_banner.py
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/lib/python3.12/site-packages/mission_interfaces/action/_align_banner_s.c
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/lib/python3.12/site-packages/mission_interfaces/action/_capture_reference.py
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/lib/python3.12/site-packages/mission_interfaces/action/_capture_reference_s.c
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/lib/python3.12/site-packages/mission_interfaces/action/_center_on_qr.py
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/lib/python3.12/site-packages/mission_interfaces/action/_center_on_qr_s.c
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/lib/python3.12/site-packages/mission_interfaces/action/_go_to.py
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/lib/python3.12/site-packages/mission_interfaces/action/_go_to_s.c
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/lib/python3.12/site-packages/mission_interfaces/action/_land.py
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/lib/python3.12/site-packages/mission_interfaces/action/_land_s.c
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/lib/python3.12/site-packages/mission_interfaces/action/_lawnmower_search.py
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/lib/python3.12/site-packages/mission_interfaces/action/_lawnmower_search_s.c
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/lib/python3.12/site-packages/mission_interfaces/action/_navigate_to_target.py
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/lib/python3.12/site-packages/mission_interfaces/action/_navigate_to_target_s.c
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/lib/python3.12/site-packages/mission_interfaces/action/_payload_drop.py
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/lib/python3.12/site-packages/mission_interfaces/action/_payload_drop_s.c
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/lib/python3.12/site-packages/mission_interfaces/action/_safe_goto.py
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/lib/python3.12/site-packages/mission_interfaces/action/_safe_goto_s.c
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/lib/python3.12/site-packages/mission_interfaces/action/_search_banner.py
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/lib/python3.12/site-packages/mission_interfaces/action/_search_banner_s.c
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/lib/python3.12/site-packages/mission_interfaces/action/_search_target.py
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/lib/python3.12/site-packages/mission_interfaces/action/_search_target_s.c
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/lib/python3.12/site-packages/mission_interfaces/action/_takeoff.py
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/lib/python3.12/site-packages/mission_interfaces/action/_takeoff_s.c
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/lib/python3.12/site-packages/mission_interfaces/action/_traverse_corridor.py
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/lib/python3.12/site-packages/mission_interfaces/action/_traverse_corridor_s.c
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/lib/python3.12/site-packages/mission_interfaces/mission_interfaces_s__rosidl_typesupport_c.so
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/lib/python3.12/site-packages/mission_interfaces/mission_interfaces_s__rosidl_typesupport_fastrtps_c.so
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/lib/python3.12/site-packages/mission_interfaces/mission_interfaces_s__rosidl_typesupport_introspection_c.so
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/lib/python3.12/site-packages/mission_interfaces/msg/__init__.py
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/lib/python3.12/site-packages/mission_interfaces/msg/_banner_detection.py
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/lib/python3.12/site-packages/mission_interfaces/msg/_banner_detection_s.c
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/lib/python3.12/site-packages/mission_interfaces/msg/_mission_status.py
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/lib/python3.12/site-packages/mission_interfaces/msg/_mission_status_s.c
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/lib/python3.12/site-packages/mission_interfaces/msg/_motor_status.py
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/lib/python3.12/site-packages/mission_interfaces/msg/_motor_status_s.c
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/lib/python3.12/site-packages/mission_interfaces/msg/_position_setpoint.py
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/lib/python3.12/site-packages/mission_interfaces/msg/_position_setpoint_s.c
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/lib/python3.12/site-packages/mission_interfaces/msg/_qr_detection.py
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/lib/python3.12/site-packages/mission_interfaces/msg/_qr_detection_s.c
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/lib/python3.12/site-packages/mission_interfaces/msg/_red_map.py
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/lib/python3.12/site-packages/mission_interfaces/msg/_red_map_s.c
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/lib/python3.12/site-packages/mission_interfaces/msg/_red_patch.py
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/lib/python3.12/site-packages/mission_interfaces/msg/_red_patch_s.c
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/lib/python3.12/site-packages/mission_interfaces/msg/_red_zone_result.py
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/lib/python3.12/site-packages/mission_interfaces/msg/_red_zone_result_s.c
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/lib/python3.12/site-packages/mission_interfaces/msg/_vehicle_state.py
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/lib/python3.12/site-packages/mission_interfaces/msg/_vehicle_state_s.c
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/lib/python3.12/site-packages/mission_interfaces/srv/__init__.py
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/lib/python3.12/site-packages/mission_interfaces/srv/_set_banner_color.py
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/lib/python3.12/site-packages/mission_interfaces/srv/_set_banner_color_s.c
+-- Up-to-date symlink: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/lib/python3.12/site-packages/mission_interfaces/mission_interfaces_s__rosidl_typesupport_fastrtps_c.so
+-- Up-to-date symlink: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/lib/python3.12/site-packages/mission_interfaces/mission_interfaces_s__rosidl_typesupport_introspection_c.so
+-- Up-to-date symlink: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/lib/python3.12/site-packages/mission_interfaces/mission_interfaces_s__rosidl_typesupport_c.so
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/ament_index/resource_index/rust_packages/mission_interfaces
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/mission_interfaces/rust/Cargo.toml
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/mission_interfaces/rust/build.rs
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/mission_interfaces/rust/src/action.rs
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/mission_interfaces/rust/src/action/rmw.rs
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/mission_interfaces/rust/src/lib.rs
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/mission_interfaces/rust/src/msg.rs
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/mission_interfaces/rust/src/msg/rmw.rs
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/mission_interfaces/rust/src/srv.rs
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/mission_interfaces/rust/src/srv/rmw.rs
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/mission_interfaces/action/Takeoff.idl
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/mission_interfaces/action/GoTo.idl
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/mission_interfaces/action/Land.idl
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/mission_interfaces/msg/VehicleState.idl
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/mission_interfaces/msg/MotorStatus.idl
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/mission_interfaces/msg/PositionSetpoint.idl
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/mission_interfaces/msg/BannerDetection.idl
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/mission_interfaces/msg/QrDetection.idl
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/mission_interfaces/srv/SetBannerColor.idl
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/mission_interfaces/msg/RedPatch.idl
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/mission_interfaces/msg/RedZoneResult.idl
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/mission_interfaces/msg/RedMap.idl
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/mission_interfaces/action/CaptureReference.idl
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/mission_interfaces/action/SearchBanner.idl
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/mission_interfaces/action/AlignBanner.idl
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/mission_interfaces/action/TraverseCorridor.idl
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/mission_interfaces/action/SearchTarget.idl
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/mission_interfaces/action/SafeGoto.idl
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/mission_interfaces/action/LawnmowerSearch.idl
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/mission_interfaces/action/CenterOnQr.idl
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/mission_interfaces/action/NavigateToTarget.idl
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/mission_interfaces/action/PayloadDrop.idl
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/mission_interfaces/msg/MissionStatus.idl
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/mission_interfaces/action/Takeoff.action
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/mission_interfaces/action/GoTo.action
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/mission_interfaces/action/Land.action
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/mission_interfaces/msg/VehicleState.msg
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/mission_interfaces/msg/MotorStatus.msg
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/mission_interfaces/msg/PositionSetpoint.msg
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/mission_interfaces/msg/BannerDetection.msg
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/mission_interfaces/msg/QrDetection.msg
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/mission_interfaces/srv/SetBannerColor.srv
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/mission_interfaces/msg/RedPatch.msg
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/mission_interfaces/msg/RedZoneResult.msg
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/mission_interfaces/msg/RedMap.msg
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/mission_interfaces/action/CaptureReference.action
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/mission_interfaces/action/SearchBanner.action
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/mission_interfaces/action/AlignBanner.action
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/mission_interfaces/action/TraverseCorridor.action
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/mission_interfaces/action/SearchTarget.action
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/mission_interfaces/action/SafeGoto.action
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/mission_interfaces/action/LawnmowerSearch.action
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/mission_interfaces/action/CenterOnQr.action
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/mission_interfaces/action/NavigateToTarget.action
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/mission_interfaces/action/PayloadDrop.action
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/mission_interfaces/msg/MissionStatus.msg
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/ament_index/resource_index/package_run_dependencies/mission_interfaces
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/ament_index/resource_index/parent_prefix_path/mission_interfaces
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/mission_interfaces/environment/ament_prefix_path.sh
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/mission_interfaces/environment/ament_prefix_path.dsv
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/mission_interfaces/environment/path.sh
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/mission_interfaces/environment/path.dsv
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/mission_interfaces/local_setup.bash
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/mission_interfaces/local_setup.sh
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/mission_interfaces/local_setup.zsh
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/mission_interfaces/local_setup.dsv
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/mission_interfaces/package.dsv
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/ament_index/resource_index/packages/mission_interfaces
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/mission_interfaces/cmake/rosidl_cmake-extras.cmake
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/mission_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/mission_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/mission_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/mission_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/mission_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/mission_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/mission_interfaces/cmake/rosidl_cmake_aggregate_target-extras.cmake
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/mission_interfaces/cmake/mission_interfacesConfig.cmake
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/mission_interfaces/cmake/mission_interfacesConfig-version.cmake
+-- Symlinking: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/mission_interfaces/package.xml
+-- Installing: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/lib/libmission_interfaces__rosidl_generator_c.so
+-- Set non-toolchain portion of runtime path of "/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/lib/libmission_interfaces__rosidl_generator_c.so" to ""
+-- Installing: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/lib/libmission_interfaces__rosidl_typesupport_fastrtps_c.so
+-- Set non-toolchain portion of runtime path of "/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/lib/libmission_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+-- Installing: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/lib/libmission_interfaces__rosidl_typesupport_introspection_c.so
+-- Set non-toolchain portion of runtime path of "/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/lib/libmission_interfaces__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/lib/libmission_interfaces__rosidl_typesupport_c.so
+-- Set non-toolchain portion of runtime path of "/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/lib/libmission_interfaces__rosidl_typesupport_c.so" to ""
+-- Installing: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/lib/libmission_interfaces__rosidl_typesupport_fastrtps_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/lib/libmission_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Installing: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/lib/libmission_interfaces__rosidl_typesupport_introspection_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/lib/libmission_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/lib/libmission_interfaces__rosidl_typesupport_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/lib/libmission_interfaces__rosidl_typesupport_cpp.so" to ""
+Listing '/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/lib/python3.12/site-packages/mission_interfaces'...
+Compiling '/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/lib/python3.12/site-packages/mission_interfaces/__init__.py'...
+Listing '/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/lib/python3.12/site-packages/mission_interfaces/action'...
+Compiling '/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/lib/python3.12/site-packages/mission_interfaces/action/__init__.py'...
+Compiling '/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/lib/python3.12/site-packages/mission_interfaces/action/_align_banner.py'...
+Compiling '/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/lib/python3.12/site-packages/mission_interfaces/action/_capture_reference.py'...
+Compiling '/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/lib/python3.12/site-packages/mission_interfaces/action/_center_on_qr.py'...
+Compiling '/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/lib/python3.12/site-packages/mission_interfaces/action/_go_to.py'...
+Compiling '/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/lib/python3.12/site-packages/mission_interfaces/action/_land.py'...
+Compiling '/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/lib/python3.12/site-packages/mission_interfaces/action/_lawnmower_search.py'...
+Compiling '/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/lib/python3.12/site-packages/mission_interfaces/action/_navigate_to_target.py'...
+Compiling '/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/lib/python3.12/site-packages/mission_interfaces/action/_payload_drop.py'...
+Compiling '/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/lib/python3.12/site-packages/mission_interfaces/action/_safe_goto.py'...
+Compiling '/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/lib/python3.12/site-packages/mission_interfaces/action/_search_banner.py'...
+Compiling '/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/lib/python3.12/site-packages/mission_interfaces/action/_search_target.py'...
+Compiling '/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/lib/python3.12/site-packages/mission_interfaces/action/_takeoff.py'...
+Compiling '/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/lib/python3.12/site-packages/mission_interfaces/action/_traverse_corridor.py'...
+Listing '/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/lib/python3.12/site-packages/mission_interfaces/msg'...
+Compiling '/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/lib/python3.12/site-packages/mission_interfaces/msg/__init__.py'...
+Compiling '/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/lib/python3.12/site-packages/mission_interfaces/msg/_banner_detection.py'...
+Compiling '/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/lib/python3.12/site-packages/mission_interfaces/msg/_mission_status.py'...
+Compiling '/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/lib/python3.12/site-packages/mission_interfaces/msg/_motor_status.py'...
+Compiling '/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/lib/python3.12/site-packages/mission_interfaces/msg/_position_setpoint.py'...
+Compiling '/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/lib/python3.12/site-packages/mission_interfaces/msg/_qr_detection.py'...
+Compiling '/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/lib/python3.12/site-packages/mission_interfaces/msg/_red_map.py'...
+Compiling '/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/lib/python3.12/site-packages/mission_interfaces/msg/_red_patch.py'...
+Compiling '/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/lib/python3.12/site-packages/mission_interfaces/msg/_red_zone_result.py'...
+Compiling '/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/lib/python3.12/site-packages/mission_interfaces/msg/_vehicle_state.py'...
+Listing '/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/lib/python3.12/site-packages/mission_interfaces/srv'...
+Compiling '/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/lib/python3.12/site-packages/mission_interfaces/srv/__init__.py'...
+Compiling '/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/lib/python3.12/site-packages/mission_interfaces/srv/_set_banner_color.py'...
+-- Installing: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/lib/libmission_interfaces__rosidl_generator_py.so
+-- Set non-toolchain portion of runtime path of "/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/lib/libmission_interfaces__rosidl_generator_py.so" to ""
+-- Installing: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/mission_interfaces/cmake/export_mission_interfaces__rosidl_generator_cExport.cmake
+-- Installing: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/mission_interfaces/cmake/export_mission_interfaces__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/mission_interfaces/cmake/export_mission_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/mission_interfaces/cmake/export_mission_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Installing: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/mission_interfaces/cmake/mission_interfaces__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/mission_interfaces/cmake/mission_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/mission_interfaces/cmake/mission_interfaces__rosidl_typesupport_cExport.cmake
+-- Installing: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/mission_interfaces/cmake/mission_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/mission_interfaces/cmake/export_mission_interfaces__rosidl_generator_cppExport.cmake
+-- Installing: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/mission_interfaces/cmake/export_mission_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/mission_interfaces/cmake/export_mission_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Installing: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/mission_interfaces/cmake/mission_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/mission_interfaces/cmake/mission_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/mission_interfaces/cmake/mission_interfaces__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/mission_interfaces/cmake/mission_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/mission_interfaces/cmake/export_mission_interfaces__rosidl_generator_pyExport.cmake
+-- Installing: /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/mission_interfaces/share/mission_interfaces/cmake/export_mission_interfaces__rosidl_generator_pyExport-noconfig.cmake

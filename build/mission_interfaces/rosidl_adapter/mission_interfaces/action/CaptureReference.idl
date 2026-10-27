@@ -1,0 +1,33 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from mission_interfaces/action/CaptureReference.action
+// generated code does not contain a copyright notice
+
+
+module mission_interfaces {
+  module action {
+    @verbatim (language="comment", text=
+      "qr_detector: memorise the first QR code seen by the camera as the matching reference." "\n"
+      "The reference comes only from the camera (never loaded from disk); a copy is saved for logging." "\n"
+      "No timeout: the goal runs until a QR is seen or the goal is cancelled (the mission tree moves the drone" "\n"
+      "in a small search pattern meanwhile).")
+    struct CaptureReference_Goal {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct CaptureReference_Result {
+      boolean success;
+
+      string message;
+
+      @verbatim (language="comment", text=
+        "saved warp of the captured QR (\"\" if saving failed)")
+      string image_path;
+
+      string decoded_text;
+    };
+    struct CaptureReference_Feedback {
+      @verbatim (language="comment", text=
+        "s since the goal started")
+      float elapsed;
+    };
+  };
+};

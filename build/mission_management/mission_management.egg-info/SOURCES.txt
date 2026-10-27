@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+mission_management/__init__.py
+mission_management/config.py
+mission_management/mission_math.py
+mission_management/mission_tree.py
+mission_management/steps.py
+mission_management.egg-info/PKG-INFO
+mission_management.egg-info/SOURCES.txt
+mission_management.egg-info/dependency_links.txt
+mission_management.egg-info/entry_points.txt
+mission_management.egg-info/requires.txt
+mission_management.egg-info/top_level.txt
+mission_management.egg-info/zip-safe
+resource/mission_management

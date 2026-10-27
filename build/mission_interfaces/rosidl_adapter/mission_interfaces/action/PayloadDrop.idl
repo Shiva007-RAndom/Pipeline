@@ -1,0 +1,39 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from mission_interfaces/action/PayloadDrop.action
+// generated code does not contain a copyright notice
+
+
+module mission_interfaces {
+  module action {
+    @verbatim (language="comment", text=
+      "payload_drop: release the payload with two PWM commands on one servo output (MAV_CMD_DO_SET_SERVO, in" "\n"
+      "GUIDED, no mode change): open_pwm, wait `interval` s, close_pwm. Zero / negative fields = node parameters.")
+    struct PayloadDrop_Goal {
+      @verbatim (language="comment", text=
+        "SERVOn output (Cube Orange: 9 = AUX1)")
+      uint8 channel;
+
+      @verbatim (language="comment", text=
+        "us, releases the payload")
+      uint16 open_pwm;
+
+      @verbatim (language="comment", text=
+        "us, back to the closed / reset position")
+      uint16 close_pwm;
+
+      @verbatim (language="comment", text=
+        "s between the two commands")
+      float interval;
+    };
+    struct PayloadDrop_Result {
+      boolean success;
+
+      string message;
+
+      uint16 payloads_delivered;
+    };
+    struct PayloadDrop_Feedback {
+      string state;
+    };
+  };
+};

@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "mission_interfaces/action/Takeoff_Goal",
+      "fields": [
+        {
+          "name": "altitude",
+          "type": {
+            "type_id": 10,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "mission_interfaces/action/Takeoff_Goal",
+      "hash_string": "RIHS01_a60141e2e26f08b0b5744a114ac8f1ef68e982ffe310cef5d2ac429c40a57e3a"
+    }
+  ]
+}

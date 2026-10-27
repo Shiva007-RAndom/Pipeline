@@ -1,0 +1,95 @@
+running develop
+running egg_info
+creating bc_sim.egg-info
+writing bc_sim.egg-info/PKG-INFO
+writing dependency_links to bc_sim.egg-info/dependency_links.txt
+writing entry points to bc_sim.egg-info/entry_points.txt
+writing requirements to bc_sim.egg-info/requires.txt
+writing top-level names to bc_sim.egg-info/top_level.txt
+writing manifest file 'bc_sim.egg-info/SOURCES.txt'
+reading manifest file 'bc_sim.egg-info/SOURCES.txt'
+writing manifest file 'bc_sim.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/bc_sim/lib/python3.12/site-packages/bc-sim.egg-link (link to .)
+Installing gz_camera_relay script to /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/bc_sim/lib/bc_sim
+
+Installed /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/bc_sim
+running symlink_data
+creating /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/bc_sim/share/ament_index
+creating /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/bc_sim/share/ament_index/resource_index
+creating /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/bc_sim/share/ament_index/resource_index/packages
+symbolically linking /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/bc_sim/resource/bc_sim -> /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/bc_sim/share/ament_index/resource_index/packages
+symbolically linking /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/bc_sim/package.xml -> /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/bc_sim/share/bc_sim
+creating /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/bc_sim/share/bc_sim/launch
+symbolically linking /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/bc_sim/launch/sitl.launch.py -> /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/bc_sim/share/bc_sim/launch
+creating /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/bc_sim/share/bc_sim/worlds
+symbolically linking /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/bc_sim/worlds/aerothon_mission2_ardupilot.sdf -> /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/bc_sim/share/bc_sim/worlds
+creating /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/bc_sim/share/bc_sim/config
+symbolically linking /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/bc_sim/config/sim_mission.yaml -> /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/bc_sim/share/bc_sim/config
+symbolically linking /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/bc_sim/config/delivery_zone.gazebo.txt -> /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/bc_sim/share/bc_sim/config
+symbolically linking /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/bc_sim/config/sim_lite.yaml -> /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/bc_sim/share/bc_sim/config
+symbolically linking /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/bc_sim/config/sitl.parm -> /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/bc_sim/share/bc_sim/config
+creating /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/bc_sim/share/bc_sim/scripts
+symbolically linking /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/bc_sim/scripts/run_sitl.sh -> /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/bc_sim/share/bc_sim/scripts
+symbolically linking /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/bc_sim/scripts/make_banner_textures.py -> /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/bc_sim/share/bc_sim/scripts
+creating /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/bc_sim/share/bc_sim/models
+creating /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/bc_sim/share/bc_sim/models/qr_d
+symbolically linking /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/bc_sim/models/qr_d/model.sdf -> /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/bc_sim/share/bc_sim/models/qr_d
+symbolically linking /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/bc_sim/models/qr_d/model.config -> /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/bc_sim/share/bc_sim/models/qr_d
+creating /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/bc_sim/share/bc_sim/models/qr_d/materials
+creating /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/bc_sim/share/bc_sim/models/qr_d/materials/textures
+symbolically linking /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/bc_sim/models/qr_d/materials/textures/qr_d_tile.png -> /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/bc_sim/share/bc_sim/models/qr_d/materials/textures
+creating /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/bc_sim/share/bc_sim/models/black_obstacle
+symbolically linking /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/bc_sim/models/black_obstacle/model.sdf -> /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/bc_sim/share/bc_sim/models/black_obstacle
+symbolically linking /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/bc_sim/models/black_obstacle/model.config -> /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/bc_sim/share/bc_sim/models/black_obstacle
+creating /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/bc_sim/share/bc_sim/models/iris_down_cam
+symbolically linking /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/bc_sim/models/iris_down_cam/model.sdf -> /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/bc_sim/share/bc_sim/models/iris_down_cam
+symbolically linking /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/bc_sim/models/iris_down_cam/model.config -> /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/bc_sim/share/bc_sim/models/iris_down_cam
+creating /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/bc_sim/share/bc_sim/models/qr_e
+symbolically linking /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/bc_sim/models/qr_e/model.sdf -> /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/bc_sim/share/bc_sim/models/qr_e
+symbolically linking /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/bc_sim/models/qr_e/model.config -> /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/bc_sim/share/bc_sim/models/qr_e
+creating /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/bc_sim/share/bc_sim/models/qr_e/materials
+creating /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/bc_sim/share/bc_sim/models/qr_e/materials/textures
+symbolically linking /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/bc_sim/models/qr_e/materials/textures/qr_e_tile.png -> /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/bc_sim/share/bc_sim/models/qr_e/materials/textures
+creating /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/bc_sim/share/bc_sim/models/qr_a
+symbolically linking /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/bc_sim/models/qr_a/model.sdf -> /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/bc_sim/share/bc_sim/models/qr_a
+symbolically linking /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/bc_sim/models/qr_a/model.config -> /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/bc_sim/share/bc_sim/models/qr_a
+creating /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/bc_sim/share/bc_sim/models/qr_a/materials
+creating /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/bc_sim/share/bc_sim/models/qr_a/materials/textures
+symbolically linking /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/bc_sim/models/qr_a/materials/textures/qr_a_tile.png -> /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/bc_sim/share/bc_sim/models/qr_a/materials/textures
+creating /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/bc_sim/share/bc_sim/models/red_zone
+symbolically linking /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/bc_sim/models/red_zone/model.sdf -> /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/bc_sim/share/bc_sim/models/red_zone
+symbolically linking /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/bc_sim/models/red_zone/model.config -> /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/bc_sim/share/bc_sim/models/red_zone
+creating /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/bc_sim/share/bc_sim/models/green_banner_ground
+symbolically linking /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/bc_sim/models/green_banner_ground/model.sdf -> /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/bc_sim/share/bc_sim/models/green_banner_ground
+symbolically linking /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/bc_sim/models/green_banner_ground/model.config -> /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/bc_sim/share/bc_sim/models/green_banner_ground
+creating /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/bc_sim/share/bc_sim/models/green_banner_ground/materials
+creating /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/bc_sim/share/bc_sim/models/green_banner_ground/materials/textures
+symbolically linking /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/bc_sim/models/green_banner_ground/materials/textures/green_banner_ground.png -> /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/bc_sim/share/bc_sim/models/green_banner_ground/materials/textures
+creating /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/bc_sim/share/bc_sim/models/qr_b
+symbolically linking /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/bc_sim/models/qr_b/model.sdf -> /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/bc_sim/share/bc_sim/models/qr_b
+symbolically linking /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/bc_sim/models/qr_b/model.config -> /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/bc_sim/share/bc_sim/models/qr_b
+creating /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/bc_sim/share/bc_sim/models/qr_b/materials
+creating /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/bc_sim/share/bc_sim/models/qr_b/materials/textures
+symbolically linking /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/bc_sim/models/qr_b/materials/textures/qr_b_tile.png -> /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/bc_sim/share/bc_sim/models/qr_b/materials/textures
+creating /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/bc_sim/share/bc_sim/models/takeoff_pad
+symbolically linking /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/bc_sim/models/takeoff_pad/model.sdf -> /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/bc_sim/share/bc_sim/models/takeoff_pad
+symbolically linking /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/bc_sim/models/takeoff_pad/model.config -> /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/bc_sim/share/bc_sim/models/takeoff_pad
+creating /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/bc_sim/share/bc_sim/models/blue_banner_ground
+symbolically linking /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/bc_sim/models/blue_banner_ground/model.sdf -> /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/bc_sim/share/bc_sim/models/blue_banner_ground
+symbolically linking /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/bc_sim/models/blue_banner_ground/model.config -> /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/bc_sim/share/bc_sim/models/blue_banner_ground
+creating /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/bc_sim/share/bc_sim/models/blue_banner_ground/materials
+creating /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/bc_sim/share/bc_sim/models/blue_banner_ground/materials/textures
+symbolically linking /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/bc_sim/models/blue_banner_ground/materials/textures/blue_banner_ground.png -> /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/bc_sim/share/bc_sim/models/blue_banner_ground/materials/textures
+creating /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/bc_sim/share/bc_sim/models/qr_c
+symbolically linking /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/bc_sim/models/qr_c/model.sdf -> /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/bc_sim/share/bc_sim/models/qr_c
+symbolically linking /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/bc_sim/models/qr_c/model.config -> /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/bc_sim/share/bc_sim/models/qr_c
+creating /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/bc_sim/share/bc_sim/models/qr_c/materials
+creating /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/bc_sim/share/bc_sim/models/qr_c/materials/textures
+symbolically linking /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/bc_sim/models/qr_c/materials/textures/qr_c_tile.png -> /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/bc_sim/share/bc_sim/models/qr_c/materials/textures
+creating /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/bc_sim/share/bc_sim/models/qr_start
+symbolically linking /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/bc_sim/models/qr_start/model.sdf -> /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/bc_sim/share/bc_sim/models/qr_start
+symbolically linking /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/bc_sim/models/qr_start/model.config -> /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/bc_sim/share/bc_sim/models/qr_start
+creating /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/bc_sim/share/bc_sim/models/qr_start/materials
+creating /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/bc_sim/share/bc_sim/models/qr_start/materials/textures
+symbolically linking /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/bc_sim/models/qr_start/materials/textures/qr_start_tile.png -> /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/bc_sim/share/bc_sim/models/qr_start/materials/textures

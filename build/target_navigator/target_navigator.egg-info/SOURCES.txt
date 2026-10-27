@@ -1,0 +1,14 @@
+package.xml
+setup.cfg
+setup.py
+resource/target_navigator
+target_navigator/__init__.py
+target_navigator/target_navigator_node.py
+target_navigator/waypoint.py
+target_navigator.egg-info/PKG-INFO
+target_navigator.egg-info/SOURCES.txt
+target_navigator.egg-info/dependency_links.txt
+target_navigator.egg-info/entry_points.txt
+target_navigator.egg-info/requires.txt
+target_navigator.egg-info/top_level.txt
+target_navigator.egg-info/zip-safe

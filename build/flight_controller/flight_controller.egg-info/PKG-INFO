@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: flight-controller
+Version: 0.1.0
+Summary: Single owner of ArduPilot GUIDED/AUTO control (via MAVROS): Takeoff, GoTo, Land actions, body velocity commands and the /flight_controller/pose vehicle state
+Maintainer: AeroTHON team
+Maintainer-email: harrydybalaforever123@gmail.com
+License: Apache-2.0

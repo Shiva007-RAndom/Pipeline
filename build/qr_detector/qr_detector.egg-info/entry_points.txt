@@ -1,0 +1,2 @@
+[console_scripts]
+qr_detector_node = qr_detector.qr_detector_node:main

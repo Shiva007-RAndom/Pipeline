@@ -1,0 +1,9 @@
+source;share/bc_sim/hook/pythonpath.ps1
+source;share/bc_sim/hook/pythonpath.dsv
+source;share/bc_sim/hook/pythonpath.sh
+source;share/bc_sim/hook/ament_prefix_path.ps1
+source;share/bc_sim/hook/ament_prefix_path.dsv
+source;share/bc_sim/hook/ament_prefix_path.sh
+source;../../build/bc_sim/share/bc_sim/hook/pythonpath_develop.ps1
+source;../../build/bc_sim/share/bc_sim/hook/pythonpath_develop.dsv
+source;../../build/bc_sim/share/bc_sim/hook/pythonpath_develop.sh

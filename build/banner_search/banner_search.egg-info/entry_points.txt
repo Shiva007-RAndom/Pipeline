@@ -1,0 +1,2 @@
+[console_scripts]
+banner_search_node = banner_search.banner_search_node:main

@@ -1,0 +1,14 @@
+package.xml
+setup.cfg
+setup.py
+red_zone_detector/__init__.py
+red_zone_detector/detection.py
+red_zone_detector/red_zone_detector_node.py
+red_zone_detector.egg-info/PKG-INFO
+red_zone_detector.egg-info/SOURCES.txt
+red_zone_detector.egg-info/dependency_links.txt
+red_zone_detector.egg-info/entry_points.txt
+red_zone_detector.egg-info/requires.txt
+red_zone_detector.egg-info/top_level.txt
+red_zone_detector.egg-info/zip-safe
+resource/red_zone_detector

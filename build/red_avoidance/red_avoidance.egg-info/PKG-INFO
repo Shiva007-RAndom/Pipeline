@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: red-avoidance
+Version: 0.1.0
+Summary: Red-zone map and avoidance navigator (avoidance.py from Shiva007-RAndom/Qr-and-red-zone-detection) plus the zone frame; no ROS
+Maintainer: AeroTHON team
+Maintainer-email: harrydybalaforever123@gmail.com
+License: Apache-2.0

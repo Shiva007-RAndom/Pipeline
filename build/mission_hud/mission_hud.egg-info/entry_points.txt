@@ -1,0 +1,2 @@
+[console_scripts]
+hud_node = mission_hud.hud_node:main

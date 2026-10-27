@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating qr_centering.egg-info
+writing qr_centering.egg-info/PKG-INFO
+writing dependency_links to qr_centering.egg-info/dependency_links.txt
+writing entry points to qr_centering.egg-info/entry_points.txt
+writing requirements to qr_centering.egg-info/requires.txt
+writing top-level names to qr_centering.egg-info/top_level.txt
+writing manifest file 'qr_centering.egg-info/SOURCES.txt'
+reading manifest file 'qr_centering.egg-info/SOURCES.txt'
+writing manifest file 'qr_centering.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/qr_centering/lib/python3.12/site-packages/qr-centering.egg-link (link to .)
+Installing qr_centering_node script to /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/qr_centering/lib/qr_centering
+
+Installed /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/qr_centering
+running symlink_data
+creating /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/qr_centering/share/ament_index
+creating /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/qr_centering/share/ament_index/resource_index
+creating /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/qr_centering/share/ament_index/resource_index/packages
+symbolically linking /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/qr_centering/resource/qr_centering -> /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/qr_centering/share/ament_index/resource_index/packages
+symbolically linking /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/qr_centering/package.xml -> /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/qr_centering/share/qr_centering

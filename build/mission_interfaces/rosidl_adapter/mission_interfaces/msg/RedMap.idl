@@ -1,0 +1,54 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from mission_interfaces/msg/RedMap.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module mission_interfaces {
+  module msg {
+    @verbatim (language="comment", text=
+      "The red seen so far (target_search, /perception/red_map, latched). Grid in the search's zone frame:" "\n"
+      "  x_z along `axis_heading` from (origin_north, origin_east), y_z 90 deg to the left of x_z" "\n"
+      "  (a rotation of the local NED frame aligned with the delivery zone's long side)." "\n"
+      "Consumers (qr_centering, target_search's SafeGoto) rebuild red_avoidance.RedMap from it.")
+    struct RedMap {
+      std_msgs::msg::Header header;
+
+      double origin_north;
+
+      double origin_east;
+
+      @verbatim (language="comment", text=
+        "rad, heading of +x_z")
+      double axis_heading;
+
+      @verbatim (language="comment", text=
+        "m per cell")
+      float cell;
+
+      @verbatim (language="comment", text=
+        "zone-frame coordinates of the grid's corner")
+      float grid_x0;
+
+      float grid_y0;
+
+      @verbatim (language="comment", text=
+        "cells along x_z")
+      uint32 width;
+
+      @verbatim (language="comment", text=
+        "cells along y_z")
+      uint32 height;
+
+      @verbatim (language="comment", text=
+        "row-major (row = y index), 1 = red seen")
+      sequence<uint8> data;
+
+      uint32 version;
+
+      @verbatim (language="comment", text=
+        "keep-out margin the search uses (m)")
+      float margin;
+    };
+  };
+};

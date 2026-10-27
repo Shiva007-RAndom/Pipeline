@@ -1,0 +1,14 @@
+package.xml
+setup.cfg
+setup.py
+mission_hud/__init__.py
+mission_hud/hud_node.py
+mission_hud/overlay.py
+mission_hud.egg-info/PKG-INFO
+mission_hud.egg-info/SOURCES.txt
+mission_hud.egg-info/dependency_links.txt
+mission_hud.egg-info/entry_points.txt
+mission_hud.egg-info/requires.txt
+mission_hud.egg-info/top_level.txt
+mission_hud.egg-info/zip-safe
+resource/mission_hud

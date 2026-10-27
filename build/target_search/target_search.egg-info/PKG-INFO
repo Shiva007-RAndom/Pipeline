@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: target-search
+Version: 0.1.0
+Summary: Delivery-zone QR search with red-zone avoidance (suas_aer target_search + Shiva007-RAndom avoidance)
+Maintainer: AeroTHON team
+Maintainer-email: harrydybalaforever123@gmail.com
+License: Apache-2.0

@@ -1,0 +1,29 @@
+scenario: no_blue
+outcome: ABORTED (returned home and landed)
+duration: 211.8 s
+callback exceptions: 0
+final pose: N=+0.13 E=-0.08 alt=-0.00 heading=+0.0 armed=False
+max altitude: 5.00 m
+closest approach to red: 2.34 m (at N=+31.50 E=-19.29, alt 5.0 m)
+
+stage timeline (s):
+      0.7  STAGE 1: TAKEOFF
+      8.1  STAGE 1: stabilise over the pad
+      8.9  STAGE 1: hover
+     10.5  STAGE 2: SURGE 1
+     13.3  STAGE 2: SCANNING REFERENCE QR
+     13.7  STAGE 3: SURGE 2
+     16.7  STAGE 4: SWAY LEFT (SEARCH GREEN BANNER)
+     32.3  STAGE 5: GREEN BANNER ALIGNMENT
+     37.5  STAGES 6-7: DESCEND + SURGE CORRIDOR
+     53.5  STAGE 8: MOVE LEFT + CLIMB TO TRANSIT
+     64.5  STAGE 9: TARGET SEARCH (RED-ZONE AWARE)
+    106.9  STAGE 10: QR CENTERING
+    116.7  STAGE 10: HOVER HOLD
+    131.7  STAGE 11: TRANSITION TO RETURN CORRIDOR
+    146.2  STAGE 11: TURNING TO RETURN HEADING
+    146.5  STAGE 11: turn settle
+    149.5  STAGE 11: SEARCHING BLUE BANNER
+    189.9  BLUE BANNER NOT FOUND - RETURNING HOME: climb to transit altitude
+    190.0  BLUE BANNER NOT FOUND - RETURNING HOME: fly to take-off point
+    201.3  BLUE BANNER NOT FOUND - RETURNING HOME: land

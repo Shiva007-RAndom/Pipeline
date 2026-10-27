@@ -1,0 +1,71 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from mission_interfaces/msg/QrDetection.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+#include "std_msgs/msg/Header.idl"
+
+module mission_interfaces {
+  module msg {
+    typedef float float__8[8];
+    @verbatim (language="comment", text=
+      "Output of qr_detector for one camera frame.")
+    struct QrDetection {
+      @verbatim (language="comment", text=
+        "copied from the image")
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "a QR code was found in this frame")
+      boolean detected;
+
+      @verbatim (language="comment", text=
+        "quad corners x0,y0,...,x3,y3 in px")
+      float__8 corners;
+
+      @verbatim (language="comment", text=
+        "px, centre of the quad")
+      float u;
+
+      float v;
+
+      @verbatim (language="comment", text=
+        "\"\" if it could not be decoded")
+      string decoded_text;
+
+      @verbatim (language="comment", text=
+        "a reference QR has been captured from the camera")
+      boolean reference_ready;
+
+      @verbatim (language="comment", text=
+        "4-rotation module-grid similarity to the reference, 0..1 (1.0 for a text match)")
+      float score;
+
+      @verbatim (language="comment", text=
+        "decoded text equals the reference text, or score >= match_threshold")
+      boolean matched;
+
+      float match_threshold;
+
+      uint32 image_width;
+
+      uint32 image_height;
+
+      boolean pose_valid;
+
+      float alt_rel;
+
+      float drone_x;
+
+      float drone_y;
+
+      float drone_z;
+
+      float drone_heading;
+
+      @verbatim (language="comment", text=
+        "local NED of the QR centre (pinhole reprojection), z = drone_z")
+      geometry_msgs::msg::Point position_estimate;
+    };
+  };
+};

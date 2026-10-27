@@ -1,0 +1,61 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from mission_interfaces/action/LawnmowerSearch.action
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+
+module mission_interfaces {
+  module action {
+    @verbatim (language="comment", text=
+      "lawnmower_search (stage 9): serpentine over the field, stopping at the first QR that matches the reference." "\n"
+      "  Row r starts at start + right(heading) * r * row_step and runs `length` m along `heading`;" "\n"
+      "  rows alternate direction. Heading and altitude are held for the whole search.")
+    struct LawnmowerSearch_Goal {
+      @verbatim (language="comment", text=
+        "local NED of the first row's start; z = search altitude (NED z)")
+      geometry_msgs::msg::Point start;
+
+      @verbatim (language="comment", text=
+        "rad, rows run along this heading")
+      float heading;
+
+      @verbatim (language="comment", text=
+        "m per row")
+      float length;
+
+      @verbatim (language="comment", text=
+        "m between rows, stepping to the RIGHT of `heading`")
+      float row_step;
+
+      uint8 rows;
+
+      @verbatim (language="comment", text=
+        "m/s; <= 0 = flight controller default")
+      float speed;
+
+      @verbatim (language="comment", text=
+        "m; <= 0 = flight controller default")
+      float waypoint_tolerance;
+    };
+    struct LawnmowerSearch_Result {
+      @verbatim (language="comment", text=
+        "true = matched QR found")
+      boolean success;
+
+      string message;
+
+      @verbatim (language="comment", text=
+        "local NED of the matched QR centre, z = start.z")
+      geometry_msgs::msg::Point target;
+
+      string decoded_text;
+
+      float score;
+    };
+    struct LawnmowerSearch_Feedback {
+      uint32 waypoint;
+
+      string state;
+    };
+  };
+};

@@ -1,0 +1,50 @@
+[    0.15] [INFO ] [flight_controller] Bench flight controller ready (simulation only).
+[    0.75] [INFO ] [sim_camera] Synthetic camera 1280x720 @ 15 Hz -> /camera/image_raw
+[    0.75] [INFO ] [banner_detector] [VISION WARN] RapidOCR unavailable (No module named 'rapidocr'). Running shape-only classification.
+[    0.76] [INFO ] [banner_detector] Banner detector on /camera/image_raw; colour: idle
+[    0.76] [INFO ] [qr_detector] pyzbar not available: OpenCV QR detection only.
+[    0.76] [INFO ] [red_zone_detector] Ready. Listening on '/camera/image_raw', min_area 100 px2, 1 in 1 frame(s).
+[    0.77] [INFO ] [target_search] target_search ready (hfov 1.22 rad, camera latency 0.00 s, gimbal camera).
+[    0.90] [INFO ] [mission_tree] [REFERENCE FRAME] Pad NED z = +0.00 m
+[    0.91] [INFO ] [flight_controller] [BENCH] Takeoff to 5.0 m
+[    8.66] [INFO ] [flight_controller] [BENCH-SIM] Target altitude reached: 4.5 m
+[    8.72] [INFO ] [mission_tree] [REFERENCE FRAME] Takeoff origin N=+0.00 E=+0.00, heading +0.0 deg
+[   13.82] [INFO ] [qr_detector] Scanning reference QR from the camera (timeout 12.0 s)...
+[   25.85] [WARN ] [qr_detector] no QR seen within 12.0 s
+[   25.92] [WARN ] [mission_tree] [WARN] Reference QR NOT detected from camera within the scan timeout: field QR reconnaissance (stage 9) and the hover hold (stage 10) will be SKIPPED.
+[   25.92] [WARN ] [mission_tree] 'STAGE 2: SCANNING REFERENCE QR' failed: no QR seen within 12.0 s
+[   28.82] [INFO ] [banner_detector] Detecting: GREEN
+[   42.89] [INFO ] [banner_search] [BANNER CLASSIFIED] GREEN via SHAPE at waypoint 1; estimate N=+4.31 E=-7.81
+[   44.12] [INFO ] [banner_detector] Detecting: GREEN
+[   47.73] [INFO ] [banner_align] [CENTERING] Iter 1/6: centroid (685.0, 356.0)px | Offset: 45.2px | FULL-VIEW
+[   47.73] [INFO ] [banner_align]   [HEADING ALIGN] corridor axis +0.0 deg (correction 0.0 deg <= 25)
+[   49.27] [INFO ] [banner_align] [CENTERING] Iter 2/6: centroid (669.0, 360.0)px | Offset: 29.0px | FULL-VIEW
+[   49.27] [INFO ] [banner_align]   [HEADING ALIGN] corridor axis +0.0 deg (correction 0.0 deg <= 25)
+[   50.24] [INFO ] [banner_align] [CENTERING] Iter 3/6: centroid (663.0, 360.0)px | Offset: 23.0px | FULL-VIEW
+[   50.24] [INFO ] [banner_align]   [HEADING ALIGN] corridor axis +0.0 deg (correction 0.0 deg <= 25)
+[   50.24] [INFO ] [banner_align] [CENTERING] Lock acquired: 23.0px <= 25.0px, full view.
+[   50.32] [INFO ] [mission_tree] [MEASUREMENT] Green banner N=+4.31 E=-7.52 | corridor heading +0.0 deg (measured) | sway x = 7.52 m | lock: True
+[   50.32] [INFO ] [corridor_navigator] [CORRIDOR] descending to 3.0 m (NED z -3.0)
+[   53.28] [INFO ] [corridor_navigator] [CORRIDOR] settling 1.0 s
+[   54.29] [INFO ] [corridor_navigator] [CORRIDOR] surging 10.0 m at 0.9 m/s -> N=+14.31 E=-7.52
+[   66.42] [INFO ] [corridor_navigator] [CORRIDOR EXIT] N=+14.08 E=-7.52
+[   66.52] [INFO ] [mission_tree] [STAGE 8] lateral shift left by (19.0 - x) = 11.48 m -> N=+15.08 E=-19.00
+[   77.63] [INFO ] [mission_tree] [RETURN PREDICTION] Blue entrance N=+11.31 E=-3.52 | return heading -180.0 deg
+[   96.04] [INFO ] [banner_detector] Detecting: BLUE
+[  109.92] [INFO ] [banner_search] [BANNER CLASSIFIED] BLUE via SHAPE at waypoint 3; estimate N=+11.30 E=-0.73
+[  109.93] [INFO ] [banner_detector] Detecting: BLUE
+[  112.85] [INFO ] [banner_align] [CENTERING] Iter 1/6: centroid (679.0, 360.0)px | Offset: 39.0px | FULL-VIEW
+[  112.85] [INFO ] [banner_align]   [HEADING ALIGN] corridor axis -180.0 deg (correction 0.0 deg <= 25)
+[  113.84] [INFO ] [banner_align] [CENTERING] Iter 2/6: centroid (685.0, 360.0)px | Offset: 45.0px | FULL-VIEW
+[  113.84] [INFO ] [banner_align]   [HEADING ALIGN] corridor axis -180.0 deg (correction 0.0 deg <= 25)
+[  115.42] [INFO ] [banner_align] [CENTERING] Iter 3/6: centroid (647.0, 360.0)px | Offset: 7.0px | FULL-VIEW
+[  115.42] [INFO ] [banner_align]   [HEADING ALIGN] corridor axis -180.0 deg (correction 0.0 deg <= 25)
+[  115.42] [INFO ] [banner_align] [CENTERING] Lock acquired: 7.0px <= 25.0px, full view.
+[  115.52] [INFO ] [corridor_navigator] [CORRIDOR] descending to 3.0 m (NED z -3.0)
+[  118.45] [INFO ] [corridor_navigator] [CORRIDOR] settling 1.0 s
+[  119.45] [INFO ] [corridor_navigator] [CORRIDOR] surging 10.0 m at 0.9 m/s -> N=+1.30 E=-1.02
+[  131.53] [INFO ] [corridor_navigator] [CORRIDOR EXIT] N=+1.53 E=-1.02
+[  142.12] [INFO ] [mission_tree] MISSION OBJECTIVES ACHIEVED! COMMANDING LAND...
+[  142.12] [INFO ] [flight_controller] [BENCH] Landing...
+[  146.04] [INFO ] [flight_controller] [COMPLETE] Landed and disarmed.
+[  146.14] [INFO ] [mission_tree] MISSION COMPLETED SUCCESSFULLY!

@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating flight_controller.egg-info
+writing flight_controller.egg-info/PKG-INFO
+writing dependency_links to flight_controller.egg-info/dependency_links.txt
+writing entry points to flight_controller.egg-info/entry_points.txt
+writing requirements to flight_controller.egg-info/requires.txt
+writing top-level names to flight_controller.egg-info/top_level.txt
+writing manifest file 'flight_controller.egg-info/SOURCES.txt'
+reading manifest file 'flight_controller.egg-info/SOURCES.txt'
+writing manifest file 'flight_controller.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/flight_controller/lib/python3.12/site-packages/flight-controller.egg-link (link to .)
+Installing flight_controller_node script to /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/flight_controller/lib/flight_controller
+
+Installed /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/flight_controller
+running symlink_data
+creating /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/flight_controller/share/ament_index
+creating /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/flight_controller/share/ament_index/resource_index
+creating /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/flight_controller/share/ament_index/resource_index/packages
+symbolically linking /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/flight_controller/resource/flight_controller -> /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/flight_controller/share/ament_index/resource_index/packages
+symbolically linking /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/flight_controller/package.xml -> /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/flight_controller/share/flight_controller

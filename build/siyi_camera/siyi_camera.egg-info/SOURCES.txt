@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+resource/siyi_camera
+siyi_camera/__init__.py
+siyi_camera/rtsp_camera_node.py
+siyi_camera.egg-info/PKG-INFO
+siyi_camera.egg-info/SOURCES.txt
+siyi_camera.egg-info/dependency_links.txt
+siyi_camera.egg-info/entry_points.txt
+siyi_camera.egg-info/requires.txt
+siyi_camera.egg-info/top_level.txt
+siyi_camera.egg-info/zip-safe

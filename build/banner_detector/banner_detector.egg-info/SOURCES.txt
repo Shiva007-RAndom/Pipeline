@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+banner_detector/__init__.py
+banner_detector/banner_detector_node.py
+banner_detector/detector.py
+banner_detector/ocr.py
+banner_detector/vision_test.py
+banner_detector.egg-info/PKG-INFO
+banner_detector.egg-info/SOURCES.txt
+banner_detector.egg-info/dependency_links.txt
+banner_detector.egg-info/entry_points.txt
+banner_detector.egg-info/requires.txt
+banner_detector.egg-info/top_level.txt
+banner_detector.egg-info/zip-safe
+resource/banner_detector

@@ -1,0 +1,112 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from mission_interfaces/action/SearchTarget.action
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+
+module mission_interfaces {
+  module action {
+    @verbatim (language="comment", text=
+      "target_search: search the delivery zone (geofence) for the QR that matches the reference, keeping" "\n"
+      "clear of red zones seen by the camera." "\n"
+      "  Rows: a serpentine along the zone's long side at `altitude`, spaced for `overlap` between photos." "\n"
+      "  Red: every frame's red patches are projected to the ground into a grid map (any shape, several" "\n"
+      "       zones); the drone detours round red + red_zone_margin (Shiva007-RAndom avoidance.py)." "\n"
+      "  Stop: `confirm_matches` matched detections of the same QR outside the red zone." "\n"
+      "  No match after the rows (+ revisits if max_revisits > 0): fly to the best-scoring QR seen" "\n"
+      "  (matched = false). No QR seen at all: failure.")
+    struct SearchTarget_Goal {
+      @verbatim (language="comment", text=
+        "text file, one \"lat,lon\" corner of the delivery zone per line")
+      string geofence_file;
+
+      @verbatim (language="comment", text=
+        "m above the take-off point")
+      float altitude;
+
+      @verbatim (language="comment", text=
+        "heading held during the search (rad); NaN = \"wide ahead\": the camera's long" "\n"
+        "image side along the rows, so red is seen further ahead")
+      float yaw;
+
+      @verbatim (language="comment", text=
+        "m the flight area is shrunk inwards from the geofence rectangle")
+      float wall_margin;
+
+      @verbatim (language="comment", text=
+        "overlap of neighbouring rows' footprints, 0..1")
+      float overlap;
+
+      @verbatim (language="comment", text=
+        "0 = as many as it takes to cover the zone")
+      uint8 rows;
+
+      @verbatim (language="comment", text=
+        "m/s")
+      float speed;
+
+      @verbatim (language="comment", text=
+        "m kept from any red")
+      float red_zone_margin;
+
+      @verbatim (language="comment", text=
+        "matched detections of the same QR needed (repo: 2)")
+      uint8 confirm_matches;
+
+      @verbatim (language="comment", text=
+        "fly over ground the camera missed (e.g. skipped by a detour); 0 = off")
+      uint16 max_revisits;
+
+      @verbatim (language="comment", text=
+        "s budget for the revisits")
+      float revisit_time;
+
+      @verbatim (language="comment", text=
+        "true: stop after choosing the QR and report it (target_navigator flies there);" "\n"
+        "false: fly to it round the red before reporting (as before)")
+      boolean skip_fly_to_target;
+    };
+    struct SearchTarget_Result {
+      boolean success;
+
+      string message;
+
+      @verbatim (language="comment", text=
+        "true = matched QR; false = best candidate")
+      boolean matched;
+
+      float score;
+
+      string decoded_text;
+
+      @verbatim (language="comment", text=
+        "local NED of the chosen QR (z = the search altitude's NED z)")
+      geometry_msgs::msg::Point target;
+
+      @verbatim (language="comment", text=
+        "the chosen QR's lat/lon (from the local frame's origin), for target_navigator")
+      double latitude;
+
+      double longitude;
+
+      @verbatim (language="comment", text=
+        "separate red patches in the map")
+      uint16 red_zones;
+
+      @verbatim (language="comment", text=
+        "fraction of the flight area the camera has looked at")
+      float coverage;
+    };
+    struct SearchTarget_Feedback {
+      string state;
+
+      @verbatim (language="comment", text=
+        "direct | detour | escape | blocked")
+      string steering;
+
+      float best_score;
+
+      uint16 red_zones;
+    };
+  };
+};

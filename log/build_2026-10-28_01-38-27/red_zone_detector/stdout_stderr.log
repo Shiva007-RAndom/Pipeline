@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating red_zone_detector.egg-info
+writing red_zone_detector.egg-info/PKG-INFO
+writing dependency_links to red_zone_detector.egg-info/dependency_links.txt
+writing entry points to red_zone_detector.egg-info/entry_points.txt
+writing requirements to red_zone_detector.egg-info/requires.txt
+writing top-level names to red_zone_detector.egg-info/top_level.txt
+writing manifest file 'red_zone_detector.egg-info/SOURCES.txt'
+reading manifest file 'red_zone_detector.egg-info/SOURCES.txt'
+writing manifest file 'red_zone_detector.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/red_zone_detector/lib/python3.12/site-packages/red-zone-detector.egg-link (link to .)
+Installing red_zone_detector_node script to /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/red_zone_detector/lib/red_zone_detector
+
+Installed /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/red_zone_detector
+running symlink_data
+creating /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/red_zone_detector/share/ament_index
+creating /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/red_zone_detector/share/ament_index/resource_index
+creating /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/red_zone_detector/share/ament_index/resource_index/packages
+symbolically linking /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/red_zone_detector/resource/red_zone_detector -> /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/red_zone_detector/share/ament_index/resource_index/packages
+symbolically linking /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/red_zone_detector/package.xml -> /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/red_zone_detector/share/red_zone_detector

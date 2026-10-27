@@ -1,0 +1,33 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from mission_interfaces/msg/PositionSetpoint.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module mission_interfaces {
+  module msg {
+    @verbatim (language="comment", text=
+      "Streamed position target for flight_controller (~/setpoint), local NED. Used by target_search to" "\n"
+      "follow the red-zone avoidance carrot point (published at ~20 Hz). Accepted only while GUIDED is" "\n"
+      "engaged and no action goal is running; if the stream stops for 0.5 s the vehicle holds position.")
+    struct PositionSetpoint {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "north, m")
+      float x;
+
+      @verbatim (language="comment", text=
+        "east, m")
+      float y;
+
+      @verbatim (language="comment", text=
+        "down, m")
+      float z;
+
+      @verbatim (language="comment", text=
+        "heading, rad (0 = north, clockwise); NaN = keep the current heading")
+      float yaw;
+    };
+  };
+};

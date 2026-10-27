@@ -1,0 +1,70 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from mission_interfaces/action/AlignBanner.action
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+
+module mission_interfaces {
+  module action {
+    @verbatim (language="comment", text=
+      "banner_align: fly to the banner estimate, then closed-loop position-based visual servoing until the" "\n"
+      "banner is centred and fully in view, measuring the corridor heading (perpendicular to the banner).")
+    struct AlignBanner_Goal {
+      string color;
+
+      @verbatim (language="comment", text=
+        "local NED to fly to first (from SearchBanner); z = altitude to hold")
+      geometry_msgs::msg::Point initial_target;
+
+      @verbatim (language="comment", text=
+        "rad; the 180 deg ambiguity is resolved towards it")
+      float expected_heading;
+
+      @verbatim (language="comment", text=
+        "rad; candidates further than this from expected are rejected (<= 0: 25 deg)")
+      float max_heading_correction;
+
+      uint8 max_iters;
+
+      float tol_px;
+
+      @verbatim (language="comment", text=
+        "fraction of the measured offset applied per iteration")
+      float gain;
+
+      @verbatim (language="comment", text=
+        "s to wait after each correction")
+      float settle_time;
+    };
+    struct AlignBanner_Result {
+      @verbatim (language="comment", text=
+        "false only if cancelled or the flight controller failed")
+      boolean success;
+
+      string message;
+
+      @verbatim (language="comment", text=
+        "centred within tol_px with the banner fully in view")
+      boolean locked;
+
+      @verbatim (language="comment", text=
+        "at least one heading candidate was accepted")
+      boolean heading_measured;
+
+      @verbatim (language="comment", text=
+        "last accepted candidate, else expected_heading")
+      float corridor_heading;
+
+      @verbatim (language="comment", text=
+        "final servo target (local NED)")
+      geometry_msgs::msg::Point banner_position;
+    };
+    struct AlignBanner_Feedback {
+      uint8 iteration;
+
+      float error_px;
+
+      boolean partial;
+    };
+  };
+};

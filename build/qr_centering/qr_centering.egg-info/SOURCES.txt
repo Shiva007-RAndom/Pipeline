@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+qr_centering/__init__.py
+qr_centering/qr_centering_node.py
+qr_centering.egg-info/PKG-INFO
+qr_centering.egg-info/SOURCES.txt
+qr_centering.egg-info/dependency_links.txt
+qr_centering.egg-info/entry_points.txt
+qr_centering.egg-info/requires.txt
+qr_centering.egg-info/top_level.txt
+qr_centering.egg-info/zip-safe
+resource/qr_centering

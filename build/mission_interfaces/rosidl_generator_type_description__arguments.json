@@ -1,0 +1,37 @@
+{
+  "package_name": "mission_interfaces",
+  "output_dir": "/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/mission_interfaces/rosidl_generator_type_description/mission_interfaces",
+  "idl_tuples": [
+    "/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/mission_interfaces/rosidl_adapter/mission_interfaces:action/Takeoff.idl",
+    "/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/mission_interfaces/rosidl_adapter/mission_interfaces:action/GoTo.idl",
+    "/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/mission_interfaces/rosidl_adapter/mission_interfaces:action/Land.idl",
+    "/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/mission_interfaces/rosidl_adapter/mission_interfaces:msg/VehicleState.idl",
+    "/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/mission_interfaces/rosidl_adapter/mission_interfaces:msg/MotorStatus.idl",
+    "/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/mission_interfaces/rosidl_adapter/mission_interfaces:msg/PositionSetpoint.idl",
+    "/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/mission_interfaces/rosidl_adapter/mission_interfaces:msg/BannerDetection.idl",
+    "/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/mission_interfaces/rosidl_adapter/mission_interfaces:msg/QrDetection.idl",
+    "/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/mission_interfaces/rosidl_adapter/mission_interfaces:srv/SetBannerColor.idl",
+    "/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/mission_interfaces/rosidl_adapter/mission_interfaces:msg/RedPatch.idl",
+    "/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/mission_interfaces/rosidl_adapter/mission_interfaces:msg/RedZoneResult.idl",
+    "/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/mission_interfaces/rosidl_adapter/mission_interfaces:msg/RedMap.idl",
+    "/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/mission_interfaces/rosidl_adapter/mission_interfaces:action/CaptureReference.idl",
+    "/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/mission_interfaces/rosidl_adapter/mission_interfaces:action/SearchBanner.idl",
+    "/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/mission_interfaces/rosidl_adapter/mission_interfaces:action/AlignBanner.idl",
+    "/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/mission_interfaces/rosidl_adapter/mission_interfaces:action/TraverseCorridor.idl",
+    "/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/mission_interfaces/rosidl_adapter/mission_interfaces:action/SearchTarget.idl",
+    "/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/mission_interfaces/rosidl_adapter/mission_interfaces:action/SafeGoto.idl",
+    "/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/mission_interfaces/rosidl_adapter/mission_interfaces:action/LawnmowerSearch.idl",
+    "/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/mission_interfaces/rosidl_adapter/mission_interfaces:action/CenterOnQr.idl",
+    "/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/mission_interfaces/rosidl_adapter/mission_interfaces:action/NavigateToTarget.idl",
+    "/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/mission_interfaces/rosidl_adapter/mission_interfaces:action/PayloadDrop.idl",
+    "/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/mission_interfaces/rosidl_adapter/mission_interfaces:msg/MissionStatus.idl"
+  ],
+  "include_paths": [
+    "std_msgs:/opt/ros/jazzy/share/std_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces",
+    "geometry_msgs:/opt/ros/jazzy/share/geometry_msgs",
+    "service_msgs:/opt/ros/jazzy/share/service_msgs",
+    "action_msgs:/opt/ros/jazzy/share/action_msgs",
+    "unique_identifier_msgs:/opt/ros/jazzy/share/unique_identifier_msgs"
+  ]
+}

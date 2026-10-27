@@ -1,0 +1,23 @@
+running develop
+running egg_info
+creating target_search.egg-info
+writing target_search.egg-info/PKG-INFO
+writing dependency_links to target_search.egg-info/dependency_links.txt
+writing entry points to target_search.egg-info/entry_points.txt
+writing requirements to target_search.egg-info/requires.txt
+writing top-level names to target_search.egg-info/top_level.txt
+writing manifest file 'target_search.egg-info/SOURCES.txt'
+reading manifest file 'target_search.egg-info/SOURCES.txt'
+writing manifest file 'target_search.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/target_search/lib/python3.12/site-packages/target-search.egg-link (link to .)
+Installing lawnmower_search_node script to /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/target_search/lib/target_search
+Installing target_search_node script to /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/target_search/lib/target_search
+
+Installed /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/target_search
+running symlink_data
+creating /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/target_search/share/ament_index
+creating /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/target_search/share/ament_index/resource_index
+creating /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/target_search/share/ament_index/resource_index/packages
+symbolically linking /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/target_search/resource/target_search -> /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/target_search/share/ament_index/resource_index/packages
+symbolically linking /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/target_search/package.xml -> /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/target_search/share/target_search

@@ -1,0 +1,29 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from mission_interfaces/msg/MissionStatus.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module mission_interfaces {
+  module msg {
+    @verbatim (language="comment", text=
+      "Published by mission_tree every tick (HUD header line and countdown).")
+    struct MissionStatus {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "name of the running tree step")
+      string stage;
+
+      @verbatim (language="comment", text=
+        "short text for the HUD")
+      string state_text;
+
+      @verbatim (language="comment", text=
+        "s left in a timed hold (0 = none)")
+      float countdown;
+
+      boolean reference_ready;
+    };
+  };
+};

@@ -1,0 +1,56 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from mission_interfaces/action/GoTo.action
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+
+module mission_interfaces {
+  module action {
+    module GoTo_Goal_Constants {
+      @verbatim (language="comment", text=
+        "x north, y east, z down (m), same frame as flight_controller's LocalPose (EKF origin)" "\n"        "NaN x/y/z = keep current (e.g. x=y=NaN, z=-10: climb to 10 m above origin)")
+      const uint8 FRAME_LOCAL_NED = 0;
+      @verbatim (language="comment", text=
+        "offset from the current pose: x forward, y left, z up (m)")
+      const uint8 FRAME_BODY_FLU = 1;
+    };
+    @verbatim (language="comment", text=
+      "Fly to a position in GUIDED / AUTO (requires a completed Takeoff). Cancel -> hold current position.")
+    struct GoTo_Goal {
+      uint8 frame;
+
+      float x;
+
+      float y;
+
+      float z;
+
+      @verbatim (language="comment", text=
+        "LOCAL_NED: absolute heading (rad, 0 = north, clockwise +)" "\n"
+        "BODY_FLU: heading change (rad, counter-clockwise +); NaN = keep current")
+      float yaw;
+
+      @verbatim (language="comment", text=
+        "m/s; <= 0 uses the controller default")
+      float speed;
+
+      @verbatim (language="comment", text=
+        "m; <= 0 uses the controller default")
+      float acceptance_radius;
+    };
+    struct GoTo_Result {
+      boolean success;
+
+      string message;
+
+      @verbatim (language="comment", text=
+        "local NED")
+      geometry_msgs::msg::Point final_position;
+    };
+    struct GoTo_Feedback {
+      @verbatim (language="comment", text=
+        "m")
+      float distance_remaining;
+    };
+  };
+};

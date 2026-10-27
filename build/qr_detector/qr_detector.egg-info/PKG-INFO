@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: qr-detector
+Version: 0.1.0
+Summary: QR detection and rotation-invariant 21x21 module-grid matching against a reference captured in flight
+Maintainer: AeroTHON team
+Maintainer-email: harrydybalaforever123@gmail.com
+License: Apache-2.0

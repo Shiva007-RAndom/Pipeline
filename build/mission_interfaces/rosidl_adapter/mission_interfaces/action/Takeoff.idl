@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from mission_interfaces/action/Takeoff.action
+// generated code does not contain a copyright notice
+
+
+module mission_interfaces {
+  module action {
+    @verbatim (language="comment", text=
+      "Set GUIDED, arm, climb with the GUIDED takeoff command, then hold position in GUIDED.")
+    struct Takeoff_Goal {
+      @verbatim (language="comment", text=
+        "m to climb above the current altitude")
+      float altitude;
+    };
+    struct Takeoff_Result {
+      boolean success;
+
+      string message;
+    };
+    struct Takeoff_Feedback {
+      @verbatim (language="comment", text=
+        "m")
+      float altitude_remaining;
+    };
+  };
+};

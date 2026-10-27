@@ -1,0 +1,2 @@
+[console_scripts]
+flight_controller_node = flight_controller.flight_controller_node:main

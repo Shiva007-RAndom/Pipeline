@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: banner-detector
+Version: 0.1.0
+Summary: Colour-first, strict-shape green/blue banner detector with async RapidOCR; vision tuning tool
+Maintainer: AeroTHON team
+Maintainer-email: harrydybalaforever123@gmail.com
+License: Apache-2.0

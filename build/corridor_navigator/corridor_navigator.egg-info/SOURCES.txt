@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+corridor_navigator/__init__.py
+corridor_navigator/corridor_navigator_node.py
+corridor_navigator.egg-info/PKG-INFO
+corridor_navigator.egg-info/SOURCES.txt
+corridor_navigator.egg-info/dependency_links.txt
+corridor_navigator.egg-info/entry_points.txt
+corridor_navigator.egg-info/requires.txt
+corridor_navigator.egg-info/top_level.txt
+corridor_navigator.egg-info/zip-safe
+resource/corridor_navigator

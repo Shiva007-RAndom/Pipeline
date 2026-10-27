@@ -1,0 +1,19 @@
+scenario: no_green
+outcome: ABORTED (returned home and landed)
+duration: 90.8 s
+callback exceptions: 0
+final pose: N=+0.03 E=-0.16 alt=-0.00 heading=+0.0 armed=False
+max altitude: 5.00 m
+closest approach to red: 23.03 m (at N=+3.97 E=-17.25, alt 5.0 m)
+
+stage timeline (s):
+      0.9  STAGE 1: TAKEOFF
+      8.5  STAGE 1: stabilise over the pad
+      9.2  STAGE 1: hover
+     10.7  STAGE 2: SURGE 1
+     13.6  STAGE 2: SCANNING REFERENCE QR
+     14.1  STAGE 3: SURGE 2
+     17.1  STAGE 4: SWAY LEFT (SEARCH GREEN BANNER)
+     60.8  GREEN BANNER NOT FOUND - RETURNING HOME: climb to transit altitude
+     60.9  GREEN BANNER NOT FOUND - RETURNING HOME: fly to take-off point
+     79.8  GREEN BANNER NOT FOUND - RETURNING HOME: land

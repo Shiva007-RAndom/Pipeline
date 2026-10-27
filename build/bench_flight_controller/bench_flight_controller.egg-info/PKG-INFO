@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: bench-flight-controller
+Version: 0.1.0
+Summary: Drop-in bench replacement for flight_controller (simulated kinematics, optional real motor spin in GUIDED_NOGPS) and a synthetic downward camera
+Maintainer: AeroTHON team
+Maintainer-email: harrydybalaforever123@gmail.com
+License: Apache-2.0

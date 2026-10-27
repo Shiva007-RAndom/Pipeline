@@ -1,0 +1,23 @@
+running develop
+running egg_info
+creating bench_flight_controller.egg-info
+writing bench_flight_controller.egg-info/PKG-INFO
+writing dependency_links to bench_flight_controller.egg-info/dependency_links.txt
+writing entry points to bench_flight_controller.egg-info/entry_points.txt
+writing requirements to bench_flight_controller.egg-info/requires.txt
+writing top-level names to bench_flight_controller.egg-info/top_level.txt
+writing manifest file 'bench_flight_controller.egg-info/SOURCES.txt'
+reading manifest file 'bench_flight_controller.egg-info/SOURCES.txt'
+writing manifest file 'bench_flight_controller.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/bench_flight_controller/lib/python3.12/site-packages/bench-flight-controller.egg-link (link to .)
+Installing bench_controller_node script to /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/bench_flight_controller/lib/bench_flight_controller
+Installing sim_camera_node script to /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/bench_flight_controller/lib/bench_flight_controller
+
+Installed /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/bench_flight_controller
+running symlink_data
+creating /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/bench_flight_controller/share/ament_index
+creating /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/bench_flight_controller/share/ament_index/resource_index
+creating /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/bench_flight_controller/share/ament_index/resource_index/packages
+symbolically linking /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/bench_flight_controller/resource/bench_flight_controller -> /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/bench_flight_controller/share/ament_index/resource_index/packages
+symbolically linking /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/bench_flight_controller/package.xml -> /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/bench_flight_controller/share/bench_flight_controller

@@ -1,0 +1,71 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from mission_interfaces/msg/VehicleState.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module mission_interfaces {
+  module msg {
+    @verbatim (language="comment", text=
+      "Vehicle state published by flight_controller (MAVROS) or bench_flight_controller on" "\n"
+      "/flight_controller/pose. Every mission node reads the drone pose from here, so the bench" "\n"
+      "controller can stand in for the real one without any other node noticing.")
+    struct VehicleState {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "local position is valid")
+      boolean valid;
+
+      @verbatim (language="comment", text=
+        "autopilot connected, booted and has a GPS fix (bench: always true)")
+      boolean ready;
+
+      boolean armed;
+
+      boolean airborne;
+
+      @verbatim (language="comment", text=
+        "flight mode as reported by the autopilot (\"GUIDED\", \"GUIDED_NOGPS\", ...)")
+      string mode;
+
+      @verbatim (language="comment", text=
+        "\"mavros\" | \"bench\"")
+      string controller;
+
+      @verbatim (language="comment", text=
+        "Local NED position from the EKF origin (m), heading 0 = north clockwise (rad)")
+      float x;
+
+      float y;
+
+      float z;
+
+      float heading;
+
+      float vx;
+
+      float vy;
+
+      float vz;
+
+      @verbatim (language="comment", text=
+        "m above home (take-off point); NaN if unknown")
+      float alt_rel;
+
+      @verbatim (language="comment", text=
+        "Attitude (NED earth, FRD body), rad. Used to drop camera frames taken while banking hard.")
+      float roll;
+
+      float pitch;
+
+      @verbatim (language="comment", text=
+        "Geographic position of the local frame's origin (geofence files are lat/lon)")
+      boolean xy_global;
+
+      double ref_lat;
+
+      double ref_lon;
+    };
+  };
+};

@@ -1,0 +1,15 @@
+package.xml
+setup.cfg
+setup.py
+payload_drop/__init__.py
+payload_drop/geotag.py
+payload_drop/payload_drop_node.py
+payload_drop/survey_capture_node.py
+payload_drop.egg-info/PKG-INFO
+payload_drop.egg-info/SOURCES.txt
+payload_drop.egg-info/dependency_links.txt
+payload_drop.egg-info/entry_points.txt
+payload_drop.egg-info/requires.txt
+payload_drop.egg-info/top_level.txt
+payload_drop.egg-info/zip-safe
+resource/payload_drop

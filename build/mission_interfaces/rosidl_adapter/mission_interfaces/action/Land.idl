@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from mission_interfaces/action/Land.action
+// generated code does not contain a copyright notice
+
+
+module mission_interfaces {
+  module action {
+    @verbatim (language="comment", text=
+      "Land at the current position in GUIDED (or LAND mode) and wait until disarmed.")
+    struct Land_Goal {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct Land_Result {
+      boolean success;
+
+      string message;
+    };
+    struct Land_Feedback {
+      @verbatim (language="comment", text=
+        "m above the local origin")
+      float altitude;
+    };
+  };
+};

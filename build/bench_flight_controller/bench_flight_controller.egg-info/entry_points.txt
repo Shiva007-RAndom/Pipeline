@@ -1,0 +1,3 @@
+[console_scripts]
+bench_controller_node = bench_flight_controller.bench_controller_node:main
+sim_camera_node = bench_flight_controller.sim_camera_node:main

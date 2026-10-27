@@ -1,0 +1,3 @@
+[console_scripts]
+payload_drop_node = payload_drop.payload_drop_node:main
+survey_capture_node = payload_drop.survey_capture_node:main

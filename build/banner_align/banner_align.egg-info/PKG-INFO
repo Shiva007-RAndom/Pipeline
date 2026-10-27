@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: banner-align
+Version: 0.1.0
+Summary: Position-based visual servoing over a banner; measures the corridor heading
+Maintainer: AeroTHON team
+Maintainer-email: harrydybalaforever123@gmail.com
+License: Apache-2.0

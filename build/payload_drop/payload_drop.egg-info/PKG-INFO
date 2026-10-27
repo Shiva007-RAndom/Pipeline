@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: payload-drop
+Version: 0.1.0
+Summary: Payload drop (two PWM commands) and geotagged survey frames for the target search
+Maintainer: AeroTHON team
+Maintainer-email: harrydybalaforever123@gmail.com
+License: Apache-2.0

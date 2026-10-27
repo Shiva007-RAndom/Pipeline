@@ -1,0 +1,83 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from mission_interfaces/msg/BannerDetection.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+#include "std_msgs/msg/Header.idl"
+
+module mission_interfaces {
+  module msg {
+    typedef float float__8[8];
+    @verbatim (language="comment", text=
+      "Output of banner_detector for one camera frame (published only while a colour is active).")
+    struct BannerDetection {
+      @verbatim (language="comment", text=
+        "copied from the image")
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "\"green\" | \"blue\": the colour searched for in this frame")
+      string color;
+
+      @verbatim (language="comment", text=
+        "a banner passed classification in this frame")
+      boolean detected;
+
+      @verbatim (language="comment", text=
+        "\"SHAPE\" (ratio/fill/full-view + persistence) | \"OCR\" (AeroTHON + 2026 read)")
+      string source;
+
+      string text;
+
+      @verbatim (language="comment", text=
+        "px, banner centre (reconstructed along the long axis for a partial OCR view)")
+      float u;
+
+      float v;
+
+      @verbatim (language="comment", text=
+        "TL, TR, BR, BL corners x0,y0,...,x3,y3 in px")
+      float__8 quad;
+
+      @verbatim (language="comment", text=
+        "rad, long-axis angle in the image (x right, y down), [-pi/2, pi/2)")
+      float angle;
+
+      @verbatim (language="comment", text=
+        "quad touches the image border")
+      boolean partial;
+
+      uint32 image_width;
+
+      uint32 image_height;
+
+      @verbatim (language="comment", text=
+        "colour regions above min area in this frame")
+      uint16 candidates;
+
+      @verbatim (language="comment", text=
+        "shape persistence counter")
+      uint16 consecutive_hits;
+
+      @verbatim (language="comment", text=
+        "Drone pose used for this frame (from /flight_controller/pose) and the banner position it gives")
+      boolean pose_valid;
+
+      @verbatim (language="comment", text=
+        "m above take-off")
+      float alt_rel;
+
+      float drone_x;
+
+      float drone_y;
+
+      float drone_z;
+
+      float drone_heading;
+
+      @verbatim (language="comment", text=
+        "local NED of the banner centre (pinhole reprojection), z = drone_z")
+      geometry_msgs::msg::Point position_estimate;
+    };
+  };
+};

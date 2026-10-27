@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "mission_interfaces/action/GoTo_Feedback",
+      "fields": [
+        {
+          "name": "distance_remaining",
+          "type": {
+            "type_id": 10,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "mission_interfaces/action/GoTo_Feedback",
+      "hash_string": "RIHS01_c0548c870bfb96bd78d026ba64d29fda37ece42d39f5af997bece6d1c328f3e9"
+    }
+  ]
+}

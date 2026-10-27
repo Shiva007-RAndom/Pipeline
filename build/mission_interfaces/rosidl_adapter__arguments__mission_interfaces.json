@@ -1,0 +1,28 @@
+{
+  "package_name": "mission_interfaces",
+  "non_idl_tuples": [
+    "/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/src/mission_interfaces:action/Takeoff.action",
+    "/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/src/mission_interfaces:action/GoTo.action",
+    "/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/src/mission_interfaces:action/Land.action",
+    "/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/src/mission_interfaces:msg/VehicleState.msg",
+    "/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/src/mission_interfaces:msg/MotorStatus.msg",
+    "/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/src/mission_interfaces:msg/PositionSetpoint.msg",
+    "/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/src/mission_interfaces:msg/BannerDetection.msg",
+    "/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/src/mission_interfaces:msg/QrDetection.msg",
+    "/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/src/mission_interfaces:srv/SetBannerColor.srv",
+    "/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/src/mission_interfaces:msg/RedPatch.msg",
+    "/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/src/mission_interfaces:msg/RedZoneResult.msg",
+    "/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/src/mission_interfaces:msg/RedMap.msg",
+    "/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/src/mission_interfaces:action/CaptureReference.action",
+    "/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/src/mission_interfaces:action/SearchBanner.action",
+    "/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/src/mission_interfaces:action/AlignBanner.action",
+    "/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/src/mission_interfaces:action/TraverseCorridor.action",
+    "/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/src/mission_interfaces:action/SearchTarget.action",
+    "/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/src/mission_interfaces:action/SafeGoto.action",
+    "/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/src/mission_interfaces:action/LawnmowerSearch.action",
+    "/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/src/mission_interfaces:action/CenterOnQr.action",
+    "/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/src/mission_interfaces:action/NavigateToTarget.action",
+    "/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/src/mission_interfaces:action/PayloadDrop.action",
+    "/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/src/mission_interfaces:msg/MissionStatus.msg"
+  ]
+}

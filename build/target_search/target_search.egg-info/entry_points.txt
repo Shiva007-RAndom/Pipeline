@@ -1,0 +1,3 @@
+[console_scripts]
+lawnmower_search_node = target_search.lawnmower_search_node:main
+target_search_node = target_search.target_search_node:main

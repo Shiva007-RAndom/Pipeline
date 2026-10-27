@@ -1,0 +1,9 @@
+source;share/mission_hud/hook/pythonpath.ps1
+source;share/mission_hud/hook/pythonpath.dsv
+source;share/mission_hud/hook/pythonpath.sh
+source;share/mission_hud/hook/ament_prefix_path.ps1
+source;share/mission_hud/hook/ament_prefix_path.dsv
+source;share/mission_hud/hook/ament_prefix_path.sh
+source;../../build/mission_hud/share/mission_hud/hook/pythonpath_develop.ps1
+source;../../build/mission_hud/share/mission_hud/hook/pythonpath_develop.dsv
+source;../../build/mission_hud/share/mission_hud/hook/pythonpath_develop.sh

@@ -1,0 +1,20 @@
+[    0.14] [INFO ] [flight_controller] Bench flight controller ready (simulation only).
+[    0.75] [INFO ] [sim_camera] Synthetic camera 1280x720 @ 15 Hz -> /camera/image_raw
+[    0.75] [INFO ] [banner_detector] [VISION WARN] RapidOCR unavailable (No module named 'rapidocr'). Running shape-only classification.
+[    0.75] [INFO ] [banner_detector] Banner detector on /camera/image_raw; colour: idle
+[    0.75] [INFO ] [qr_detector] pyzbar not available: OpenCV QR detection only.
+[    0.75] [INFO ] [red_zone_detector] Ready. Listening on '/camera/image_raw', min_area 100 px2, 1 in 1 frame(s).
+[    0.76] [INFO ] [target_search] target_search ready (hfov 1.22 rad, camera latency 0.00 s, gimbal camera).
+[    0.90] [INFO ] [mission_tree] [REFERENCE FRAME] Pad NED z = +0.00 m
+[    0.90] [INFO ] [flight_controller] [BENCH] Takeoff to 5.0 m
+[    8.50] [INFO ] [flight_controller] [BENCH-SIM] Target altitude reached: 4.5 m
+[    8.51] [INFO ] [mission_tree] [REFERENCE FRAME] Takeoff origin N=+0.00 E=+0.00, heading +0.0 deg
+[   13.61] [INFO ] [qr_detector] Scanning reference QR from the camera (timeout 12.0 s)...
+[   14.12] [INFO ] [qr_detector] REFERENCE QR MEMORIZED FROM CAMERA! Payload: 'AEROTHON-7'
+[   17.12] [INFO ] [banner_detector] Detecting: GREEN
+[   60.74] [WARN ] [banner_search] GREEN banner not classified along the search path
+[   60.81] [WARN ] [mission_tree] 'STAGE 4: SWAY LEFT (SEARCH GREEN BANNER)' failed: GREEN banner not classified along the search path
+[   60.81] [WARN ] [mission_tree] [MISSION ABORT] GREEN BANNER NOT FOUND - RETURNING HOME
+[   79.81] [INFO ] [flight_controller] [BENCH] Landing...
+[   88.85] [INFO ] [flight_controller] [COMPLETE] Landed and disarmed.
+[   88.91] [WARN ] [mission_tree] MISSION ABORTED (GREEN BANNER NOT FOUND - RETURNING HOME): returned to the pad and landed.

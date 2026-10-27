@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: bc-bringup
+Version: 0.1.0
+Summary: Launch files and field parameter files for the banner-corridor mission
+Maintainer: AeroTHON team
+Maintainer-email: harrydybalaforever123@gmail.com
+License: Apache-2.0

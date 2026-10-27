@@ -1,0 +1,14 @@
+package.xml
+setup.cfg
+setup.py
+flight_controller/__init__.py
+flight_controller/ardupilot_utils.py
+flight_controller/flight_controller_node.py
+flight_controller.egg-info/PKG-INFO
+flight_controller.egg-info/SOURCES.txt
+flight_controller.egg-info/dependency_links.txt
+flight_controller.egg-info/entry_points.txt
+flight_controller.egg-info/requires.txt
+flight_controller.egg-info/top_level.txt
+flight_controller.egg-info/zip-safe
+resource/flight_controller

@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: target-navigator
+Version: 0.1.0
+Summary: Flies to the target QR coordinates found by target_search (red-aware)
+Maintainer: AeroTHON team
+Maintainer-email: harrydybalaforever123@gmail.com
+License: Apache-2.0

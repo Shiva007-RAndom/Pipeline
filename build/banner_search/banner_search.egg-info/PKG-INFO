@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: banner-search
+Version: 0.1.0
+Summary: Fly a path (sway or waypoint pattern) until a banner of the requested colour is classified
+Maintainer: AeroTHON team
+Maintainer-email: harrydybalaforever123@gmail.com
+License: Apache-2.0

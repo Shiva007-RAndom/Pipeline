@@ -1,0 +1,56 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from mission_interfaces/action/TraverseCorridor.action
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+
+module mission_interfaces {
+  module action {
+    @verbatim (language="comment", text=
+      "corridor_navigator: descend to corridor altitude over the entrance, settle, surge `length` along `heading`," "\n"
+      "then (if exit_altitude_z is set) climb straight up at the exit before any sideways move.")
+    struct TraverseCorridor_Goal {
+      @verbatim (language="comment", text=
+        "local NED x, y of the corridor entrance (banner); z ignored")
+      geometry_msgs::msg::Point entry;
+
+      @verbatim (language="comment", text=
+        "rad")
+      float heading;
+
+      @verbatim (language="comment", text=
+        "local NED z inside the corridor (negative = above origin)")
+      float altitude_z;
+
+      @verbatim (language="comment", text=
+        "m")
+      float length;
+
+      @verbatim (language="comment", text=
+        "m/s for the surge")
+      float speed;
+
+      @verbatim (language="comment", text=
+        "s hover after the descent")
+      float settle_time;
+
+      @verbatim (language="comment", text=
+        "local NED z to climb to vertically at the exit; NaN = stay at corridor altitude")
+      float exit_altitude_z;
+    };
+    struct TraverseCorridor_Result {
+      boolean success;
+
+      string message;
+
+      @verbatim (language="comment", text=
+        "where the vehicle is when the action ends (after the climb)")
+      geometry_msgs::msg::Point exit_position;
+    };
+    struct TraverseCorridor_Feedback {
+      @verbatim (language="comment", text=
+        "descending | settling | surging | climbing")
+      string state;
+    };
+  };
+};

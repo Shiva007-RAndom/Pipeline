@@ -1,0 +1,2 @@
+[console_scripts]
+mission_tree = mission_management.mission_tree:main

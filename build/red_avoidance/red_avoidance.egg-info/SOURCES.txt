@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+red_avoidance/__init__.py
+red_avoidance/avoidance.py
+red_avoidance/zone_frame.py
+red_avoidance.egg-info/PKG-INFO
+red_avoidance.egg-info/SOURCES.txt
+red_avoidance.egg-info/dependency_links.txt
+red_avoidance.egg-info/requires.txt
+red_avoidance.egg-info/top_level.txt
+red_avoidance.egg-info/zip-safe
+resource/red_avoidance

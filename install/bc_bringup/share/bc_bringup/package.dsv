@@ -1,0 +1,9 @@
+source;share/bc_bringup/hook/pythonpath.ps1
+source;share/bc_bringup/hook/pythonpath.dsv
+source;share/bc_bringup/hook/pythonpath.sh
+source;share/bc_bringup/hook/ament_prefix_path.ps1
+source;share/bc_bringup/hook/ament_prefix_path.dsv
+source;share/bc_bringup/hook/ament_prefix_path.sh
+source;../../build/bc_bringup/share/bc_bringup/hook/pythonpath_develop.ps1
+source;../../build/bc_bringup/share/bc_bringup/hook/pythonpath_develop.dsv
+source;../../build/bc_bringup/share/bc_bringup/hook/pythonpath_develop.sh

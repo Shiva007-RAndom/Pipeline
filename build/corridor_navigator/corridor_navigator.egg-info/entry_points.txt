@@ -1,0 +1,2 @@
+[console_scripts]
+corridor_navigator_node = corridor_navigator.corridor_navigator_node:main

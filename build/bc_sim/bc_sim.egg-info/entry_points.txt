@@ -1,0 +1,2 @@
+[console_scripts]
+gz_camera_relay = bc_sim.gz_camera_relay:main

@@ -1,0 +1,22 @@
+[1.019s] Invoking command in '/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/red_avoidance': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/red_avoidance/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/red_avoidance/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/red_avoidance/build --no-deps symlink_data
+[1.291s] running develop
+[1.459s] running egg_info
+[1.459s] creating red_avoidance.egg-info
+[1.476s] writing red_avoidance.egg-info/PKG-INFO
+[1.476s] writing dependency_links to red_avoidance.egg-info/dependency_links.txt
+[1.476s] writing requirements to red_avoidance.egg-info/requires.txt
+[1.476s] writing top-level names to red_avoidance.egg-info/top_level.txt
+[1.476s] writing manifest file 'red_avoidance.egg-info/SOURCES.txt'
+[1.510s] reading manifest file 'red_avoidance.egg-info/SOURCES.txt'
+[1.510s] writing manifest file 'red_avoidance.egg-info/SOURCES.txt'
+[1.528s] running build_ext
+[1.528s] Creating /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/red_avoidance/lib/python3.12/site-packages/red-avoidance.egg-link (link to .)
+[1.528s] 
+[1.528s] Installed /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/red_avoidance
+[1.528s] running symlink_data
+[1.528s] creating /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/red_avoidance/share/ament_index
+[1.528s] creating /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/red_avoidance/share/ament_index/resource_index
+[1.528s] creating /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/red_avoidance/share/ament_index/resource_index/packages
+[1.529s] symbolically linking /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/red_avoidance/resource/red_avoidance -> /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/red_avoidance/share/ament_index/resource_index/packages
+[1.529s] symbolically linking /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/red_avoidance/package.xml -> /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/red_avoidance/share/red_avoidance
+[1.558s] Invoked command in '/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/red_avoidance' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/red_avoidance/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/install/red_avoidance/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/shiva/ML/banner_corridor_ws_2/banner_corridor_ws/build/red_avoidance/build --no-deps symlink_data

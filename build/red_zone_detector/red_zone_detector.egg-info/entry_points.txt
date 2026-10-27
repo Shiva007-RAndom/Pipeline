@@ -1,0 +1,2 @@
+[console_scripts]
+red_zone_detector_node = red_zone_detector.red_zone_detector_node:main

@@ -1,0 +1,9 @@
+source;share/payload_drop/hook/pythonpath.ps1
+source;share/payload_drop/hook/pythonpath.dsv
+source;share/payload_drop/hook/pythonpath.sh
+source;share/payload_drop/hook/ament_prefix_path.ps1
+source;share/payload_drop/hook/ament_prefix_path.dsv
+source;share/payload_drop/hook/ament_prefix_path.sh
+source;../../build/payload_drop/share/payload_drop/hook/pythonpath_develop.ps1
+source;../../build/payload_drop/share/payload_drop/hook/pythonpath_develop.dsv
+source;../../build/payload_drop/share/payload_drop/hook/pythonpath_develop.sh

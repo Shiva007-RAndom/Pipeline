@@ -1,0 +1,3 @@
+[console_scripts]
+banner_detector_node = banner_detector.banner_detector_node:main
+vision_test = banner_detector.vision_test:main
